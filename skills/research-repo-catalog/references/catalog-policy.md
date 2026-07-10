@@ -24,8 +24,9 @@ Include a repository when it clearly targets AI-agent use and at least one of th
 - literature search, citation, article retrieval, PDF reading, or reference management
 - Zotero, CNKI, Google Scholar, arXiv, PubMed, bioRxiv, medRxiv, Semantic Scholar, OpenAlex, Crossref
 - bioinformatics, genomics, transcriptomics, proteomics, single-cell, spatial omics, multi-omics
+- protein engineering, protein design, folding, structural biology, and agentic protein workflows
 - biomedical, clinical, medical research, clinical trials, drug discovery
-- scientific databases such as AlphaFold, PDB/PDBe, UniProt, Ensembl, ChEMBL, PubChem, KEGG, Open Targets
+- scientific databases and model/tool interfaces such as AlphaFold, Boltz, MacromNex, PDB/PDBe, UniProt, Ensembl, ChEMBL, PubChem, KEGG, Open Targets
 - agent-ready tools that generate research artifacts such as figures, LaTeX, PDF translations, or diagrams
 
 ## Exclude
@@ -44,3 +45,4 @@ Exclude repositories that are primarily:
 - Keep notes short and descriptive; avoid marketing claims unless they are necessary to distinguish the repo. Maintain `notes` in English and `notes_zh` in Chinese.
 - Low-star repos may stay if they are direct, unique, and useful.
 - If two repos duplicate the same implementation, prefer the original or more maintained repo.
+- Candidate reports from `scripts/discover_candidates.py` are a triage aid only; add repos to `data/repos.seed.tsv` only after scope review.

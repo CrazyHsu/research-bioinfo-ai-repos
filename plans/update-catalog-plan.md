@@ -12,6 +12,8 @@ Refresh the curated GitHub README/catalog for research, paper writing, literatur
 
 2. Search for candidate repos:
    - Use GitHub search/API queries around: `academic research skills`, `paper writing skill`, `arxiv MCP`, `Semantic Scholar MCP`, `Zotero MCP`, `PubMed MCP`, `bioinformatics skills`, `genomics MCP`, `AlphaFold MCP`, `PDB MCP`, `ChEMBL MCP`, `ClinicalTrials MCP`, `AI for Science skills`.
+   - For protein and structural-biology coverage, also search `ProteinMCP`, `protein MCP`, `autonomous protein design`, `protein engineering MCP`, `Claude Code protein`, `MacromNex MCP`, `Boltz MCP`, `AlphaFold MCP`, and `protein agent skills`.
+   - Run `python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md` to capture unseeded search hits for manual review.
    - Include user-specified missing repos first.
 
 3. Apply inclusion policy:
@@ -29,6 +31,7 @@ Refresh the curated GitHub README/catalog for research, paper writing, literatur
 
 6. Validate:
    - Run `python3 scripts/update_catalog.py --check`.
+   - Run `python3 scripts/discover_candidates.py --check --output discovery/candidates.md` when a candidate report is generated.
    - Confirm user-requested repos are present.
    - Confirm each category remains sorted by stars descending.
    - Review `git diff` for accidental removals or category drift.
@@ -46,4 +49,4 @@ Refresh the curated GitHub README/catalog for research, paper writing, literatur
 
 ## Automation
 
-GitHub Actions can refresh metadata automatically through `.github/workflows/update-catalog.yml`, which runs weekly and can also be triggered manually. The workflow commits only when generated files change.
+GitHub Actions can refresh metadata automatically through `.github/workflows/update-catalog.yml`, which runs weekly and can also be triggered manually. The workflow refreshes catalog metadata, regenerates the candidate report, validates both, and commits only when generated files change.

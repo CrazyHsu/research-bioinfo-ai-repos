@@ -21,6 +21,7 @@ CURATED_PATH = ROOT / "data" / "repos.curated.tsv"
 CATALOG_PATH = ROOT / "catalog.md"
 README_PATH = ROOT / "README.md"
 README_ZH_PATH = ROOT / "README-zh.md"
+DISCOVERY_PATH = ROOT / "discovery" / "candidates.md"
 TABLE_HEADER = "| repo | type | stars | last update | focus / notes |"
 OLD_TABLE_HEADER = "| repo | type | stars | updated | focus / notes |"
 ZH_TABLE_HEADER = "| repo | 类型 | stars | last update | 方向 / 备注 |"
@@ -215,6 +216,7 @@ def render_update_instructions() -> list[str]:
         "- Local validation: `python3 scripts/update_catalog.py --check`",
         "- Regenerate from cached metadata: `python3 scripts/update_catalog.py --from-curated`",
         "- Refresh GitHub metadata: `python3 scripts/update_catalog.py --refresh`",
+        "- Discover candidate repos for manual review: `python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md`",
         "- Scheduled updates run through `.github/workflows/update-catalog.yml` every Monday at 03:17 UTC.",
         "- To extend the list, edit `data/repos.seed.tsv` first, then run a refresh or regeneration command.",
         "",
@@ -228,6 +230,7 @@ def render_update_instructions_zh() -> list[str]:
         "- 本地校验：`python3 scripts/update_catalog.py --check`",
         "- 从已有 metadata 重生成：`python3 scripts/update_catalog.py --from-curated`",
         "- 刷新 GitHub metadata：`python3 scripts/update_catalog.py --refresh`",
+        "- 发现待审候选 repo：`python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md`",
         "- GitHub Actions 会在每周一 03:17 UTC 定时更新，也支持手动触发。",
         "- 扩展清单时先编辑 `data/repos.seed.tsv`，同时维护 `notes` 和 `notes_zh`。",
         "",
@@ -297,7 +300,9 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
         "- `catalog.md` - standalone categorized catalog, sorted by stars within each category.",
         "- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, English notes, and Chinese notes.",
         "- `data/repos.curated.tsv` - generated metadata table with GitHub URL, stars, last update date, language, description, and notes.",
+        "- `discovery/candidates.md` - generated candidate report from focused GitHub Search queries; review before adding repos to the seed file.",
         "- `scripts/update_catalog.py` - refresh, regenerate, and validate README/catalog outputs.",
+        "- `scripts/discover_candidates.py` - run focused GitHub Search passes and write the candidate report.",
         "- `.github/workflows/update-catalog.yml` - scheduled GitHub Actions workflow for weekly catalog refreshes.",
         "- `plans/update-catalog-plan.md` - repeatable update workflow for humans or agents.",
         "- `skills/research-repo-catalog/` - Codex skill that explains how to maintain this catalog.",
@@ -329,6 +334,8 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
         "",
         "Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep both `notes` and `notes_zh` short and useful. Each category is sorted by stars descending when regenerated.",
         "",
+        "Use `discovery/candidates.md` as a triage queue for broad GitHub Search hits. Candidate entries are not part of the catalog until they are manually reviewed and added to `data/repos.seed.tsv`.",
+        "",
         "The GitHub Actions workflow refreshes metadata weekly and commits changes only when generated outputs differ.",
         "",
         "## Catalog",
@@ -355,7 +362,9 @@ def render_readme_zh(rows: list[dict[str, str]], output_path: Path) -> None:
         "- `catalog.md` - 独立英文分类目录，每个分类内按 stars 降序排序。",
         "- `data/repos.seed.tsv` - 人工维护的 repo 范围、分类、类型、英文备注和中文备注。",
         "- `data/repos.curated.tsv` - 生成的 metadata 表，包含 GitHub URL、stars、last update、language、description 和备注。",
+        "- `discovery/candidates.md` - 由 GitHub Search 生成的待审候选报告；确认范围后再加入 seed。",
         "- `scripts/update_catalog.py` - 刷新、重生成和校验 README/catalog 输出。",
+        "- `scripts/discover_candidates.py` - 执行聚焦 GitHub Search 并写入候选报告。",
         "- `.github/workflows/update-catalog.yml` - 每周自动刷新目录的 GitHub Actions workflow。",
         "- `plans/update-catalog-plan.md` - 可重复执行的更新流程。",
         "- `skills/research-repo-catalog/` - 维护这个目录的 Codex skill。",
@@ -385,6 +394,8 @@ def render_readme_zh(rows: list[dict[str, str]], output_path: Path) -> None:
         "## 更新策略",
         "",
         "新增或修改 repo 时编辑 `data/repos.seed.tsv`，不要直接编辑生成表格。英文备注维护在 `notes`，中文备注维护在 `notes_zh`。每个分类在重生成时按 stars 降序排序。",
+        "",
+        "`discovery/candidates.md` 只作为 broad search 的待审队列。候选项只有经过人工判断并加入 `data/repos.seed.tsv` 后，才会进入正式目录。",
         "",
         "GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时才会提交。",
         "",
@@ -427,6 +438,8 @@ def check_catalog(rows: list[dict[str, str]]) -> int:
 
     if "WUBING2023/PaperSpine" not in seen:
         errors.append("missing WUBING2023/PaperSpine")
+    if "charlesxu90/ProteinMCP" not in seen:
+        errors.append("missing charlesxu90/ProteinMCP")
 
     for category in CATEGORY_ORDER:
         group = [row for row in rows if row.get("category") == category]
@@ -449,6 +462,8 @@ def check_catalog(rows: list[dict[str, str]]) -> int:
             errors.append(f"{label} still contains old updated table header")
         if "WUBING2023/PaperSpine" not in text:
             errors.append(f"{label} missing WUBING2023/PaperSpine")
+        if "charlesxu90/ProteinMCP" not in text:
+            errors.append(f"{label} missing charlesxu90/ProteinMCP")
         for category in categories:
             if f"## {category}" not in text:
                 errors.append(f"{label} missing category heading: {category}")

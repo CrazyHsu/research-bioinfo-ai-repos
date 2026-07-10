@@ -73,6 +73,7 @@ cookjohn/pm-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	
 GPTomics/bioSkills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	RNA-seq, scRNA, variant, multi-omics	RNA-seq、scRNA、variant、multi-omics	yes
 jaechang-hits/SciAgent-Skills	Bioinformatics / Omics / Single-Cell Skills	Skill library	197 life-science and bioinformatics skills	197 个生命科学/生信 skills	yes
 adaptyvbio/protein-design-skills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	Protein design	蛋白设计	yes
+charlesxu90/ProteinMCP	Bioinformatics / Omics / Single-Cell Skills	Agentic framework/MCP suite	Agentic framework for autonomous protein engineering with Claude Code workflow skills and 38 supported MCPs	自主蛋白工程 agentic framework，含 Claude Code workflow skills 和 38 个 MCP	yes
 TianGzlab/OmicsClaw	Bioinformatics / Omics / Single-Cell Skills	Agent app	Multi-omics analysis through manuscript generation	多组学分析到论文生成	yes
 swaruplab/operon	Bioinformatics / Omics / Single-Cell Skills	Bioinformatics IDE	Claude Code bioinformatics IDE and protocols	Claude Code 生信 IDE/protocols	yes
 variomeanalytics/bioinformatics-agent-skills	Bioinformatics / Omics / Single-Cell Skills	MCP/skills	Knowledge graph over 78 bioinformatics workflows	查询 78 个 bioinformatics workflows 的知识图谱	yes

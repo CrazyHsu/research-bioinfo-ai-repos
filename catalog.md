@@ -11,6 +11,7 @@ Notes: GitHub Search cannot mathematically guarantee complete coverage. `data/re
 - Local validation: `python3 scripts/update_catalog.py --check`
 - Regenerate from cached metadata: `python3 scripts/update_catalog.py --from-curated`
 - Refresh GitHub metadata: `python3 scripts/update_catalog.py --refresh`
+- Discover candidate repos for manual review: `python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md`
 - Scheduled updates run through `.github/workflows/update-catalog.yml` every Monday at 03:17 UTC.
 - To extend the list, edit `data/repos.seed.tsv` first, then run a refresh or regeneration command.
 
@@ -111,6 +112,7 @@ Notes: GitHub Search cannot mathematically guarantee complete coverage. `data/re
 | [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | Skill suite | 147 | 2026-07-09 | Protein design |
 | [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | Agent app | 147 | 2026-07-09 | Multi-omics analysis through manuscript generation |
 | [swaruplab/operon](https://github.com/swaruplab/operon) | Bioinformatics IDE | 90 | 2026-07-09 | Claude Code bioinformatics IDE and protocols |
+| [charlesxu90/ProteinMCP](https://github.com/charlesxu90/ProteinMCP) | Agentic framework/MCP suite | 60 | 2026-07-06 | Agentic framework for autonomous protein engineering with Claude Code workflow skills and 38 supported MCPs |
 | [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) | MCP/skills | 58 | 2026-06-30 | Knowledge graph over 78 bioinformatics workflows |
 | [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | MCP | 40 | 2026-07-05 | Natural-language analysis for spatial transcriptomics |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | Skill framework | 36 | 2026-07-09 | Computational biology skill discovery and validation |

@@ -25,10 +25,16 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/update_catalog.py --refresh
 
+      - name: Discover candidate repositories
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md
+
       - name: Validate generated catalog
         run: |
           python3 scripts/update_catalog.py --check
-          python3 -m py_compile scripts/update_catalog.py
+          python3 scripts/discover_candidates.py --check --output discovery/candidates.md
+          python3 -m py_compile scripts/update_catalog.py scripts/discover_candidates.py
 
       - name: Commit refreshed catalog
         run: |
@@ -38,6 +44,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README-zh.md catalog.md data/repos.curated.tsv
+          git add README.md README-zh.md catalog.md data/repos.curated.tsv discovery/candidates.md
           git commit -m "Update catalog metadata"
           git push

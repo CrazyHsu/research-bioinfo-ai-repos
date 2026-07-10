@@ -10,7 +10,9 @@ This README embeds the full generated catalog so visitors can browse the repo li
 - `catalog.md` - standalone categorized catalog, sorted by stars within each category.
 - `data/repos.seed.tsv` - manually curated source of repo scope, category, type, English notes, and Chinese notes.
 - `data/repos.curated.tsv` - generated metadata table with GitHub URL, stars, last update date, language, description, and notes.
+- `discovery/candidates.md` - generated candidate report from focused GitHub Search queries; review before adding repos to the seed file.
 - `scripts/update_catalog.py` - refresh, regenerate, and validate README/catalog outputs.
+- `scripts/discover_candidates.py` - run focused GitHub Search passes and write the candidate report.
 - `.github/workflows/update-catalog.yml` - scheduled GitHub Actions workflow for weekly catalog refreshes.
 - `plans/update-catalog-plan.md` - repeatable update workflow for humans or agents.
 - `skills/research-repo-catalog/` - Codex skill that explains how to maintain this catalog.
@@ -41,6 +43,8 @@ For higher GitHub API limits, set `GITHUB_TOKEN` or `GH_TOKEN` before running `-
 ## Update Policy
 
 Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep both `notes` and `notes_zh` short and useful. Each category is sorted by stars descending when regenerated.
+
+Use `discovery/candidates.md` as a triage queue for broad GitHub Search hits. Candidate entries are not part of the catalog until they are manually reviewed and added to `data/repos.seed.tsv`.
 
 The GitHub Actions workflow refreshes metadata weekly and commits changes only when generated outputs differ.
 
@@ -145,6 +149,7 @@ Generated on 2026-07-10.
 | [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | Skill suite | 147 | 2026-07-09 | Protein design |
 | [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | Agent app | 147 | 2026-07-09 | Multi-omics analysis through manuscript generation |
 | [swaruplab/operon](https://github.com/swaruplab/operon) | Bioinformatics IDE | 90 | 2026-07-09 | Claude Code bioinformatics IDE and protocols |
+| [charlesxu90/ProteinMCP](https://github.com/charlesxu90/ProteinMCP) | Agentic framework/MCP suite | 60 | 2026-07-06 | Agentic framework for autonomous protein engineering with Claude Code workflow skills and 38 supported MCPs |
 | [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) | MCP/skills | 58 | 2026-06-30 | Knowledge graph over 78 bioinformatics workflows |
 | [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | MCP | 40 | 2026-07-05 | Natural-language analysis for spatial transcriptomics |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | Skill framework | 36 | 2026-07-09 | Computational biology skill discovery and validation |
