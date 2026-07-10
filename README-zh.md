@@ -1,50 +1,58 @@
-# Research Bioinfo AI Repos
+# Research Bioinfo AI Repos 中文版
 
-Curated GitHub catalog for AI-agent-related research, academic writing, literature search, bioinformatics, biomedical, and life-science skill/plugin/MCP repositories.
+这是一个面向 AI agent 的科研、论文写作、文献检索、生物信息、生物医学和生命科学 skill/plugin/MCP GitHub 仓库目录。英文主页见 [README.md](README.md)，独立英文目录见 [catalog.md](catalog.md)。
 
-This README embeds the full generated catalog so visitors can browse the repo list directly from the project homepage. The standalone generated catalog is also available at [catalog.md](catalog.md).
+## 内容
 
-## Contents
+- `README.md` - 英文主页目录。
+- `README-zh.md` - 中文主页目录，由同一份数据生成。
+- `catalog.md` - 独立英文分类目录，每个分类内按 stars 降序排序。
+- `data/repos.seed.tsv` - 人工维护的 repo 范围、分类、类型、英文备注和中文备注。
+- `data/repos.curated.tsv` - 生成的 metadata 表，包含 GitHub URL、stars、last update、language、description 和备注。
+- `scripts/update_catalog.py` - 刷新、重生成和校验 README/catalog 输出。
+- `.github/workflows/update-catalog.yml` - 每周自动刷新目录的 GitHub Actions workflow。
+- `plans/update-catalog-plan.md` - 可重复执行的更新流程。
+- `skills/research-repo-catalog/` - 维护这个目录的 Codex skill。
 
-- `catalog.md` - standalone categorized catalog, sorted by stars within each category.
-- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, and notes.
-- `data/repos.curated.tsv` - generated metadata table with GitHub URL, stars, last update date, language, description, and notes.
-- `scripts/update_catalog.py` - refresh, regenerate, and validate README/catalog outputs.
-- `plans/update-catalog-plan.md` - repeatable update workflow for humans or agents.
-- `skills/research-repo-catalog/` - Codex skill that explains how to maintain this catalog.
-- `archive/` - prior generated versions kept for traceability.
+## 快速开始
 
-## Quick Start
-
-Validate the current catalog without network:
+不联网校验当前目录：
 
 ```bash
 python3 scripts/update_catalog.py --check
 ```
 
-Regenerate README and `catalog.md` from existing metadata:
+从已有 metadata 重生成 README、`README-zh.md` 和 `catalog.md`：
 
 ```bash
 python3 scripts/update_catalog.py --from-curated
 ```
 
-Refresh GitHub metadata and regenerate README/catalog:
+刷新 GitHub metadata 并重生成目录输出：
 
 ```bash
 python3 scripts/update_catalog.py --refresh
 ```
 
-For higher GitHub API limits, set `GITHUB_TOKEN` or `GH_TOKEN` before running `--refresh`.
+如果需要更高 GitHub API 限额，运行 `--refresh` 前设置 `GITHUB_TOKEN` 或 `GH_TOKEN`。
 
-## Update Policy
+## 更新策略
 
-Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep categories specific enough that the catalog remains readable. Each category is sorted by stars descending when regenerated.
+新增或修改 repo 时编辑 `data/repos.seed.tsv`，不要直接编辑生成表格。英文备注维护在 `notes`，中文备注维护在 `notes_zh`。每个分类在重生成时按 stars 降序排序。
 
-Do not push this repository unless a remote is intentionally configured later.
+GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时才会提交。
 
-## Catalog
+## 目录
 
-Generated on 2026-07-10.
+生成日期：2026-07-10
+
+## 更新方式
+
+- 本地校验：`python3 scripts/update_catalog.py --check`
+- 从已有 metadata 重生成：`python3 scripts/update_catalog.py --from-curated`
+- 刷新 GitHub metadata：`python3 scripts/update_catalog.py --refresh`
+- GitHub Actions 会在每周一 03:17 UTC 定时更新，也支持手动触发。
+- 扩展清单时先编辑 `data/repos.seed.tsv`，同时维护 `notes` 和 `notes_zh`。
 
 ## 综合科研 / AI4S Skill Suites
 
@@ -231,10 +239,10 @@ Generated on 2026-07-10.
 
 ## 纳入 / 排除规则
 
-- 纳入：明确面向科研、论文写作、文献、Zotero/PubMed/arXiv/Semantic Scholar、医学、生物信息、生命科学，且以 skill、plugin、MCP、agent workflow 或 agent-ready tool 形式服务 AI agent 的仓库。
-- 纳入低 star 项：如果领域唯一、接口明确、方向直接相关，即使 stars 很低也保留。
-- 排除：普通教程、书籍拍照/藏书 app、无科研方向的通用 agent 基础设施、明显 fork/镜像且无新增价值的仓库、无描述且无法判断用途的空壳仓库。
+- 纳入：明确面向科研、论文写作、文献、Zotero/PubMed/arXiv/Semantic Scholar、医学、生物信息、生命科学，并以 skill、plugin、MCP、agent workflow 或 agent-ready tool 形式服务 AI agent 的仓库。
+- 保留低 star 项：如果领域直接、接口明确、方向独特，即使 stars 很低也保留。
+- 排除：普通教程、书籍/藏书 app、无科研方向的通用 agent 基础设施、无新增价值的镜像或 fork、无描述且无法判断用途的空壳仓库。
 
 ## 停止条件
 
-最后几轮新增主要是重复 PubMed/arXiv/Zotero 实现、同名 fork、镜像、泛化 AI skill 目录，未再出现新的高可信核心 repo，因此停止扩展。
+最后几轮新增主要是重复 PubMed/arXiv/Zotero 实现、同名 fork、镜像和泛化 AI skill 目录，没有继续出现新的高可信核心 repo，因此停止扩展。

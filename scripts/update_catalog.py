@@ -20,8 +20,10 @@ SEED_PATH = ROOT / "data" / "repos.seed.tsv"
 CURATED_PATH = ROOT / "data" / "repos.curated.tsv"
 CATALOG_PATH = ROOT / "catalog.md"
 README_PATH = ROOT / "README.md"
+README_ZH_PATH = ROOT / "README-zh.md"
 TABLE_HEADER = "| repo | type | stars | last update | focus / notes |"
 OLD_TABLE_HEADER = "| repo | type | stars | updated | focus / notes |"
+ZH_TABLE_HEADER = "| repo | 类型 | stars | last update | 方向 / 备注 |"
 
 CATEGORY_ORDER = [
     "General Research / AI4S Skill Suites",
@@ -36,7 +38,20 @@ CATEGORY_ORDER = [
     "Awesome Lists / Registries / Further Discovery",
 ]
 
-SEED_FIELDS = ["repo", "category", "type", "notes", "include"]
+CATEGORY_ZH = {
+    "General Research / AI4S Skill Suites": "综合科研 / AI4S Skill Suites",
+    "Paper Writing / Peer Review / Submission Skills": "论文写作 / 审稿 / 投稿 Skills",
+    "Literature Search / Scholarly Search MCP": "文献检索 / 学术搜索 MCP",
+    "Zotero / CNKI / Google Scholar / Reference Management": "Zotero / CNKI / Google Scholar / 文献管理",
+    "Bioinformatics / Omics / Single-Cell Skills": "生信 / 组学 / 单细胞 Skills",
+    "Biomedical / Clinical / Medical Research": "生物医学 / 临床 / 医学研究",
+    "Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP": "生物数据库 / 结构生物学 / 化学 / 药物发现 MCP",
+    "Research Agent Apps / Workspaces": "科研 Agent Apps / Workspaces",
+    "Figures / PDF / LaTeX / Research Artifact Tools": "图表 / PDF / LaTeX / 研究产物工具",
+    "Awesome Lists / Registries / Further Discovery": "Awesome / Registry / 继续深挖入口",
+}
+
+SEED_FIELDS = ["repo", "category", "type", "notes", "notes_zh", "include"]
 CURATED_FIELDS = [
     "repo",
     "url",
@@ -47,6 +62,7 @@ CURATED_FIELDS = [
     "language",
     "description",
     "notes",
+    "notes_zh",
 ]
 
 
@@ -112,6 +128,7 @@ def refresh_from_github(seed_path: Path, curated_path: Path, delay: float) -> li
         try:
             meta = fetch_repo(repo, token)
             seed_notes = seed.get("notes", "").strip()
+            seed_notes_zh = seed.get("notes_zh", "").strip()
             row = {
                 "repo": meta.get("full_name") or repo,
                 "url": meta.get("html_url") or f"https://github.com/{repo}",
@@ -122,6 +139,7 @@ def refresh_from_github(seed_path: Path, curated_path: Path, delay: float) -> li
                 "language": meta.get("language") or "",
                 "description": seed_notes or meta.get("description") or "",
                 "notes": seed_notes,
+                "notes_zh": seed_notes_zh or seed_notes,
             }
         except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
             old = existing.get(repo)
@@ -131,6 +149,7 @@ def refresh_from_github(seed_path: Path, curated_path: Path, delay: float) -> li
             row["category"] = seed.get("category", row.get("category", "")).strip()
             row["type"] = seed.get("type", row.get("type", "")).strip()
             row["notes"] = seed.get("notes", row.get("notes", "")).strip()
+            row["notes_zh"] = seed.get("notes_zh", row.get("notes_zh", row.get("notes", ""))).strip()
             print(f"warning: using cached metadata for {repo}: {exc}", file=sys.stderr)
         output.append({key: str(value) for key, value in row.items()})
         if delay:
@@ -165,6 +184,30 @@ def render_repo_sections(rows: list[dict[str, str]]) -> list[str]:
     return lines
 
 
+def render_repo_sections_zh(rows: list[dict[str, str]]) -> list[str]:
+    lines: list[str] = []
+    for category in CATEGORY_ORDER:
+        group = [row for row in rows if row.get("category") == category]
+        if not group:
+            continue
+        lines.extend([
+            f"## {CATEGORY_ZH[category]}",
+            "",
+            ZH_TABLE_HEADER,
+            "|---|---:|---:|---|---|",
+        ])
+        for row in sorted(group, key=lambda item: (-star_int(item), item.get("repo", "").lower())):
+            repo = row.get("repo", "").strip()
+            url = row.get("url", "").strip() or f"https://github.com/{repo}"
+            notes = row.get("notes_zh", "").strip() or row.get("notes", "").strip() or row.get("description", "").strip()
+            notes = notes.replace("|", "/")
+            lines.append(
+                f"| [{repo}]({url}) | {row.get('type', '').strip()} | {star_int(row)} | {row.get('updated', '').strip()} | {notes} |"
+            )
+        lines.append("")
+    return lines
+
+
 def render_update_instructions() -> list[str]:
     return [
         "## Update Instructions",
@@ -172,7 +215,21 @@ def render_update_instructions() -> list[str]:
         "- Local validation: `python3 scripts/update_catalog.py --check`",
         "- Regenerate from cached metadata: `python3 scripts/update_catalog.py --from-curated`",
         "- Refresh GitHub metadata: `python3 scripts/update_catalog.py --refresh`",
+        "- Scheduled updates run through `.github/workflows/update-catalog.yml` every Monday at 03:17 UTC.",
         "- To extend the list, edit `data/repos.seed.tsv` first, then run a refresh or regeneration command.",
+        "",
+    ]
+
+
+def render_update_instructions_zh() -> list[str]:
+    return [
+        "## 更新方式",
+        "",
+        "- 本地校验：`python3 scripts/update_catalog.py --check`",
+        "- 从已有 metadata 重生成：`python3 scripts/update_catalog.py --from-curated`",
+        "- 刷新 GitHub metadata：`python3 scripts/update_catalog.py --refresh`",
+        "- GitHub Actions 会在每周一 03:17 UTC 定时更新，也支持手动触发。",
+        "- 扩展清单时先编辑 `data/repos.seed.tsv`，同时维护 `notes` 和 `notes_zh`。",
         "",
     ]
 
@@ -188,6 +245,21 @@ def render_policy_sections() -> list[str]:
         "## Stopping Criteria",
         "",
         "Expansion stopped after the last passes produced mostly duplicate PubMed/arXiv/Zotero implementations, same-name forks, mirrors, and broad AI skill directories rather than new high-confidence core repositories.",
+        "",
+    ]
+
+
+def render_policy_sections_zh() -> list[str]:
+    return [
+        "## 纳入 / 排除规则",
+        "",
+        "- 纳入：明确面向科研、论文写作、文献、Zotero/PubMed/arXiv/Semantic Scholar、医学、生物信息、生命科学，并以 skill、plugin、MCP、agent workflow 或 agent-ready tool 形式服务 AI agent 的仓库。",
+        "- 保留低 star 项：如果领域直接、接口明确、方向独特，即使 stars 很低也保留。",
+        "- 排除：普通教程、书籍/藏书 app、无科研方向的通用 agent 基础设施、无新增价值的镜像或 fork、无描述且无法判断用途的空壳仓库。",
+        "",
+        "## 停止条件",
+        "",
+        "最后几轮新增主要是重复 PubMed/arXiv/Zotero 实现、同名 fork、镜像和泛化 AI skill 目录，没有继续出现新的高可信核心 repo，因此停止扩展。",
         "",
     ]
 
@@ -217,14 +289,16 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
         "",
         "Curated GitHub catalog for AI-agent-related research, academic writing, literature search, bioinformatics, biomedical, and life-science skill/plugin/MCP repositories.",
         "",
-        "This README embeds the full generated catalog so visitors can browse the repo list directly from the project homepage. The standalone generated catalog is also available at [catalog.md](catalog.md).",
+        "This README embeds the full generated catalog so visitors can browse the repo list directly from the project homepage. A Chinese version is available at [README-zh.md](README-zh.md), and the standalone generated catalog is available at [catalog.md](catalog.md).",
         "",
         "## Contents",
         "",
+        "- `README-zh.md` - Chinese generated catalog kept in sync with this README.",
         "- `catalog.md` - standalone categorized catalog, sorted by stars within each category.",
-        "- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, and notes.",
+        "- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, English notes, and Chinese notes.",
         "- `data/repos.curated.tsv` - generated metadata table with GitHub URL, stars, last update date, language, description, and notes.",
         "- `scripts/update_catalog.py` - refresh, regenerate, and validate README/catalog outputs.",
+        "- `.github/workflows/update-catalog.yml` - scheduled GitHub Actions workflow for weekly catalog refreshes.",
         "- `plans/update-catalog-plan.md` - repeatable update workflow for humans or agents.",
         "- `skills/research-repo-catalog/` - Codex skill that explains how to maintain this catalog.",
         "- `archive/` - prior generated versions kept for traceability.",
@@ -237,13 +311,13 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
         "python3 scripts/update_catalog.py --check",
         "```",
         "",
-        "Regenerate README and `catalog.md` from existing metadata:",
+        "Regenerate README, `README-zh.md`, and `catalog.md` from existing metadata:",
         "",
         "```bash",
         "python3 scripts/update_catalog.py --from-curated",
         "```",
         "",
-        "Refresh GitHub metadata and regenerate README/catalog:",
+        "Refresh GitHub metadata and regenerate README/catalog outputs:",
         "",
         "```bash",
         "python3 scripts/update_catalog.py --refresh",
@@ -253,9 +327,9 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
         "",
         "## Update Policy",
         "",
-        "Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep categories specific enough that the catalog remains readable. Each category is sorted by stars descending when regenerated.",
+        "Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep both `notes` and `notes_zh` short and useful. Each category is sorted by stars descending when regenerated.",
         "",
-        "Do not push this repository unless a remote is intentionally configured later.",
+        "The GitHub Actions workflow refreshes metadata weekly and commits changes only when generated outputs differ.",
         "",
         "## Catalog",
         "",
@@ -267,9 +341,68 @@ def render_readme(rows: list[dict[str, str]], output_path: Path) -> None:
     output_path.write_text("\n".join(lines), encoding="utf-8")
 
 
+def render_readme_zh(rows: list[dict[str, str]], output_path: Path) -> None:
+    today = dt.date.today().isoformat()
+    lines: list[str] = [
+        "# Research Bioinfo AI Repos 中文版",
+        "",
+        "这是一个面向 AI agent 的科研、论文写作、文献检索、生物信息、生物医学和生命科学 skill/plugin/MCP GitHub 仓库目录。英文主页见 [README.md](README.md)，独立英文目录见 [catalog.md](catalog.md)。",
+        "",
+        "## 内容",
+        "",
+        "- `README.md` - 英文主页目录。",
+        "- `README-zh.md` - 中文主页目录，由同一份数据生成。",
+        "- `catalog.md` - 独立英文分类目录，每个分类内按 stars 降序排序。",
+        "- `data/repos.seed.tsv` - 人工维护的 repo 范围、分类、类型、英文备注和中文备注。",
+        "- `data/repos.curated.tsv` - 生成的 metadata 表，包含 GitHub URL、stars、last update、language、description 和备注。",
+        "- `scripts/update_catalog.py` - 刷新、重生成和校验 README/catalog 输出。",
+        "- `.github/workflows/update-catalog.yml` - 每周自动刷新目录的 GitHub Actions workflow。",
+        "- `plans/update-catalog-plan.md` - 可重复执行的更新流程。",
+        "- `skills/research-repo-catalog/` - 维护这个目录的 Codex skill。",
+        "",
+        "## 快速开始",
+        "",
+        "不联网校验当前目录：",
+        "",
+        "```bash",
+        "python3 scripts/update_catalog.py --check",
+        "```",
+        "",
+        "从已有 metadata 重生成 README、`README-zh.md` 和 `catalog.md`：",
+        "",
+        "```bash",
+        "python3 scripts/update_catalog.py --from-curated",
+        "```",
+        "",
+        "刷新 GitHub metadata 并重生成目录输出：",
+        "",
+        "```bash",
+        "python3 scripts/update_catalog.py --refresh",
+        "```",
+        "",
+        "如果需要更高 GitHub API 限额，运行 `--refresh` 前设置 `GITHUB_TOKEN` 或 `GH_TOKEN`。",
+        "",
+        "## 更新策略",
+        "",
+        "新增或修改 repo 时编辑 `data/repos.seed.tsv`，不要直接编辑生成表格。英文备注维护在 `notes`，中文备注维护在 `notes_zh`。每个分类在重生成时按 stars 降序排序。",
+        "",
+        "GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时才会提交。",
+        "",
+        "## 目录",
+        "",
+        f"生成日期：{today}",
+        "",
+    ]
+    lines.extend(render_update_instructions_zh())
+    lines.extend(render_repo_sections_zh(rows))
+    lines.extend(render_policy_sections_zh())
+    output_path.write_text("\n".join(lines), encoding="utf-8")
+
+
 def render_outputs(rows: list[dict[str, str]]) -> None:
     render_catalog(rows, CATALOG_PATH)
     render_readme(rows, README_PATH)
+    render_readme_zh(rows, README_ZH_PATH)
 
 
 def check_catalog(rows: list[dict[str, str]]) -> int:
@@ -287,6 +420,10 @@ def check_catalog(rows: list[dict[str, str]]) -> int:
             errors.append(f"unknown category for {repo}: {row.get('category', '')}")
         if not row.get("url", "").startswith("https://github.com/"):
             errors.append(f"bad GitHub URL for {repo}: {row.get('url', '')}")
+        if not row.get("notes", "").strip():
+            errors.append(f"missing English notes for {repo}")
+        if not row.get("notes_zh", "").strip():
+            errors.append(f"missing Chinese notes for {repo}")
 
     if "WUBING2023/PaperSpine" not in seen:
         errors.append("missing WUBING2023/PaperSpine")
@@ -297,19 +434,23 @@ def check_catalog(rows: list[dict[str, str]]) -> int:
         if stars != sorted(stars, reverse=True):
             errors.append(f"category not sorted by stars: {category}")
 
-    for path, label in [(CATALOG_PATH, "catalog"), (README_PATH, "README")]:
+    for path, label, header, categories in [
+        (CATALOG_PATH, "catalog", TABLE_HEADER, CATEGORY_ORDER),
+        (README_PATH, "README", TABLE_HEADER, CATEGORY_ORDER),
+        (README_ZH_PATH, "README-zh", ZH_TABLE_HEADER, [CATEGORY_ZH[category] for category in CATEGORY_ORDER]),
+    ]:
         if not path.exists():
             errors.append(f"missing {label}: {path}")
             continue
         text = path.read_text(encoding="utf-8")
-        if TABLE_HEADER not in text:
+        if header not in text:
             errors.append(f"{label} missing last update table header")
         if OLD_TABLE_HEADER in text:
             errors.append(f"{label} still contains old updated table header")
         if "WUBING2023/PaperSpine" not in text:
             errors.append(f"{label} missing WUBING2023/PaperSpine")
-        for category in CATEGORY_ORDER:
-            if any(row.get("category") == category for row in rows) and f"## {category}" not in text:
+        for category in categories:
+            if f"## {category}" not in text:
                 errors.append(f"{label} missing category heading: {category}")
 
     if errors:

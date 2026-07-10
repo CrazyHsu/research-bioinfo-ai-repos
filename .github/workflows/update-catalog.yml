@@ -1,0 +1,43 @@
+name: Update catalog
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Refresh catalog metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_catalog.py --refresh
+
+      - name: Validate generated catalog
+        run: |
+          python3 scripts/update_catalog.py --check
+          python3 -m py_compile scripts/update_catalog.py
+
+      - name: Commit refreshed catalog
+        run: |
+          if git diff --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README-zh.md catalog.md data/repos.curated.tsv
+          git commit -m "Update catalog metadata"
+          git push

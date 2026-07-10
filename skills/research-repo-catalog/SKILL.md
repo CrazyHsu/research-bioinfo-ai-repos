@@ -9,9 +9,9 @@ description: Maintain and update a curated GitHub catalog of AI-agent-related re
 
 1. Read `references/catalog-policy.md` for inclusion rules, category labels, and update constraints.
 2. Inspect `data/repos.seed.tsv`, `data/repos.curated.tsv`, `README.md`, and `catalog.md`.
-3. Add or edit repos in `data/repos.seed.tsv`; do not hand-edit generated table sections in `README.md` or `catalog.md`.
+3. Add or edit repos in `data/repos.seed.tsv`; maintain both `notes` and `notes_zh`; do not hand-edit generated table sections in `README.md`, `README-zh.md`, or `catalog.md`.
 4. Refresh metadata with `python3 scripts/update_catalog.py --refresh` when network is available.
-5. If network is unavailable, regenerate from cached metadata with `python3 scripts/update_catalog.py --from-curated` and report that stars were not refreshed.
+5. If network is unavailable, regenerate English and Chinese outputs from cached metadata with `python3 scripts/update_catalog.py --from-curated` and report that stars were not refreshed.
 6. Validate with `python3 scripts/update_catalog.py --check`.
 7. Review `git diff` before summarizing results.
 

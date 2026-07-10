@@ -2,7 +2,7 @@
 
 ## Summary
 
-Refresh the curated GitHub README/catalog for research, paper writing, literature search, bioinformatics, biomedical, life-science skill/plugin/MCP repositories. Keep `data/repos.seed.tsv` as the human-maintained source and regenerate `README.md` and `catalog.md` through `scripts/update_catalog.py`.
+Refresh the curated GitHub README/catalog for research, paper writing, literature search, bioinformatics, biomedical, life-science skill/plugin/MCP repositories. Keep `data/repos.seed.tsv` as the human-maintained source and regenerate `README.md`, `README-zh.md`, and `catalog.md` through `scripts/update_catalog.py`.
 
 ## Steps
 
@@ -19,9 +19,9 @@ Refresh the curated GitHub README/catalog for research, paper writing, literatur
    - Exclude unrelated generic agent infrastructure, empty forks, mirror-only repos, ordinary tutorials, and unclear repos without useful descriptions.
 
 4. Edit `data/repos.seed.tsv`:
-   - Add `repo`, `category`, `type`, `notes`, `include`.
+   - Add `repo`, `category`, `type`, `notes`, `notes_zh`, `include`.
    - Choose one of the existing category labels exactly.
-   - Keep notes short and useful for catalog readers.
+   - Keep both English `notes` and Chinese `notes_zh` short and useful for catalog readers.
 
 5. Refresh and render:
    - Run `python3 scripts/update_catalog.py --refresh` when network is available.
@@ -39,7 +39,11 @@ Refresh the curated GitHub README/catalog for research, paper writing, literatur
 
 ## Acceptance Criteria
 
-- `README.md` and `catalog.md` are generated and readable by category.
+- `README.md`, `README-zh.md`, and `catalog.md` are generated and readable by category.
 - `data/repos.seed.tsv` has no duplicate repo rows.
 - `scripts/update_catalog.py --check` exits successfully.
 - New and changed repos have short notes and appropriate categories.
+
+## Automation
+
+GitHub Actions can refresh metadata automatically through `.github/workflows/update-catalog.yml`, which runs weekly and can also be triggered manually. The workflow commits only when generated files change.

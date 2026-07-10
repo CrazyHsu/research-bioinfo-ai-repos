@@ -1,134 +1,134 @@
-repo	category	type	notes	include
-Imbad0202/academic-research-skills	General Research / AI4S Skill Suites	Skill suite	Academic research skills: research -> write -> review -> revise -> finalize	yes
-K-Dense-AI/scientific-agent-skills	General Research / AI4S Skill Suites	Skill suite	Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery	yes
-wanshuiyin/Auto-claude-code-research-in-sleep	General Research / AI4S Skill Suites	Skill suite	ARIS automated research loop, idea discovery, and experiment automation	yes
-Orchestra-Research/AI-Research-SKILLs	General Research / AI4S Skill Suites	Skill suite	AI research and engineering skills for Claude, Codex, and Gemini	yes
-Imbad0202/academic-research-skills-codex	General Research / AI4S Skill Suites	Skill suite	Codex-native academic research workflow	yes
-openai/plugins	General Research / AI4S Skill Suites	Plugin/skills	OpenAI Codex plugins, including life-science-research	yes
-brycewang-stanford/Auto-Empirical-Research-Skills	General Research / AI4S Skill Suites	Skill library	Empirical social science research with 23,000+ agent skills	yes
-google-deepmind/science-skills	General Research / AI4S Skill Suites	Skill suite	DeepMind science agent skills	yes
-zLanqing/codex-claude-academic-skills	General Research / AI4S Skill Suites	Skills	Chinese-language research reading, writing, and scientific computing	yes
-Weizhena/Deep-Research-skills	General Research / AI4S Skill Suites	Skill	Structured deep research skill, Claude/OpenCode/Codex	yes
-luwill/research-skills	General Research / AI4S Skill Suites	Skills	Common research practices and workflows packaged as agent skills	yes
-chrisblattman/claudeblattman	General Research / AI4S Skill Suites	Academic setup	Claude Code for academics: skills, agents, setup guides	yes
-fcakyon/phd-skills	General Research / AI4S Skill Suites	Skills	PhD research: reproduction, experimental design, paper review, and result comparison	yes
-chtc66/academic-skills	General Research / AI4S Skill Suites	Skills	Paper reading, surveys, experiment summaries, rebuttals, and lab updates	yes
-ai4s-research/ai4s-skills	General Research / AI4S Skill Suites	Skill suite	AI for Science: topic exploration, literature survey, experiments, writing, and integrity audit	yes
-JackKuo666/semanticscholar-MCP-Server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar paper/author/citation/reference	yes
-AlterLab-IEU/AlterLab-Academic-Skills	General Research / AI4S Skill Suites	Skill library	239 evaluated academic skills, including bioinformatics and clinical research	yes
-ammawla/encode-toolkit	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP/Claude plugin	ENCODE genomic data toolkit	yes
-s-choung/Research-Skills	General Research / AI4S Skill Suites	Skills/agents	Research writing, figures, document automation, and Korean academic materials	yes
-lynnlangit/precision-medicine-mcp	Biomedical / Clinical / Medical Research	MCP platform	Precision medicine across multi-omics, genomics, and spatial transcriptomics	yes
-JhonHander/academic-agent-toolkit	General Research / AI4S Skill Suites	Toolkit	Installer for MCP tools and AI research skills	yes
-igvteam/igv-mcp	Bioinformatics / Omics / Single-Cell Skills	MCP	IGV genome viewer control	yes
-Jason-0409-G/scriptorium	Paper Writing / Peer Review / Submission Skills	Skill	DOI-verified literature library, NCBI/UniProt/PDB/AlphaFold integration, writing, and review	yes
-Master-cai/Research-Paper-Writing-Skills	Paper Writing / Peer Review / Submission Skills	Skills	ML/CV/NLP paper writing for Codex, Claude, and Gemini	yes
-WUBING2023/PaperSpine	Paper Writing / Peer Review / Submission Skills	Skill	Central paper argumentation, strong-paper learning, manuscript rewriting, and LaTeX-safe audits	yes
-PaperDebugger/paperdebugger	Paper Writing / Peer Review / Submission Skills	Plugin/agent	Academic writing, peer review, and editing	yes
-fakerqwq/social-science-paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Social science paper writing, topic selection, literature reviews, and citation risk checks	yes
-SNL-UCSB/paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Brainstorm -> Draft -> Evaluate -> Write -> Compress paper writing	yes
-SyntaxSmith/nature-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Nature-family paper writing	yes
-cLin-c/paper-skill	Paper Writing / Peer Review / Submission Skills	Skill	Paper writing, polishing, peer review, translation, and submission	yes
-fuhaoda/stats-paper-writing-agent-skills	Paper Writing / Peer Review / Submission Skills	Skill	Agent skills for statistics paper writing	yes
-MetaQiu/Trivium	Paper Writing / Peer Review / Submission Skills	Skill/workflow	Multi-agent collaborative paper writing for Claude, Codex, and Gemini	yes
-Zhangyanbo/vibe-paper-writing	Paper Writing / Peer Review / Submission Skills	Skill	Convert notes, chats, and emails into LaTeX academic papers	yes
-AGISAFETYLAB/Paper-Writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Planning, writing, polishing, figures, and citation checks for CS, medical, and finance papers	yes
-dailycafi/biomed-paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Biomedical and pharmaceutical paper writing with CONSORT, STROBE, PRISMA, and ARRIVE	yes
-blazickjp/arxiv-mcp-server	Literature Search / Scholarly Search MCP	MCP	arXiv search and paper analysis MCP	yes
-openags/paper-search-mcp	Literature Search / Scholarly Search MCP	MCP/CLI/skills	Paper search and download for arXiv, PubMed, bioRxiv, and related sources	yes
-Dianel555/paper-search-mcp-nodejs	Literature Search / Scholarly Search MCP	MCP	Paper search and download for Web of Science, arXiv, and related sources	yes
-andybrandt/mcp-simple-pubmed	Literature Search / Scholarly Search MCP	MCP	PubMed medical literature search MCP	yes
-Agents365-ai/asta-skill	Literature Search / Scholarly Search MCP	Skill	Asta/Semantic Scholar MCP routing	yes
-ShZhao27208/Aut_Sci_Write	Literature Search / Scholarly Search MCP	Skill suite	WoS, Elsevier, and Springer search/download, reviews, Zotero, PPT, and HTML	yes
-zongmin-yu/semantic-scholar-fastmcp-mcp-server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar API FastMCP server	yes
-Darkroaster/pubmearch	Literature Search / Scholarly Search MCP	MCP	PubMed MCP server	yes
-takashiishida/arxiv-latex-mcp	Literature Search / Scholarly Search MCP	MCP	arXiv LaTeX source parsing	yes
-cyanheads/pubmed-mcp-server	Literature Search / Scholarly Search MCP	MCP	PubMed/Europe PMC/Unpaywall, MeSH, full text	yes
-JackKuo666/PubMed-MCP-Server	Literature Search / Scholarly Search MCP	MCP	PubMed article search, access, and analysis	yes
-grll/pubmedmcp	Literature Search / Scholarly Search MCP	MCP	PubMed data MCP	yes
-afrise/academic-search-mcp-server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar + Crossref	yes
-benedict2310/Scientific-Papers-MCP	Literature Search / Scholarly Search MCP	MCP	arXiv + OpenAlex scientific papers	yes
-connerlambden/bgpt-mcp	Literature Search / Scholarly Search MCP	MCP/REST	Scientific paper evidence search	yes
-akapet00/semantic-scholar-mcp	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar paper search and analysis	yes
-masa-med-ai/pubmed-systematic-review	Literature Search / Scholarly Search MCP	Skill	Lightweight systematic reviews integrated with a PubMed MCP	yes
-lstudlo/ScholarMCP	Literature Search / Scholarly Search MCP	MCP	Literature search, PDF ingestion, and reference management	yes
-u9401066/pubmed-search-mcp	Literature Search / Scholarly Search MCP	MCP	PubMed/Europe PMC/CORE/OpenAlex, citation networks, PICO	yes
-TaewoooPark/scholar-megasearch	Literature Search / Scholarly Search MCP	Skill	20+ scholarly databases with multi-source search and PDF retrieval	yes
-zongmin-yu/semantic-scholar-skills	Literature Search / Scholarly Search MCP	Skill/MCP	S2-first discovery engine	yes
-aringadre76/mcp-for-research	Literature Search / Scholarly Search MCP	MCP	PubMed, Google Scholar, arXiv, JSTOR	yes
-54yyyu/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	MCP	Connect Zotero libraries to Claude and AI assistants	yes
-papersgpt/papersgpt-for-zotero	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero AI/MCP plugin with multi-model paper Q&A	yes
-yilewang/llm-for-zotero	Zotero / CNKI / Google Scholar / Reference Management	Zotero agent	Research agent system based on a Zotero library	yes
-cookjohn/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Deep integration between Zotero and AI assistants	yes
-cookjohn/cnki-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	CNKI search, PDFs, and Zotero export	yes
-cookjohn/gs-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	Google Scholar search, citation tracking, and Zotero export	yes
-kaliaboi/mcp-zotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Connect Claude Desktop to Zotero Cloud	yes
-kujenga/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	MCP	Zotero API MCP server	yes
-introfini/ZotSeek	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero semantic search with local privacy and built-in MCP	yes
-TonybotNi/ZotLink	Zotero / CNKI / Google Scholar / Reference Management	MCP	Save arXiv, CVF, bioRxiv, and medRxiv papers to Zotero	yes
-dralkh/seerai	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero AI plugin, RAG, OCR, systematic reviews, MCP, skills	yes
-gyger/mcp-pyzotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Local Zotero MCP connector	yes
-Xevos117/mcp-zotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Zotero library operations, DOI, PDF, Unpaywall, docx citation fields	yes
-cookjohn/pm-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	PubMed literature search, citation export, Zotero	yes
-GPTomics/bioSkills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	RNA-seq, scRNA, variant, multi-omics	yes
-jaechang-hits/SciAgent-Skills	Bioinformatics / Omics / Single-Cell Skills	Skill library	197 life-science and bioinformatics skills	yes
-adaptyvbio/protein-design-skills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	Protein design	yes
-TianGzlab/OmicsClaw	Bioinformatics / Omics / Single-Cell Skills	Agent app	Multi-omics analysis through manuscript generation	yes
-swaruplab/operon	Bioinformatics / Omics / Single-Cell Skills	Bioinformatics IDE	Claude Code bioinformatics IDE and protocols	yes
-variomeanalytics/bioinformatics-agent-skills	Bioinformatics / Omics / Single-Cell Skills	MCP/skills	Knowledge graph over 78 bioinformatics workflows	yes
-cafferychen777/ChatSpatial	Bioinformatics / Omics / Single-Cell Skills	MCP	Natural-language analysis for spatial transcriptomics	yes
-ma-compbio-lab/SkillFoundry	Bioinformatics / Omics / Single-Cell Skills	Skill framework	Computational biology skill discovery and validation	yes
-Agents365-ai/seurat-skill	Bioinformatics / Omics / Single-Cell Skills	Skill	Seurat v5 single-cell analysis	yes
-Bioconductor/ai-agent-skills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	R/Bioconductor and statistical bioinformatics	yes
-FreedomIntelligence/OpenClaw-Medical-Skills	Biomedical / Clinical / Medical Research	Skill library	Large OpenClaw medical AI skills collection	yes
-mims-harvard/ToolUniverse	Biomedical / Clinical / Medical Research	Tool/skills	Tool universe for biomedical AI scientists	yes
-aipoch/medical-research-skills	Biomedical / Clinical / Medical Research	Skill suite	Medical research, protocols, data analysis, and academic writing	yes
-genomoncology/biomcp	Biomedical / Clinical / Medical Research	MCP	BioMCP for clinical trials, genomic data, and medical literature	yes
-LeonChaoX/qinyan-academic-skills	Biomedical / Clinical / Medical Research	Skill library	177 academic research skills, including bioinformatics, drug discovery, and clinical medicine	yes
-anthropics/life-sciences	Biomedical / Clinical / Medical Research	Marketplace	Claude life-sciences MCP and skills directory	yes
-Cicatriiz/healthcare-mcp-public	Biomedical / Clinical / Medical Research	MCP	Medical data from FDA, PubMed, medRxiv, clinical trials, ICD-10, and related sources	yes
-JamesANZ/medical-mcp	Biomedical / Clinical / Medical Research	MCP	FDA, WHO, PubMed, Google Scholar, RxNorm	yes
-cyanheads/clinicaltrialsgov-mcp-server	Biomedical / Clinical / Medical Research	MCP	ClinicalTrials.gov search, details, results, and patient matching	yes
-pascalwhoop/medical-mcps	Biomedical / Clinical / Medical Research	MCP collection	MCP tool collection for major biomedical databases	yes
-JackKuo666/ClinicalTrials-MCP-Server	Biomedical / Clinical / Medical Research	MCP	ClinicalTrials.gov	yes
-HolobiomicsLab/asb-skill-collections	Biomedical / Clinical / Medical Research	Skill collection	Evidence-grounded skill and tool collections for scientific AI agents	yes
-Augmented-Nature/ChEMBL-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	ChEMBL	yes
-PDBeurope/PDBe-MCP-Servers	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PDBe and protein structures	yes
-Augmented-Nature/AlphaFold-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	AlphaFold Protein Structure Database	yes
-longevity-genie/biothings-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	BioThings MCP	yes
-longevity-genie/gget-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	MCP wrapper for gget bioinformatics tools	yes
-Augmented-Nature/PDB-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Protein Data Bank	yes
-Augmented-Nature/Augmented-Nature-UniProt-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	UniProt protein database	yes
-nickzren/opentargets-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Open Targets	yes
-tamerh/biobtree	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP/graph DB	BioBTree v2, 70+ biomedical datasets	yes
-cyanheads/pubchem-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PubChem compounds, properties, safety, and bioactivity	yes
-effieklimi/ensembl-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Ensembl REST API	yes
-Augmented-Nature/SureChEMBL-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	SureChEMBL chemical patent database	yes
-donbr/lifesciences-research	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP wrappers	Open Targets, ChEMBL, UniProt	yes
-hlydecker/ucsc-genome-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	UCSC Genome Browser API	yes
-cyanheads/protein-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PDB and AlphaFold protein structure and annotation federation	yes
-PabloPauling/posebusters-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PoseBusters molecular pose validation	yes
-EBISPOT/GrEBI	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	API/MCP	biomedical data integration, API/MCP server	yes
-Lucas-Servi/kegg-mcp-server-python	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	KEGG REST API	yes
-smaniches/alphafold-sovereign-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	AlphaFold DB plus eight public sources with a local knowledge graph	yes
-smaniches/uniprot-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Auditable UniProt MCP with release pinning and offline replay	yes
-Galaxy-Dawn/claude-scholar	Research Agent Apps / Workspaces	Research assistant	Research, experiments, writing, and submission support for Claude Code and Codex CLI	yes
-yb2460/harness-anything	Research Agent Apps / Workspaces	Agent harness	WPS, MS Office, Zotero, academic skills, and document automation	yes
-K-Dense-AI/k-dense-byok	Research Agent Apps / Workspaces	Agent app	Desktop AI co-scientist based on scientific-agent-skills	yes
-beita6969/ScienceClaw	Research Agent Apps / Workspaces	Agent app	Self-evolving research assistant with skills and persistent memory	yes
-AgentTeam-TaichuAI/ScienceClaw	Research Agent Apps / Workspaces	Agent app	Research assistant built with LangChain DeepAgents and sandboxing	yes
-ymx10086/ResearchClaw	Research Agent Apps / Workspaces	Research assistant	Literature reviews, notes, experiment tracking, and paper writing	yes
-WenyuChiou/research-hub	Research Agent Apps / Workspaces	Research workspace	Zotero, Obsidian, NotebookLM, CLI/MCP/REST/dashboard	yes
-PDFMathTranslate/PDFMathTranslate	Figures / PDF / LaTeX / Research Artifact Tools	Tool/MCP/Zotero	Scientific PDF translation that preserves layout, with MCP, Docker, and Zotero support	yes
-llmsresearch/paperbanana	Figures / PDF / LaTeX / Research Artifact Tools	Research visual tool	Automated academic figures, diagrams, and research visuals	yes
-Dsadd4/AgentFigureGallery	Figures / PDF / LaTeX / Research Artifact Tools	Skill	Scientific plotting skill for Claude, Codex, and Cursor	yes
-Epsilon617/Codex-Academic-Skills	Awesome Lists / Registries / Further Discovery	Skills	Codex research-oriented skills directory	yes
-WenyuChiou/ai-research-skills	Awesome Lists / Registries / Further Discovery	Skill catalog	literature review, research design, manuscript writing	yes
-BioTender-max/awesome-bio-agent-skills	Awesome Lists / Registries / Further Discovery	Directory	Biomedical agent skills directory covering genomics, proteomics, single-cell analysis, clinical AI, and protein design	yes
-GoekeLab/awesome-genomic-skills	Awesome Lists / Registries / Further Discovery	Directory	genomics/bioinformatics agent skills, MCP, benchmarks	yes
-O0000-code/awesome-academic-skills	Awesome Lists / Registries / Further Discovery	Directory	Academic agent skills organized by the research lifecycle	yes
-Harsh9005/awesome-scientific-ai-tools	Awesome Lists / Registries / Further Discovery	Directory	AI tools, MCP servers, and agent skills for scientific research	yes
-chrisliu298/awesome-research-agents	Awesome Lists / Registries / Further Discovery	Directory	research agents, skill libraries, autonomous research loops, paper-writing pipelines	yes
-Agents365-ai/awesome-ai-for-science-skills	Awesome Lists / Registries / Further Discovery	Directory	AI for Science skills, MCP, and Agent SDK directory	yes
-InternScience/Awesome-Scientific-Skills	Awesome Lists / Registries / Further Discovery	Directory	Scientific research agent skills directory	yes
-punkpeye/awesome-mcp-servers	Awesome Lists / Registries / Further Discovery	Directory	General MCP directory with Biology, Medicine, and Bioinformatics sections	yes
+repo	category	type	notes	notes_zh	include
+Imbad0202/academic-research-skills	General Research / AI4S Skill Suites	Skill suite	Academic research skills: research -> write -> review -> revise -> finalize	Academic research skills：research -> write -> review -> revise -> finalize	yes
+K-Dense-AI/scientific-agent-skills	General Research / AI4S Skill Suites	Skill suite	Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery	科学研究、生物/化学/医学/药物发现，Agent Skills 标准	yes
+wanshuiyin/Auto-claude-code-research-in-sleep	General Research / AI4S Skill Suites	Skill suite	ARIS automated research loop, idea discovery, and experiment automation	ARIS 自动科研循环、idea discovery、实验自动化	yes
+Orchestra-Research/AI-Research-SKILLs	General Research / AI4S Skill Suites	Skill suite	AI research and engineering skills for Claude, Codex, and Gemini	AI research and engineering skills，Claude/Codex/Gemini 可用	yes
+Imbad0202/academic-research-skills-codex	General Research / AI4S Skill Suites	Skill suite	Codex-native academic research workflow	Codex-native academic research workflow	yes
+openai/plugins	General Research / AI4S Skill Suites	Plugin/skills	OpenAI Codex plugins, including life-science-research	OpenAI Codex plugins，含 life-science-research	yes
+brycewang-stanford/Auto-Empirical-Research-Skills	General Research / AI4S Skill Suites	Skill library	Empirical social science research with 23,000+ agent skills	实证社会科学研究，23,000+ agent skills	yes
+google-deepmind/science-skills	General Research / AI4S Skill Suites	Skill suite	DeepMind science agent skills	DeepMind science agent skills	yes
+zLanqing/codex-claude-academic-skills	General Research / AI4S Skill Suites	Skills	Chinese-language research reading, writing, and scientific computing	中文科研阅读、写作、科学计算	yes
+Weizhena/Deep-Research-skills	General Research / AI4S Skill Suites	Skill	Structured deep research skill, Claude/OpenCode/Codex	Structured deep research skill，Claude/OpenCode/Codex	yes
+luwill/research-skills	General Research / AI4S Skill Suites	Skills	Common research practices and workflows packaged as agent skills	常用科研经验和流程封装为 Agent skills	yes
+chrisblattman/claudeblattman	General Research / AI4S Skill Suites	Academic setup	Claude Code for academics: skills, agents, setup guides	Claude Code for academics：skills、agents、setup guides	yes
+fcakyon/phd-skills	General Research / AI4S Skill Suites	Skills	PhD research: reproduction, experimental design, paper review, and result comparison	PhD research：复现、实验设计、paper review、结果比较	yes
+chtc66/academic-skills	General Research / AI4S Skill Suites	Skills	Paper reading, surveys, experiment summaries, rebuttals, and lab updates	论文阅读、survey、实验总结、rebuttal、lab update	yes
+ai4s-research/ai4s-skills	General Research / AI4S Skill Suites	Skill suite	AI for Science: topic exploration, literature survey, experiments, writing, and integrity audit	AI for Science：topic exploration、literature survey、实验、写作、integrity audit	yes
+JackKuo666/semanticscholar-MCP-Server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar paper/author/citation/reference	Semantic Scholar paper/author/citation/reference	yes
+AlterLab-IEU/AlterLab-Academic-Skills	General Research / AI4S Skill Suites	Skill library	239 evaluated academic skills, including bioinformatics and clinical research	239 evaluated academic skills，含 bioinformatics/clinical	yes
+ammawla/encode-toolkit	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP/Claude plugin	ENCODE genomic data toolkit	ENCODE genomic data toolkit	yes
+s-choung/Research-Skills	General Research / AI4S Skill Suites	Skills/agents	Research writing, figures, document automation, and Korean academic materials	科研写作、图表、文档自动化、韩文学术材料	yes
+lynnlangit/precision-medicine-mcp	Biomedical / Clinical / Medical Research	MCP platform	Precision medicine across multi-omics, genomics, and spatial transcriptomics	Precision medicine，多组学/基因组/空间转录组	yes
+JhonHander/academic-agent-toolkit	General Research / AI4S Skill Suites	Toolkit	Installer for MCP tools and AI research skills	MCP tools + AI research skills 安装工具	yes
+igvteam/igv-mcp	Bioinformatics / Omics / Single-Cell Skills	MCP	IGV genome viewer control	IGV genome viewer 控制	yes
+Jason-0409-G/scriptorium	Paper Writing / Peer Review / Submission Skills	Skill	DOI-verified literature library, NCBI/UniProt/PDB/AlphaFold integration, writing, and review	DOI-verified literature library、NCBI/UniProt/PDB/AlphaFold、写作与审稿	yes
+Master-cai/Research-Paper-Writing-Skills	Paper Writing / Peer Review / Submission Skills	Skills	ML/CV/NLP paper writing for Codex, Claude, and Gemini	ML/CV/NLP 论文写作，Codex/Claude/Gemini	yes
+WUBING2023/PaperSpine	Paper Writing / Peer Review / Submission Skills	Skill	Central paper argumentation, strong-paper learning, manuscript rewriting, and LaTeX-safe audits	论文中心论证、强论文学习、manuscript rewrite、LaTeX-safe audit	yes
+PaperDebugger/paperdebugger	Paper Writing / Peer Review / Submission Skills	Plugin/agent	Academic writing, peer review, and editing	学术写作、审稿、编辑	yes
+fakerqwq/social-science-paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Social science paper writing, topic selection, literature reviews, and citation risk checks	社会科学论文写作、选题、文献综述、引用风险检查	yes
+SNL-UCSB/paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Brainstorm -> Draft -> Evaluate -> Write -> Compress paper writing	Brainstorm -> Draft -> Evaluate -> Write -> Compress 论文写作	yes
+SyntaxSmith/nature-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Nature-family paper writing	Nature-family paper writing	yes
+cLin-c/paper-skill	Paper Writing / Peer Review / Submission Skills	Skill	Paper writing, polishing, peer review, translation, and submission	论文写作、润色、审稿、翻译、投稿	yes
+fuhaoda/stats-paper-writing-agent-skills	Paper Writing / Peer Review / Submission Skills	Skill	Agent skills for statistics paper writing	统计论文写作 agent skills	yes
+MetaQiu/Trivium	Paper Writing / Peer Review / Submission Skills	Skill/workflow	Multi-agent collaborative paper writing for Claude, Codex, and Gemini	Claude/Codex/Gemini 多 agent 论文协作写作	yes
+Zhangyanbo/vibe-paper-writing	Paper Writing / Peer Review / Submission Skills	Skill	Convert notes, chats, and emails into LaTeX academic papers	将 notes/chat/emails 整合为 LaTeX 学术论文	yes
+AGISAFETYLAB/Paper-Writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Planning, writing, polishing, figures, and citation checks for CS, medical, and finance papers	CS、医学、金融论文规划/写作/润色/图表/引用核查	yes
+dailycafi/biomed-paper-writing-skill	Paper Writing / Peer Review / Submission Skills	Skill	Biomedical and pharmaceutical paper writing with CONSORT, STROBE, PRISMA, and ARRIVE	生物医学/药学论文写作，CONSORT/STROBE/PRISMA/ARRIVE	yes
+blazickjp/arxiv-mcp-server	Literature Search / Scholarly Search MCP	MCP	arXiv search and paper analysis MCP	arXiv 搜索和论文分析 MCP	yes
+openags/paper-search-mcp	Literature Search / Scholarly Search MCP	MCP/CLI/skills	Paper search and download for arXiv, PubMed, bioRxiv, and related sources	arXiv/PubMed/bioRxiv 等论文检索下载	yes
+Dianel555/paper-search-mcp-nodejs	Literature Search / Scholarly Search MCP	MCP	Paper search and download for Web of Science, arXiv, and related sources	Web of Science/arXiv 等论文检索下载	yes
+andybrandt/mcp-simple-pubmed	Literature Search / Scholarly Search MCP	MCP	PubMed medical literature search MCP	PubMed 医学文献搜索 MCP	yes
+Agents365-ai/asta-skill	Literature Search / Scholarly Search MCP	Skill	Asta/Semantic Scholar MCP routing	Asta/Semantic Scholar MCP routing	yes
+ShZhao27208/Aut_Sci_Write	Literature Search / Scholarly Search MCP	Skill suite	WoS, Elsevier, and Springer search/download, reviews, Zotero, PPT, and HTML	WoS/Elsevier/Springer 检索下载、综述、Zotero、PPT/HTML	yes
+zongmin-yu/semantic-scholar-fastmcp-mcp-server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar API FastMCP server	Semantic Scholar API FastMCP server	yes
+Darkroaster/pubmearch	Literature Search / Scholarly Search MCP	MCP	PubMed MCP server	PubMed MCP server	yes
+takashiishida/arxiv-latex-mcp	Literature Search / Scholarly Search MCP	MCP	arXiv LaTeX source parsing	arXiv LaTeX source 解析	yes
+cyanheads/pubmed-mcp-server	Literature Search / Scholarly Search MCP	MCP	PubMed/Europe PMC/Unpaywall, MeSH, full text	PubMed/Europe PMC/Unpaywall、MeSH、full text	yes
+JackKuo666/PubMed-MCP-Server	Literature Search / Scholarly Search MCP	MCP	PubMed article search, access, and analysis	PubMed 文章搜索、访问、分析	yes
+grll/pubmedmcp	Literature Search / Scholarly Search MCP	MCP	PubMed data MCP	PubMed data MCP	yes
+afrise/academic-search-mcp-server	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar + Crossref	Semantic Scholar + Crossref	yes
+benedict2310/Scientific-Papers-MCP	Literature Search / Scholarly Search MCP	MCP	arXiv + OpenAlex scientific papers	arXiv + OpenAlex scientific papers	yes
+connerlambden/bgpt-mcp	Literature Search / Scholarly Search MCP	MCP/REST	Scientific paper evidence search	Scientific paper evidence search	yes
+akapet00/semantic-scholar-mcp	Literature Search / Scholarly Search MCP	MCP	Semantic Scholar paper search and analysis	Semantic Scholar paper search and analysis	yes
+masa-med-ai/pubmed-systematic-review	Literature Search / Scholarly Search MCP	Skill	Lightweight systematic reviews integrated with a PubMed MCP	与 PubMed MCP 联动做简易 systematic review	yes
+lstudlo/ScholarMCP	Literature Search / Scholarly Search MCP	MCP	Literature search, PDF ingestion, and reference management	文献搜索、PDF ingestion、引用管理	yes
+u9401066/pubmed-search-mcp	Literature Search / Scholarly Search MCP	MCP	PubMed/Europe PMC/CORE/OpenAlex, citation networks, PICO	PubMed/Europe PMC/CORE/OpenAlex、citation networks、PICO	yes
+TaewoooPark/scholar-megasearch	Literature Search / Scholarly Search MCP	Skill	20+ scholarly databases with multi-source search and PDF retrieval	20+ scholarly databases 多源检索与 PDF 获取	yes
+zongmin-yu/semantic-scholar-skills	Literature Search / Scholarly Search MCP	Skill/MCP	S2-first discovery engine	S2-first discovery engine	yes
+aringadre76/mcp-for-research	Literature Search / Scholarly Search MCP	MCP	PubMed, Google Scholar, arXiv, JSTOR	PubMed、Google Scholar、arXiv、JSTOR	yes
+54yyyu/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	MCP	Connect Zotero libraries to Claude and AI assistants	Zotero library 接入 Claude/AI assistant	yes
+papersgpt/papersgpt-for-zotero	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero AI/MCP plugin with multi-model paper Q&A	Zotero AI/MCP 插件，多模型论文问答	yes
+yilewang/llm-for-zotero	Zotero / CNKI / Google Scholar / Reference Management	Zotero agent	Research agent system based on a Zotero library	基于 Zotero library 的 research agent system	yes
+cookjohn/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Deep integration between Zotero and AI assistants	Zotero 与 AI assistant 深度集成	yes
+cookjohn/cnki-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	CNKI search, PDFs, and Zotero export	CNKI 检索、PDF、Zotero 导出	yes
+cookjohn/gs-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	Google Scholar search, citation tracking, and Zotero export	Google Scholar 检索、引用追踪、Zotero 导出	yes
+kaliaboi/mcp-zotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Connect Claude Desktop to Zotero Cloud	Claude Desktop 连接 Zotero Cloud	yes
+kujenga/zotero-mcp	Zotero / CNKI / Google Scholar / Reference Management	MCP	Zotero API MCP server	Zotero API MCP server	yes
+introfini/ZotSeek	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero semantic search with local privacy and built-in MCP	Zotero 语义搜索，本地隐私，内置 MCP	yes
+TonybotNi/ZotLink	Zotero / CNKI / Google Scholar / Reference Management	MCP	Save arXiv, CVF, bioRxiv, and medRxiv papers to Zotero	保存 arXiv/CVF/bioRxiv/medRxiv 到 Zotero	yes
+dralkh/seerai	Zotero / CNKI / Google Scholar / Reference Management	Zotero plugin/MCP	Zotero AI plugin, RAG, OCR, systematic reviews, MCP, skills	Zotero AI plugin，RAG、OCR、systematic reviews、MCP、skills	yes
+gyger/mcp-pyzotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Local Zotero MCP connector	本地 Zotero MCP connector	yes
+Xevos117/mcp-zotero	Zotero / CNKI / Google Scholar / Reference Management	MCP	Zotero library operations, DOI, PDF, Unpaywall, docx citation fields	Zotero library operations、DOI、PDF、Unpaywall、docx citation fields	yes
+cookjohn/pm-skills	Zotero / CNKI / Google Scholar / Reference Management	Skills	PubMed literature search, citation export, Zotero	PubMed literature search、citation export、Zotero	yes
+GPTomics/bioSkills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	RNA-seq, scRNA, variant, multi-omics	RNA-seq、scRNA、variant、multi-omics	yes
+jaechang-hits/SciAgent-Skills	Bioinformatics / Omics / Single-Cell Skills	Skill library	197 life-science and bioinformatics skills	197 个生命科学/生信 skills	yes
+adaptyvbio/protein-design-skills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	Protein design	蛋白设计	yes
+TianGzlab/OmicsClaw	Bioinformatics / Omics / Single-Cell Skills	Agent app	Multi-omics analysis through manuscript generation	多组学分析到论文生成	yes
+swaruplab/operon	Bioinformatics / Omics / Single-Cell Skills	Bioinformatics IDE	Claude Code bioinformatics IDE and protocols	Claude Code 生信 IDE/protocols	yes
+variomeanalytics/bioinformatics-agent-skills	Bioinformatics / Omics / Single-Cell Skills	MCP/skills	Knowledge graph over 78 bioinformatics workflows	查询 78 个 bioinformatics workflows 的知识图谱	yes
+cafferychen777/ChatSpatial	Bioinformatics / Omics / Single-Cell Skills	MCP	Natural-language analysis for spatial transcriptomics	空间转录组自然语言分析	yes
+ma-compbio-lab/SkillFoundry	Bioinformatics / Omics / Single-Cell Skills	Skill framework	Computational biology skill discovery and validation	计算生物学 skills 发现/验证	yes
+Agents365-ai/seurat-skill	Bioinformatics / Omics / Single-Cell Skills	Skill	Seurat v5 single-cell analysis	Seurat v5 single-cell analysis	yes
+Bioconductor/ai-agent-skills	Bioinformatics / Omics / Single-Cell Skills	Skill suite	R/Bioconductor and statistical bioinformatics	R/Bioconductor 与统计生信	yes
+FreedomIntelligence/OpenClaw-Medical-Skills	Biomedical / Clinical / Medical Research	Skill library	Large OpenClaw medical AI skills collection	OpenClaw 医学 AI skills 大型集合	yes
+mims-harvard/ToolUniverse	Biomedical / Clinical / Medical Research	Tool/skills	Tool universe for biomedical AI scientists	生物医学 AI scientist 工具宇宙	yes
+aipoch/medical-research-skills	Biomedical / Clinical / Medical Research	Skill suite	Medical research, protocols, data analysis, and academic writing	医学研究、protocol、数据分析、学术写作	yes
+genomoncology/biomcp	Biomedical / Clinical / Medical Research	MCP	BioMCP for clinical trials, genomic data, and medical literature	BioMCP：临床试验、基因数据、医学文献	yes
+LeonChaoX/qinyan-academic-skills	Biomedical / Clinical / Medical Research	Skill library	177 academic research skills, including bioinformatics, drug discovery, and clinical medicine	177 个学术研究 skills，含生信、药物发现、临床医学	yes
+anthropics/life-sciences	Biomedical / Clinical / Medical Research	Marketplace	Claude life-sciences MCP and skills directory	Claude life-sciences MCP/skills 目录	yes
+Cicatriiz/healthcare-mcp-public	Biomedical / Clinical / Medical Research	MCP	Medical data from FDA, PubMed, medRxiv, clinical trials, ICD-10, and related sources	FDA、PubMed、medRxiv、临床试验、ICD-10 等医疗数据	yes
+JamesANZ/medical-mcp	Biomedical / Clinical / Medical Research	MCP	FDA, WHO, PubMed, Google Scholar, RxNorm	FDA、WHO、PubMed、Google Scholar、RxNorm	yes
+cyanheads/clinicaltrialsgov-mcp-server	Biomedical / Clinical / Medical Research	MCP	ClinicalTrials.gov search, details, results, and patient matching	ClinicalTrials.gov 搜索、详情、结果、患者匹配	yes
+pascalwhoop/medical-mcps	Biomedical / Clinical / Medical Research	MCP collection	MCP tool collection for major biomedical databases	主要 biomedical databases MCP 工具集合	yes
+JackKuo666/ClinicalTrials-MCP-Server	Biomedical / Clinical / Medical Research	MCP	ClinicalTrials.gov	ClinicalTrials.gov	yes
+HolobiomicsLab/asb-skill-collections	Biomedical / Clinical / Medical Research	Skill collection	Evidence-grounded skill and tool collections for scientific AI agents	Scientific AI agents 的 evidence-grounded skill/tool collections	yes
+Augmented-Nature/ChEMBL-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	ChEMBL	ChEMBL	yes
+PDBeurope/PDBe-MCP-Servers	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PDBe and protein structures	PDBe/蛋白结构	yes
+Augmented-Nature/AlphaFold-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	AlphaFold Protein Structure Database	AlphaFold Protein Structure Database	yes
+longevity-genie/biothings-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	BioThings MCP	BioThings MCP	yes
+longevity-genie/gget-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	MCP wrapper for gget bioinformatics tools	gget 生信工具封装	yes
+Augmented-Nature/PDB-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Protein Data Bank	Protein Data Bank	yes
+Augmented-Nature/Augmented-Nature-UniProt-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	UniProt protein database	UniProt protein database	yes
+nickzren/opentargets-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Open Targets	Open Targets	yes
+tamerh/biobtree	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP/graph DB	BioBTree v2, 70+ biomedical datasets	BioBTree v2，70+ biomedical datasets	yes
+cyanheads/pubchem-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PubChem compounds, properties, safety, and bioactivity	PubChem 化合物、性质、安全、生物活性	yes
+effieklimi/ensembl-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Ensembl REST API	Ensembl REST API	yes
+Augmented-Nature/SureChEMBL-MCP-Server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	SureChEMBL chemical patent database	SureChEMBL chemical patent database	yes
+donbr/lifesciences-research	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP wrappers	Open Targets, ChEMBL, UniProt	Open Targets、ChEMBL、UniProt	yes
+hlydecker/ucsc-genome-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	UCSC Genome Browser API	UCSC Genome Browser API	yes
+cyanheads/protein-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PDB and AlphaFold protein structure and annotation federation	PDB + AlphaFold 蛋白结构/注释 federation	yes
+PabloPauling/posebusters-mcp-server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	PoseBusters molecular pose validation	PoseBusters molecular pose validation	yes
+EBISPOT/GrEBI	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	API/MCP	biomedical data integration, API/MCP server	biomedical data integration，API/MCP server	yes
+Lucas-Servi/kegg-mcp-server-python	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	KEGG REST API	KEGG REST API	yes
+smaniches/alphafold-sovereign-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	AlphaFold DB plus eight public sources with a local knowledge graph	AlphaFold DB + 8 public sources，本地知识图谱	yes
+smaniches/uniprot-mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	MCP	Auditable UniProt MCP with release pinning and offline replay	可审计 UniProt MCP，release pinning/offline replay	yes
+Galaxy-Dawn/claude-scholar	Research Agent Apps / Workspaces	Research assistant	Research, experiments, writing, and submission support for Claude Code and Codex CLI	研究、实验、写作、投稿，支持 Claude Code/Codex CLI	yes
+yb2460/harness-anything	Research Agent Apps / Workspaces	Agent harness	WPS, MS Office, Zotero, academic skills, and document automation	WPS/MS Office/Zotero、academic skills、文档自动化	yes
+K-Dense-AI/k-dense-byok	Research Agent Apps / Workspaces	Agent app	Desktop AI co-scientist based on scientific-agent-skills	基于 scientific-agent-skills 的桌面 AI co-scientist	yes
+beita6969/ScienceClaw	Research Agent Apps / Workspaces	Agent app	Self-evolving research assistant with skills and persistent memory	自进化科研 assistant，skills + persistent memory	yes
+AgentTeam-TaichuAI/ScienceClaw	Research Agent Apps / Workspaces	Agent app	Research assistant built with LangChain DeepAgents and sandboxing	LangChain DeepAgents + sandbox 的科研 assistant	yes
+ymx10086/ResearchClaw	Research Agent Apps / Workspaces	Research assistant	Literature reviews, notes, experiment tracking, and paper writing	文献综述、笔记、实验跟踪、论文写作	yes
+WenyuChiou/research-hub	Research Agent Apps / Workspaces	Research workspace	Zotero, Obsidian, NotebookLM, CLI/MCP/REST/dashboard	Zotero、Obsidian、NotebookLM，CLI/MCP/REST/dashboard	yes
+PDFMathTranslate/PDFMathTranslate	Figures / PDF / LaTeX / Research Artifact Tools	Tool/MCP/Zotero	Scientific PDF translation that preserves layout, with MCP, Docker, and Zotero support	科学 PDF 翻译，保留排版，支持 MCP、Docker、Zotero	yes
+llmsresearch/paperbanana	Figures / PDF / LaTeX / Research Artifact Tools	Research visual tool	Automated academic figures, diagrams, and research visuals	自动学术图、diagram、research visuals	yes
+Dsadd4/AgentFigureGallery	Figures / PDF / LaTeX / Research Artifact Tools	Skill	Scientific plotting skill for Claude, Codex, and Cursor	科学绘图 skill，Claude/Codex/Cursor	yes
+Epsilon617/Codex-Academic-Skills	Awesome Lists / Registries / Further Discovery	Skills	Codex research-oriented skills directory	Codex research-oriented skills 目录	yes
+WenyuChiou/ai-research-skills	Awesome Lists / Registries / Further Discovery	Skill catalog	literature review, research design, manuscript writing	literature review、research design、manuscript writing	yes
+BioTender-max/awesome-bio-agent-skills	Awesome Lists / Registries / Further Discovery	Directory	Biomedical agent skills directory covering genomics, proteomics, single-cell analysis, clinical AI, and protein design	生物医学 agent skills 目录，覆盖 genomics、proteomics、single-cell、clinical AI、protein design	yes
+GoekeLab/awesome-genomic-skills	Awesome Lists / Registries / Further Discovery	Directory	genomics/bioinformatics agent skills, MCP, benchmarks	genomics/bioinformatics agent skills、MCP、benchmarks	yes
+O0000-code/awesome-academic-skills	Awesome Lists / Registries / Further Discovery	Directory	Academic agent skills organized by the research lifecycle	academic agent skills，按科研生命周期组织	yes
+Harsh9005/awesome-scientific-ai-tools	Awesome Lists / Registries / Further Discovery	Directory	AI tools, MCP servers, and agent skills for scientific research	科学研究 AI tools、MCP、agent skills	yes
+chrisliu298/awesome-research-agents	Awesome Lists / Registries / Further Discovery	Directory	research agents, skill libraries, autonomous research loops, paper-writing pipelines	research agents、skill libraries、autonomous research loops、paper-writing pipelines	yes
+Agents365-ai/awesome-ai-for-science-skills	Awesome Lists / Registries / Further Discovery	Directory	AI for Science skills, MCP, and Agent SDK directory	AI for Science skills/MCP/Agent SDK 目录	yes
+InternScience/Awesome-Scientific-Skills	Awesome Lists / Registries / Further Discovery	Directory	Scientific research agent skills directory	科学研究 agent skills 目录	yes
+punkpeye/awesome-mcp-servers	Awesome Lists / Registries / Further Discovery	Directory	General MCP directory with Biology, Medicine, and Bioinformatics sections	通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节	yes

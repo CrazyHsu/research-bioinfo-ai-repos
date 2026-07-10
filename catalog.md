@@ -11,6 +11,7 @@ Notes: GitHub Search cannot mathematically guarantee complete coverage. `data/re
 - Local validation: `python3 scripts/update_catalog.py --check`
 - Regenerate from cached metadata: `python3 scripts/update_catalog.py --from-curated`
 - Refresh GitHub metadata: `python3 scripts/update_catalog.py --refresh`
+- Scheduled updates run through `.github/workflows/update-catalog.yml` every Monday at 03:17 UTC.
 - To extend the list, edit `data/repos.seed.tsv` first, then run a refresh or regeneration command.
 
 ## General Research / AI4S Skill Suites

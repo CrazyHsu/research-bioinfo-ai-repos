@@ -2,14 +2,16 @@
 
 Curated GitHub catalog for AI-agent-related research, academic writing, literature search, bioinformatics, biomedical, and life-science skill/plugin/MCP repositories.
 
-This README embeds the full generated catalog so visitors can browse the repo list directly from the project homepage. The standalone generated catalog is also available at [catalog.md](catalog.md).
+This README embeds the full generated catalog so visitors can browse the repo list directly from the project homepage. A Chinese version is available at [README-zh.md](README-zh.md), and the standalone generated catalog is available at [catalog.md](catalog.md).
 
 ## Contents
 
+- `README-zh.md` - Chinese generated catalog kept in sync with this README.
 - `catalog.md` - standalone categorized catalog, sorted by stars within each category.
-- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, and notes.
+- `data/repos.seed.tsv` - manually curated source of repo scope, category, type, English notes, and Chinese notes.
 - `data/repos.curated.tsv` - generated metadata table with GitHub URL, stars, last update date, language, description, and notes.
 - `scripts/update_catalog.py` - refresh, regenerate, and validate README/catalog outputs.
+- `.github/workflows/update-catalog.yml` - scheduled GitHub Actions workflow for weekly catalog refreshes.
 - `plans/update-catalog-plan.md` - repeatable update workflow for humans or agents.
 - `skills/research-repo-catalog/` - Codex skill that explains how to maintain this catalog.
 - `archive/` - prior generated versions kept for traceability.
@@ -22,13 +24,13 @@ Validate the current catalog without network:
 python3 scripts/update_catalog.py --check
 ```
 
-Regenerate README and `catalog.md` from existing metadata:
+Regenerate README, `README-zh.md`, and `catalog.md` from existing metadata:
 
 ```bash
 python3 scripts/update_catalog.py --from-curated
 ```
 
-Refresh GitHub metadata and regenerate README/catalog:
+Refresh GitHub metadata and regenerate README/catalog outputs:
 
 ```bash
 python3 scripts/update_catalog.py --refresh
@@ -38,9 +40,9 @@ For higher GitHub API limits, set `GITHUB_TOKEN` or `GH_TOKEN` before running `-
 
 ## Update Policy
 
-Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep categories specific enough that the catalog remains readable. Each category is sorted by stars descending when regenerated.
+Add or change repos in `data/repos.seed.tsv`, not directly in generated Markdown tables. Keep both `notes` and `notes_zh` short and useful. Each category is sorted by stars descending when regenerated.
 
-Do not push this repository unless a remote is intentionally configured later.
+The GitHub Actions workflow refreshes metadata weekly and commits changes only when generated outputs differ.
 
 ## Catalog
 

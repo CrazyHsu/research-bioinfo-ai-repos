@@ -41,6 +41,6 @@ Exclude repositories that are primarily:
 ## Notes
 
 - Stars are metadata, not a quality score.
-- Keep notes short and descriptive; avoid marketing claims unless they are necessary to distinguish the repo.
+- Keep notes short and descriptive; avoid marketing claims unless they are necessary to distinguish the repo. Maintain `notes` in English and `notes_zh` in Chinese.
 - Low-star repos may stay if they are direct, unique, and useful.
 - If two repos duplicate the same implementation, prefer the original or more maintained repo.
