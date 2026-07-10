@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Repo Catalog"
+  short_description: "Update curated research AI repo lists"
+  default_prompt: "Use $research-repo-catalog to update the curated GitHub research/bioinfo AI repo catalog."
