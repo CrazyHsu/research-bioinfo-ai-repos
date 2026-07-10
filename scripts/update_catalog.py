@@ -20,20 +20,20 @@ SEED_PATH = ROOT / "data" / "repos.seed.tsv"
 CURATED_PATH = ROOT / "data" / "repos.curated.tsv"
 CATALOG_PATH = ROOT / "catalog.md"
 README_PATH = ROOT / "README.md"
-TABLE_HEADER = "| repo | 类型 | stars | last update | 方向 / 备注 |"
-OLD_TABLE_HEADER = "| repo | 类型 | stars | updated | 方向 / 备注 |"
+TABLE_HEADER = "| repo | type | stars | last update | focus / notes |"
+OLD_TABLE_HEADER = "| repo | type | stars | updated | focus / notes |"
 
 CATEGORY_ORDER = [
-    "综合科研 / AI4S Skill Suites",
-    "论文写作 / 审稿 / 投稿 Skills",
-    "文献检索 / 学术搜索 MCP",
-    "Zotero / CNKI / Google Scholar / 文献管理",
-    "生信 / 组学 / 单细胞 Skills",
-    "生物医学 / 临床 / 医学研究",
-    "生物数据库 / 结构生物学 / 化学 / 药物发现 MCP",
-    "科研 Agent Apps / Workspaces",
-    "图表 / PDF / LaTeX / 研究产物工具",
-    "Awesome / Registry / 继续深挖入口",
+    "General Research / AI4S Skill Suites",
+    "Paper Writing / Peer Review / Submission Skills",
+    "Literature Search / Scholarly Search MCP",
+    "Zotero / CNKI / Google Scholar / Reference Management",
+    "Bioinformatics / Omics / Single-Cell Skills",
+    "Biomedical / Clinical / Medical Research",
+    "Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP",
+    "Research Agent Apps / Workspaces",
+    "Figures / PDF / LaTeX / Research Artifact Tools",
+    "Awesome Lists / Registries / Further Discovery",
 ]
 
 SEED_FIELDS = ["repo", "category", "type", "notes", "include"]
@@ -111,6 +111,7 @@ def refresh_from_github(seed_path: Path, curated_path: Path, delay: float) -> li
         seen.add(repo)
         try:
             meta = fetch_repo(repo, token)
+            seed_notes = seed.get("notes", "").strip()
             row = {
                 "repo": meta.get("full_name") or repo,
                 "url": meta.get("html_url") or f"https://github.com/{repo}",
@@ -119,8 +120,8 @@ def refresh_from_github(seed_path: Path, curated_path: Path, delay: float) -> li
                 "stars": meta.get("stargazers_count", 0),
                 "updated": str(meta.get("updated_at", ""))[:10],
                 "language": meta.get("language") or "",
-                "description": meta.get("description") or "",
-                "notes": seed.get("notes", "").strip(),
+                "description": seed_notes or meta.get("description") or "",
+                "notes": seed_notes,
             }
         except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
             old = existing.get(repo)
@@ -166,27 +167,27 @@ def render_repo_sections(rows: list[dict[str, str]]) -> list[str]:
 
 def render_update_instructions() -> list[str]:
     return [
-        "## 更新方式",
+        "## Update Instructions",
         "",
-        "- 本地校验：`python3 scripts/update_catalog.py --check`",
-        "- 仅从已有 metadata 重生成：`python3 scripts/update_catalog.py --from-curated`",
-        "- 联网刷新 GitHub metadata：`python3 scripts/update_catalog.py --refresh`",
-        "- 扩展清单时先编辑 `data/repos.seed.tsv`，再运行刷新或重生成命令。",
+        "- Local validation: `python3 scripts/update_catalog.py --check`",
+        "- Regenerate from cached metadata: `python3 scripts/update_catalog.py --from-curated`",
+        "- Refresh GitHub metadata: `python3 scripts/update_catalog.py --refresh`",
+        "- To extend the list, edit `data/repos.seed.tsv` first, then run a refresh or regeneration command.",
         "",
     ]
 
 
 def render_policy_sections() -> list[str]:
     return [
-        "## 纳入 / 排除规则",
+        "## Inclusion / Exclusion Rules",
         "",
-        "- 纳入：明确面向科研、论文写作、文献、Zotero/PubMed/arXiv/Semantic Scholar、医学、生物信息、生命科学，且以 skill、plugin、MCP、agent workflow 或 agent-ready tool 形式服务 AI agent 的仓库。",
-        "- 纳入低 star 项：如果领域唯一、接口明确、方向直接相关，即使 stars 很低也保留。",
-        "- 排除：普通教程、书籍拍照/藏书 app、无科研方向的通用 agent 基础设施、明显 fork/镜像且无新增价值的仓库、无描述且无法判断用途的空壳仓库。",
+        "- Include repositories that clearly target research, paper writing, literature, Zotero/PubMed/arXiv/Semantic Scholar, medicine, bioinformatics, or life sciences, and expose that capability as a skill, plugin, MCP server, agent workflow, or agent-ready tool.",
+        "- Keep low-star repositories when they are direct, domain-specific, and interface-ready.",
+        "- Exclude ordinary tutorials, book inventory apps, generic agent infrastructure without a research angle, mirror-only forks without meaningful additions, and empty shells with no useful description.",
         "",
-        "## 停止条件",
+        "## Stopping Criteria",
         "",
-        "最后几轮新增主要是重复 PubMed/arXiv/Zotero 实现、同名 fork、镜像、泛化 AI skill 目录，未再出现新的高可信核心 repo，因此停止扩展。",
+        "Expansion stopped after the last passes produced mostly duplicate PubMed/arXiv/Zotero implementations, same-name forks, mirrors, and broad AI skill directories rather than new high-confidence core repositories.",
         "",
     ]
 
@@ -196,11 +197,11 @@ def render_catalog(rows: list[dict[str, str]], output_path: Path) -> None:
     lines: list[str] = [
         "# GitHub Research, Paper Writing, Bioinformatics AI Skill/Plugin Repos",
         "",
-        f"检索日期：{today}",
+        f"Search date: {today}",
         "",
-        "范围：AI Agent 相关 skill / plugin / MCP / agent-ready workflow，重点覆盖科研、论文写作、文献检索、Zotero/arXiv/PubMed/Semantic Scholar、生命科学、生物信息、医学研究。未纳入传统科研软件插件生态的全量枚举，也未纳入与科研无明显关系的通用 agent 基础设施。",
+        "Scope: AI-agent-related skills, plugins, MCP servers, and agent-ready workflows, with emphasis on research, paper writing, literature search, Zotero/arXiv/PubMed/Semantic Scholar, life sciences, bioinformatics, and medical research. This catalog does not attempt to enumerate traditional scientific software plugin ecosystems or generic agent infrastructure with no clear research relevance.",
         "",
-        "说明：GitHub Search 不能数学保证全网 100% 完整；本清单由 `data/repos.seed.tsv` 人工维护范围与分类，由 `scripts/update_catalog.py` 拉取或复用 GitHub metadata 并生成。Stars 是检索时 GitHub 返回值，不作为质量判断。部分 2026 新仓库 stars 异常偏高，建议使用前审查源码、license、依赖、联网和文件权限。",
+        "Notes: GitHub Search cannot mathematically guarantee complete coverage. `data/repos.seed.tsv` is the manually maintained source for scope and categories, and `scripts/update_catalog.py` fetches or reuses GitHub metadata to generate the Markdown outputs. Star counts are GitHub metadata, not a quality judgment. Some 2026 repositories have unusually high star counts; review source code, license, dependencies, network behavior, and file permissions before use.",
         "",
     ]
     lines.extend(render_update_instructions())

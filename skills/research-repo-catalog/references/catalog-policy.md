@@ -4,16 +4,16 @@
 
 Use exactly one of these category labels per repo:
 
-- `综合科研 / AI4S Skill Suites`
-- `论文写作 / 审稿 / 投稿 Skills`
-- `文献检索 / 学术搜索 MCP`
-- `Zotero / CNKI / Google Scholar / 文献管理`
-- `生信 / 组学 / 单细胞 Skills`
-- `生物医学 / 临床 / 医学研究`
-- `生物数据库 / 结构生物学 / 化学 / 药物发现 MCP`
-- `科研 Agent Apps / Workspaces`
-- `图表 / PDF / LaTeX / 研究产物工具`
-- `Awesome / Registry / 继续深挖入口`
+- `General Research / AI4S Skill Suites`
+- `Paper Writing / Peer Review / Submission Skills`
+- `Literature Search / Scholarly Search MCP`
+- `Zotero / CNKI / Google Scholar / Reference Management`
+- `Bioinformatics / Omics / Single-Cell Skills`
+- `Biomedical / Clinical / Medical Research`
+- `Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP`
+- `Research Agent Apps / Workspaces`
+- `Figures / PDF / LaTeX / Research Artifact Tools`
+- `Awesome Lists / Registries / Further Discovery`
 
 ## Include
 
