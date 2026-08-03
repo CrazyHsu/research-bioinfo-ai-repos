@@ -48,7 +48,7 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 ## 目录
 
-生成日期：2026-07-27
+生成日期：2026-08-03
 
 ## 更新方式
 
@@ -63,22 +63,22 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Skill suite | 39670 | 2026-07-27 | Academic research skills：research -> write -> review -> revise -> finalize |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Skill suite | 31868 | 2026-07-27 | 科学研究、生物/化学/医学/药物发现，Agent Skills 标准 |
-| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | Skill suite | 13908 | 2026-07-27 | ARIS 自动科研循环、idea discovery、实验自动化 |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | Skill suite | 11138 | 2026-07-27 | AI research and engineering skills，Claude/Codex/Gemini 可用 |
-| [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | Skill suite | 7157 | 2026-07-27 | Codex-native academic research workflow |
-| [openai/plugins](https://github.com/openai/plugins) | Plugin/skills | 4755 | 2026-07-27 | OpenAI Codex plugins，含 life-science-research |
-| [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | Skill library | 3094 | 2026-07-27 | 实证社会科学研究，23,000+ agent skills |
-| [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills) | Skill suite | 2532 | 2026-07-27 | DeepMind science agent skills |
-| [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Skills | 2277 | 2026-07-27 | 中文科研阅读、写作、科学计算 |
-| [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | Skill | 1765 | 2026-07-27 | Structured deep research skill，Claude/OpenCode/Codex |
-| [luwill/research-skills](https://github.com/luwill/research-skills) | Skills | 746 | 2026-07-26 | 常用科研经验和流程封装为 Agent skills |
-| [chrisblattman/claudeblattman](https://github.com/chrisblattman/claudeblattman) | Academic setup | 432 | 2026-07-26 | Claude Code for academics：skills、agents、setup guides |
-| [fcakyon/phd-skills](https://github.com/fcakyon/phd-skills) | Skills | 346 | 2026-07-25 | PhD research：复现、实验设计、paper review、结果比较 |
-| [chtc66/academic-skills](https://github.com/chtc66/academic-skills) | Skills | 324 | 2026-07-27 | 论文阅读、survey、实验总结、rebuttal、lab update |
-| [ai4s-research/ai4s-skills](https://github.com/ai4s-research/ai4s-skills) | Skill suite | 157 | 2026-07-26 | AI for Science：topic exploration、literature survey、实验、写作、integrity audit |
-| [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) | Skill library | 51 | 2026-07-24 | 239 evaluated academic skills，含 bioinformatics/clinical |
+| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Skill suite | 40625 | 2026-08-03 | Academic research skills：research -> write -> review -> revise -> finalize |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Skill suite | 32444 | 2026-08-03 | 科学研究、生物/化学/医学/药物发现，Agent Skills 标准 |
+| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | Skill suite | 14149 | 2026-08-03 | ARIS 自动科研循环、idea discovery、实验自动化 |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | Skill suite | 11342 | 2026-08-03 | AI research and engineering skills，Claude/Codex/Gemini 可用 |
+| [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | Skill suite | 7658 | 2026-08-03 | Codex-native academic research workflow |
+| [openai/plugins](https://github.com/openai/plugins) | Plugin/skills | 4888 | 2026-08-03 | OpenAI Codex plugins，含 life-science-research |
+| [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | Skill library | 3219 | 2026-08-03 | 实证社会科学研究，23,000+ agent skills |
+| [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills) | Skill suite | 2583 | 2026-08-03 | DeepMind science agent skills |
+| [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Skills | 2498 | 2026-08-03 | 中文科研阅读、写作、科学计算 |
+| [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | Skill | 1832 | 2026-08-03 | Structured deep research skill，Claude/OpenCode/Codex |
+| [luwill/research-skills](https://github.com/luwill/research-skills) | Skills | 777 | 2026-08-01 | 常用科研经验和流程封装为 Agent skills |
+| [chrisblattman/claudeblattman](https://github.com/chrisblattman/claudeblattman) | Academic setup | 436 | 2026-07-31 | Claude Code for academics：skills、agents、setup guides |
+| [fcakyon/phd-skills](https://github.com/fcakyon/phd-skills) | Skills | 356 | 2026-08-03 | PhD research：复现、实验设计、paper review、结果比较 |
+| [chtc66/academic-skills](https://github.com/chtc66/academic-skills) | Skills | 324 | 2026-07-31 | 论文阅读、survey、实验总结、rebuttal、lab update |
+| [ai4s-research/ai4s-skills](https://github.com/ai4s-research/ai4s-skills) | Skill suite | 162 | 2026-08-02 | AI for Science：topic exploration、literature survey、实验、写作、integrity audit |
+| [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) | Skill library | 56 | 2026-07-31 | 239 evaluated academic skills，含 bioinformatics/clinical |
 | [s-choung/Research-Skills](https://github.com/s-choung/Research-Skills) | Skills/agents | 30 | 2026-07-23 | 科研写作、图表、文档自动化、韩文学术材料 |
 | [JhonHander/academic-agent-toolkit](https://github.com/JhonHander/academic-agent-toolkit) | Toolkit | 7 | 2026-06-28 | MCP tools + AI research skills 安装工具 |
 
@@ -86,17 +86,17 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | Skills | 5549 | 2026-07-27 | ML/CV/NLP 论文写作，Codex/Claude/Gemini |
-| [WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine) | Skill | 4387 | 2026-07-27 | 论文中心论证、强论文学习、manuscript rewrite、LaTeX-safe audit |
-| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | Plugin/agent | 1519 | 2026-07-26 | 学术写作、审稿、编辑 |
-| [fakerqwq/social-science-paper-writing-skill](https://github.com/fakerqwq/social-science-paper-writing-skill) | Skill | 174 | 2026-07-27 | 社会科学论文写作、选题、文献综述、引用风险检查 |
-| [SNL-UCSB/paper-writing-skill](https://github.com/SNL-UCSB/paper-writing-skill) | Skill | 141 | 2026-07-27 | Brainstorm -> Draft -> Evaluate -> Write -> Compress 论文写作 |
-| [SyntaxSmith/nature-writing-skill](https://github.com/SyntaxSmith/nature-writing-skill) | Skill | 76 | 2026-07-27 | Nature-family paper writing |
-| [cLin-c/paper-skill](https://github.com/cLin-c/paper-skill) | Skill | 69 | 2026-07-27 | 论文写作、润色、审稿、翻译、投稿 |
+| [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | Skills | 5742 | 2026-08-03 | ML/CV/NLP 论文写作，Codex/Claude/Gemini |
+| [WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine) | Skill | 4577 | 2026-08-03 | 论文中心论证、强论文学习、manuscript rewrite、LaTeX-safe audit |
+| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | Plugin/agent | 1521 | 2026-08-03 | 学术写作、审稿、编辑 |
+| [fakerqwq/social-science-paper-writing-skill](https://github.com/fakerqwq/social-science-paper-writing-skill) | Skill | 189 | 2026-08-03 | 社会科学论文写作、选题、文献综述、引用风险检查 |
+| [SNL-UCSB/paper-writing-skill](https://github.com/SNL-UCSB/paper-writing-skill) | Skill | 152 | 2026-08-03 | Brainstorm -> Draft -> Evaluate -> Write -> Compress 论文写作 |
+| [SyntaxSmith/nature-writing-skill](https://github.com/SyntaxSmith/nature-writing-skill) | Skill | 81 | 2026-08-01 | Nature-family paper writing |
+| [cLin-c/paper-skill](https://github.com/cLin-c/paper-skill) | Skill | 71 | 2026-07-31 | 论文写作、润色、审稿、翻译、投稿 |
 | [fuhaoda/stats-paper-writing-agent-skills](https://github.com/fuhaoda/stats-paper-writing-agent-skills) | Skill | 28 | 2026-07-03 | 统计论文写作 agent skills |
 | [MetaQiu/Trivium](https://github.com/MetaQiu/Trivium) | Skill/workflow | 24 | 2026-06-08 | Claude/Codex/Gemini 多 agent 论文协作写作 |
-| [Zhangyanbo/vibe-paper-writing](https://github.com/Zhangyanbo/vibe-paper-writing) | Skill | 22 | 2026-07-07 | 将 notes/chat/emails 整合为 LaTeX 学术论文 |
-| [AGISAFETYLAB/Paper-Writing-skill](https://github.com/AGISAFETYLAB/Paper-Writing-skill) | Skill | 14 | 2026-07-16 | CS、医学、金融论文规划/写作/润色/图表/引用核查 |
+| [Zhangyanbo/vibe-paper-writing](https://github.com/Zhangyanbo/vibe-paper-writing) | Skill | 23 | 2026-07-29 | 将 notes/chat/emails 整合为 LaTeX 学术论文 |
+| [AGISAFETYLAB/Paper-Writing-skill](https://github.com/AGISAFETYLAB/Paper-Writing-skill) | Skill | 16 | 2026-07-29 | CS、医学、金融论文规划/写作/润色/图表/引用核查 |
 | [dailycafi/biomed-paper-writing-skill](https://github.com/dailycafi/biomed-paper-writing-skill) | Skill | 2 | 2026-04-02 | 生物医学/药学论文写作，CONSORT/STROBE/PRISMA/ARRIVE |
 | [Jason-0409-G/scriptorium](https://github.com/Jason-0409-G/scriptorium) | Skill | 1 | 2026-06-25 | DOI-verified literature library、NCBI/UniProt/PDB/AlphaFold、写作与审稿 |
 
@@ -104,27 +104,27 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | MCP | 2987 | 2026-07-27 | arXiv 搜索和论文分析 MCP |
-| [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | MCP/CLI/skills | 2263 | 2026-07-27 | arXiv/PubMed/bioRxiv 等论文检索下载 |
-| [Agents365-ai/asta-skill](https://github.com/Agents365-ai/asta-skill) | Skill | 177 | 2026-07-24 | Asta/Semantic Scholar MCP routing |
-| [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | MCP | 176 | 2026-07-27 | Web of Science/arXiv 等论文检索下载 |
+| [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | MCP | 3017 | 2026-08-03 | arXiv 搜索和论文分析 MCP |
+| [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | MCP/CLI/skills | 2320 | 2026-08-03 | arXiv/PubMed/bioRxiv 等论文检索下载 |
+| [Agents365-ai/asta-skill](https://github.com/Agents365-ai/asta-skill) | Skill | 179 | 2026-08-03 | Asta/Semantic Scholar MCP routing |
+| [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | MCP | 177 | 2026-07-29 | Web of Science/arXiv 等论文检索下载 |
+| [ShZhao27208/Aut_Sci_Write](https://github.com/ShZhao27208/Aut_Sci_Write) | Skill suite | 176 | 2026-08-01 | WoS/Elsevier/Springer 检索下载、综述、Zotero、PPT/HTML |
 | [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | MCP | 170 | 2026-07-20 | PubMed 医学文献搜索 MCP |
-| [ShZhao27208/Aut_Sci_Write](https://github.com/ShZhao27208/Aut_Sci_Write) | Skill suite | 169 | 2026-07-23 | WoS/Elsevier/Springer 检索下载、综述、Zotero、PPT/HTML |
-| [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) | MCP | 161 | 2026-07-20 | Semantic Scholar API FastMCP server |
+| [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) | MCP | 162 | 2026-07-29 | Semantic Scholar API FastMCP server |
 | [Darkroaster/pubmearch](https://github.com/Darkroaster/pubmearch) | MCP | 149 | 2026-07-13 | PubMed MCP server |
-| [takashiishida/arxiv-latex-mcp](https://github.com/takashiishida/arxiv-latex-mcp) | MCP | 142 | 2026-07-24 | arXiv LaTeX source 解析 |
-| [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | MCP | 126 | 2026-07-26 | PubMed/Europe PMC/Unpaywall、MeSH、full text |
-| [JackKuo666/PubMed-MCP-Server](https://github.com/JackKuo666/PubMed-MCP-Server) | MCP | 122 | 2026-07-19 | PubMed 文章搜索、访问、分析 |
-| [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) | MCP | 120 | 2026-07-21 | Semantic Scholar + Crossref |
-| [grll/pubmedmcp](https://github.com/grll/pubmedmcp) | MCP | 118 | 2026-06-27 | PubMed data MCP |
+| [takashiishida/arxiv-latex-mcp](https://github.com/takashiishida/arxiv-latex-mcp) | MCP | 142 | 2026-07-30 | arXiv LaTeX source 解析 |
+| [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | MCP | 128 | 2026-07-30 | PubMed/Europe PMC/Unpaywall、MeSH、full text |
+| [JackKuo666/PubMed-MCP-Server](https://github.com/JackKuo666/PubMed-MCP-Server) | MCP | 123 | 2026-08-02 | PubMed 文章搜索、访问、分析 |
+| [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) | MCP | 119 | 2026-08-02 | Semantic Scholar + Crossref |
+| [grll/pubmedmcp](https://github.com/grll/pubmedmcp) | MCP | 119 | 2026-08-02 | PubMed data MCP |
 | [JackKuo666/semanticscholar-MCP-Server](https://github.com/JackKuo666/semanticscholar-MCP-Server) | MCP | 77 | 2026-07-10 | Semantic Scholar paper/author/citation/reference |
 | [benedict2310/Scientific-Papers-MCP](https://github.com/benedict2310/Scientific-Papers-MCP) | MCP | 54 | 2026-07-21 | arXiv + OpenAlex scientific papers |
 | [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | MCP/REST | 42 | 2026-07-20 | Scientific paper evidence search |
-| [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | MCP | 29 | 2026-07-21 | Semantic Scholar paper search and analysis |
+| [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | MCP | 30 | 2026-07-31 | Semantic Scholar paper search and analysis |
 | [masa-med-ai/pubmed-systematic-review](https://github.com/masa-med-ai/pubmed-systematic-review) | Skill | 25 | 2026-06-26 | 与 PubMed MCP 联动做简易 systematic review |
 | [lstudlo/ScholarMCP](https://github.com/lstudlo/ScholarMCP) | MCP | 23 | 2026-07-23 | 文献搜索、PDF ingestion、引用管理 |
-| [u9401066/pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) | MCP | 23 | 2026-07-23 | PubMed/Europe PMC/CORE/OpenAlex、citation networks、PICO |
-| [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | Skill | 21 | 2026-07-13 | 20+ scholarly databases 多源检索与 PDF 获取 |
+| [u9401066/pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) | MCP | 23 | 2026-08-03 | PubMed/Europe PMC/CORE/OpenAlex、citation networks、PICO |
+| [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | Skill | 22 | 2026-08-01 | 20+ scholarly databases 多源检索与 PDF 获取 |
 | [zongmin-yu/semantic-scholar-skills](https://github.com/zongmin-yu/semantic-scholar-skills) | Skill/MCP | 19 | 2026-07-10 | S2-first discovery engine |
 | [aringadre76/mcp-for-research](https://github.com/aringadre76/mcp-for-research) | MCP | 14 | 2026-07-13 | PubMed、Google Scholar、arXiv、JSTOR |
 
@@ -132,17 +132,17 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) | MCP | 4432 | 2026-07-27 | Zotero library 接入 Claude/AI assistant |
-| [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) | Zotero plugin/MCP | 2560 | 2026-07-27 | Zotero AI/MCP 插件，多模型论文问答 |
-| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | Zotero agent | 2425 | 2026-07-27 | 基于 Zotero library 的 research agent system |
-| [cookjohn/zotero-mcp](https://github.com/cookjohn/zotero-mcp) | Zotero plugin/MCP | 1040 | 2026-07-26 | Zotero 与 AI assistant 深度集成 |
-| [cookjohn/cnki-skills](https://github.com/cookjohn/cnki-skills) | Skills | 791 | 2026-07-26 | CNKI 检索、PDF、Zotero 导出 |
-| [cookjohn/gs-skills](https://github.com/cookjohn/gs-skills) | Skills | 463 | 2026-07-26 | Google Scholar 检索、引用追踪、Zotero 导出 |
-| [introfini/ZotSeek](https://github.com/introfini/ZotSeek) | Zotero plugin/MCP | 166 | 2026-07-26 | Zotero 语义搜索，本地隐私，内置 MCP |
+| [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) | MCP | 4521 | 2026-08-03 | Zotero library 接入 Claude/AI assistant |
+| [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) | Zotero plugin/MCP | 2580 | 2026-08-03 | Zotero AI/MCP 插件，多模型论文问答 |
+| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | Zotero agent | 2503 | 2026-08-03 | 基于 Zotero library 的 research agent system |
+| [cookjohn/zotero-mcp](https://github.com/cookjohn/zotero-mcp) | Zotero plugin/MCP | 1052 | 2026-08-02 | Zotero 与 AI assistant 深度集成 |
+| [cookjohn/cnki-skills](https://github.com/cookjohn/cnki-skills) | Skills | 810 | 2026-08-03 | CNKI 检索、PDF、Zotero 导出 |
+| [cookjohn/gs-skills](https://github.com/cookjohn/gs-skills) | Skills | 470 | 2026-08-02 | Google Scholar 检索、引用追踪、Zotero 导出 |
+| [introfini/ZotSeek](https://github.com/introfini/ZotSeek) | Zotero plugin/MCP | 175 | 2026-08-03 | Zotero 语义搜索，本地隐私，内置 MCP |
 | [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero) | MCP | 165 | 2026-07-25 | Claude Desktop 连接 Zotero Cloud |
-| [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp) | MCP | 158 | 2026-07-09 | Zotero API MCP server |
-| [TonybotNi/ZotLink](https://github.com/TonybotNi/ZotLink) | MCP | 138 | 2026-07-25 | 保存 arXiv/CVF/bioRxiv/medRxiv 到 Zotero |
-| [dralkh/seerai](https://github.com/dralkh/seerai) | Zotero plugin/MCP | 71 | 2026-07-26 | Zotero AI plugin，RAG、OCR、systematic reviews、MCP、skills |
+| [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp) | MCP | 159 | 2026-08-01 | Zotero API MCP server |
+| [TonybotNi/ZotLink](https://github.com/TonybotNi/ZotLink) | MCP | 137 | 2026-08-02 | 保存 arXiv/CVF/bioRxiv/medRxiv 到 Zotero |
+| [dralkh/seerai](https://github.com/dralkh/seerai) | Zotero plugin/MCP | 73 | 2026-07-31 | Zotero AI plugin，RAG、OCR、systematic reviews、MCP、skills |
 | [gyger/mcp-pyzotero](https://github.com/gyger/mcp-pyzotero) | MCP | 56 | 2026-07-18 | 本地 Zotero MCP connector |
 | [Xevos117/mcp-zotero](https://github.com/Xevos117/mcp-zotero) | MCP | 33 | 2026-07-27 | Zotero library operations、DOI、PDF、Unpaywall、docx citation fields |
 | [cookjohn/pm-skills](https://github.com/cookjohn/pm-skills) | Skills | 17 | 2026-06-14 | PubMed literature search、citation export、Zotero |
@@ -151,94 +151,94 @@ GitHub Actions 每周自动刷新 metadata；只有生成内容发生变化时�
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | Skill suite | 1082 | 2026-07-27 | RNA-seq、scRNA、variant、multi-omics |
-| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | Skill library | 285 | 2026-07-27 | 197 个生命科学/生信 skills |
-| [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | Agent app | 154 | 2026-07-24 | 多组学分析到论文生成 |
-| [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | Skill suite | 149 | 2026-07-22 | 蛋白设计 |
-| [swaruplab/operon](https://github.com/swaruplab/operon) | Bioinformatics IDE | 93 | 2026-07-26 | Claude Code 生信 IDE/protocols |
+| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) | Skill suite | 1107 | 2026-08-03 | RNA-seq、scRNA、variant、multi-omics |
+| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | Skill library | 293 | 2026-08-03 | 197 个生命科学/生信 skills |
+| [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | Agent app | 155 | 2026-08-02 | 多组学分析到论文生成 |
+| [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | Skill suite | 150 | 2026-07-31 | 蛋白设计 |
+| [swaruplab/operon](https://github.com/swaruplab/operon) | Bioinformatics IDE | 94 | 2026-08-01 | Claude Code 生信 IDE/protocols |
 | [charlesxu90/ProteinMCP](https://github.com/charlesxu90/ProteinMCP) | Agentic framework/MCP suite | 63 | 2026-07-21 | 自主蛋白工程 agentic framework，含 Claude Code workflow skills 和 38 个 MCP |
 | [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) | MCP/skills | 59 | 2026-07-25 | 查询 78 个 bioinformatics workflows 的知识图谱 |
-| [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | MCP | 42 | 2026-07-26 | 空间转录组自然语言分析 |
+| [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | MCP | 43 | 2026-07-29 | 空间转录组自然语言分析 |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | Skill framework | 36 | 2026-06-24 | 计算生物学 skills 发现/验证 |
 | [Agents365-ai/seurat-skill](https://github.com/Agents365-ai/seurat-skill) | Skill | 3 | 2026-05-14 | Seurat v5 single-cell analysis |
+| [Bioconductor/ai-agent-skills](https://github.com/Bioconductor/ai-agent-skills) | Skill suite | 3 | 2026-08-02 | R/Bioconductor 与统计生信 |
 | [igvteam/igv-mcp](https://github.com/igvteam/igv-mcp) | MCP | 3 | 2026-07-23 | IGV genome viewer 控制 |
-| [Bioconductor/ai-agent-skills](https://github.com/Bioconductor/ai-agent-skills) | Skill suite | 0 | 2026-07-20 | R/Bioconductor 与统计生信 |
 
 ## 生物医学 / 临床 / 医学研究
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | Skill library | 2887 | 2026-07-27 | OpenClaw 医学 AI skills 大型集合 |
-| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | Tool/skills | 1595 | 2026-07-27 | 生物医学 AI scientist 工具宇宙 |
-| [aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills) | Skill suite | 1537 | 2026-07-27 | 医学研究、protocol、数据分析、学术写作 |
-| [LeonChaoX/qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) | Skill library | 722 | 2026-07-27 | 177 个学术研究 skills，含生信、药物发现、临床医学 |
-| [genomoncology/biomcp](https://github.com/genomoncology/biomcp) | MCP | 557 | 2026-07-27 | BioMCP：临床试验、基因数据、医学文献 |
-| [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | Marketplace | 552 | 2026-07-27 | Claude life-sciences MCP/skills 目录 |
-| [Cicatriiz/healthcare-mcp-public](https://github.com/Cicatriiz/healthcare-mcp-public) | MCP | 124 | 2026-07-17 | FDA、PubMed、medRxiv、临床试验、ICD-10 等医疗数据 |
-| [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) | MCP | 106 | 2026-07-26 | FDA、WHO、PubMed、Google Scholar、RxNorm |
+| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | Skill library | 2905 | 2026-08-02 | OpenClaw 医学 AI skills 大型集合 |
+| [aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills) | Skill suite | 1617 | 2026-08-03 | 医学研究、protocol、数据分析、学术写作 |
+| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | Tool/skills | 1603 | 2026-08-03 | 生物医学 AI scientist 工具宇宙 |
+| [LeonChaoX/qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) | Skill library | 752 | 2026-08-03 | 177 个学术研究 skills，含生信、药物发现、临床医学 |
+| [genomoncology/biomcp](https://github.com/genomoncology/biomcp) | MCP | 565 | 2026-08-03 | BioMCP：临床试验、基因数据、医学文献 |
+| [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | Marketplace | 562 | 2026-08-02 | Claude life-sciences MCP/skills 目录 |
+| [Cicatriiz/healthcare-mcp-public](https://github.com/Cicatriiz/healthcare-mcp-public) | MCP | 125 | 2026-07-27 | FDA、PubMed、medRxiv、临床试验、ICD-10 等医疗数据 |
+| [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) | MCP | 107 | 2026-08-02 | FDA、WHO、PubMed、Google Scholar、RxNorm |
 | [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | MCP | 83 | 2026-07-26 | ClinicalTrials.gov 搜索、详情、结果、患者匹配 |
 | [lynnlangit/precision-medicine-mcp](https://github.com/lynnlangit/precision-medicine-mcp) | MCP platform | 22 | 2026-07-21 | Precision medicine，多组学/基因组/空间转录组 |
 | [pascalwhoop/medical-mcps](https://github.com/pascalwhoop/medical-mcps) | MCP collection | 22 | 2026-07-02 | 主要 biomedical databases MCP 工具集合 |
 | [JackKuo666/ClinicalTrials-MCP-Server](https://github.com/JackKuo666/ClinicalTrials-MCP-Server) | MCP | 16 | 2026-04-23 | ClinicalTrials.gov |
-| [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections) | Skill collection | 14 | 2026-07-13 | Scientific AI agents 的 evidence-grounded skill/tool collections |
+| [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections) | Skill collection | 15 | 2026-07-31 | Scientific AI agents 的 evidence-grounded skill/tool collections |
 
 ## 生物数据库 / 结构生物学 / 化学 / 药物发现 MCP
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
 | [Augmented-Nature/ChEMBL-MCP-Server](https://github.com/Augmented-Nature/ChEMBL-MCP-Server) | MCP | 88 | 2026-06-12 | ChEMBL |
-| [PDBeurope/PDBe-MCP-Servers](https://github.com/PDBeurope/PDBe-MCP-Servers) | MCP | 36 | 2026-07-14 | PDBe/蛋白结构 |
+| [PDBeurope/PDBe-MCP-Servers](https://github.com/PDBeurope/PDBe-MCP-Servers) | MCP | 37 | 2026-08-02 | PDBe/蛋白结构 |
 | [Augmented-Nature/AlphaFold-MCP-Server](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) | MCP | 35 | 2026-06-12 | AlphaFold Protein Structure Database |
 | [longevity-genie/biothings-mcp](https://github.com/longevity-genie/biothings-mcp) | MCP | 33 | 2026-07-05 | BioThings MCP |
-| [ammawla/encode-toolkit](https://github.com/ammawla/encode-toolkit) | MCP/Claude plugin | 30 | 2026-07-23 | ENCODE genomic data toolkit |
 | [longevity-genie/gget-mcp](https://github.com/longevity-genie/gget-mcp) | MCP | 30 | 2026-07-05 | gget 生信工具封装 |
+| [ammawla/encode-toolkit](https://github.com/ammawla/encode-toolkit) | MCP/Claude plugin | 29 | 2026-07-31 | ENCODE genomic data toolkit |
 | [Augmented-Nature/PDB-MCP-Server](https://github.com/Augmented-Nature/PDB-MCP-Server) | MCP | 25 | 2026-06-12 | Protein Data Bank |
 | [Augmented-Nature/Augmented-Nature-UniProt-MCP-Server](https://github.com/Augmented-Nature/Augmented-Nature-UniProt-MCP-Server) | MCP | 19 | 2026-03-29 | UniProt protein database |
 | [nickzren/opentargets-mcp](https://github.com/nickzren/opentargets-mcp) | MCP | 19 | 2026-06-27 | Open Targets |
-| [tamerh/biobtree](https://github.com/tamerh/biobtree) | MCP/graph DB | 19 | 2026-07-20 | BioBTree v2，70+ biomedical datasets |
-| [cyanheads/pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | MCP | 9 | 2026-07-03 | PubChem 化合物、性质、安全、生物活性 |
+| [tamerh/biobtree](https://github.com/tamerh/biobtree) | MCP/graph DB | 19 | 2026-08-03 | BioBTree v2，70+ biomedical datasets |
+| [cyanheads/pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | MCP | 9 | 2026-07-30 | PubChem 化合物、性质、安全、生物活性 |
 | [effieklimi/ensembl-mcp-server](https://github.com/effieklimi/ensembl-mcp-server) | MCP | 8 | 2026-05-28 | Ensembl REST API |
 | [Augmented-Nature/SureChEMBL-MCP-Server](https://github.com/Augmented-Nature/SureChEMBL-MCP-Server) | MCP | 7 | 2026-01-28 | SureChEMBL chemical patent database |
 | [donbr/lifesciences-research](https://github.com/donbr/lifesciences-research) | MCP wrappers | 7 | 2026-06-27 | Open Targets、ChEMBL、UniProt |
 | [hlydecker/ucsc-genome-mcp](https://github.com/hlydecker/ucsc-genome-mcp) | MCP | 6 | 2026-07-05 | UCSC Genome Browser API |
-| [cyanheads/protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | MCP | 5 | 2026-07-03 | PDB + AlphaFold 蛋白结构/注释 federation |
+| [cyanheads/protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | MCP | 5 | 2026-07-30 | PDB + AlphaFold 蛋白结构/注释 federation |
 | [PabloPauling/posebusters-mcp-server](https://github.com/PabloPauling/posebusters-mcp-server) | MCP | 5 | 2026-03-30 | PoseBusters molecular pose validation |
 | [EBISPOT/GrEBI](https://github.com/EBISPOT/GrEBI) | API/MCP | 4 | 2026-07-10 | biomedical data integration，API/MCP server |
-| [smaniches/alphafold-sovereign-mcp](https://github.com/smaniches/alphafold-sovereign-mcp) | MCP | 4 | 2026-07-24 | AlphaFold DB + 8 public sources，本地知识图谱 |
-| [smaniches/uniprot-mcp](https://github.com/smaniches/uniprot-mcp) | MCP | 4 | 2026-07-26 | 可审计 UniProt MCP，release pinning/offline replay |
-| [Lucas-Servi/kegg-mcp-server-python](https://github.com/Lucas-Servi/kegg-mcp-server-python) | MCP | 3 | 2026-07-15 | KEGG REST API |
+| [smaniches/alphafold-sovereign-mcp](https://github.com/smaniches/alphafold-sovereign-mcp) | MCP | 4 | 2026-08-03 | AlphaFold DB + 8 public sources，本地知识图谱 |
+| [Lucas-Servi/kegg-mcp-server-python](https://github.com/Lucas-Servi/kegg-mcp-server-python) | MCP | 3 | 2026-07-30 | KEGG REST API |
+| [smaniches/uniprot-mcp](https://github.com/smaniches/uniprot-mcp) | MCP | 3 | 2026-08-03 | 可审计 UniProt MCP，release pinning/offline replay |
 
 ## 科研 Agent Apps / Workspaces
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Research assistant | 4845 | 2026-07-27 | 研究、实验、写作、投稿，支持 Claude Code/Codex CLI |
-| [yb2460/harness-anything](https://github.com/yb2460/harness-anything) | Agent harness | 1054 | 2026-07-27 | WPS/MS Office/Zotero、academic skills、文档自动化 |
-| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | Agent app | 939 | 2026-07-27 | 基于 scientific-agent-skills 的桌面 AI co-scientist |
-| [beita6969/ScienceClaw](https://github.com/beita6969/ScienceClaw) | Agent app | 870 | 2026-07-23 | 自进化科研 assistant，skills + persistent memory |
-| [AgentTeam-TaichuAI/ScienceClaw](https://github.com/AgentTeam-TaichuAI/ScienceClaw) | Agent app | 563 | 2026-07-24 | LangChain DeepAgents + sandbox 的科研 assistant |
-| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | Research assistant | 310 | 2026-07-24 | 文献综述、笔记、实验跟踪、论文写作 |
-| [WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) | Research workspace | 40 | 2026-07-25 | Zotero、Obsidian、NotebookLM，CLI/MCP/REST/dashboard |
+| [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Research assistant | 4959 | 2026-08-03 | 研究、实验、写作、投稿，支持 Claude Code/Codex CLI |
+| [yb2460/harness-anything](https://github.com/yb2460/harness-anything) | Agent harness | 1345 | 2026-08-03 | WPS/MS Office/Zotero、academic skills、文档自动化 |
+| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | Agent app | 959 | 2026-08-03 | 基于 scientific-agent-skills 的桌面 AI co-scientist |
+| [beita6969/ScienceClaw](https://github.com/beita6969/ScienceClaw) | Agent app | 869 | 2026-08-01 | 自进化科研 assistant，skills + persistent memory |
+| [AgentTeam-TaichuAI/ScienceClaw](https://github.com/AgentTeam-TaichuAI/ScienceClaw) | Agent app | 566 | 2026-08-03 | LangChain DeepAgents + sandbox 的科研 assistant |
+| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | Research assistant | 311 | 2026-07-29 | 文献综述、笔记、实验跟踪、论文写作 |
+| [WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) | Research workspace | 42 | 2026-08-01 | Zotero、Obsidian、NotebookLM，CLI/MCP/REST/dashboard |
 
 ## 图表 / PDF / LaTeX / 研究产物工具
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | Tool/MCP/Zotero | 35808 | 2026-07-27 | 科学 PDF 翻译，保留排版，支持 MCP、Docker、Zotero |
-| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | Research visual tool | 2195 | 2026-07-27 | 自动学术图、diagram、research visuals |
-| [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) | Skill | 133 | 2026-07-19 | 科学绘图 skill，Claude/Codex/Cursor |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | Tool/MCP/Zotero | 35922 | 2026-08-03 | 科学 PDF 翻译，保留排版，支持 MCP、Docker、Zotero |
+| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | Research visual tool | 2212 | 2026-08-02 | 自动学术图、diagram、research visuals |
+| [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) | Skill | 132 | 2026-07-28 | 科学绘图 skill，Claude/Codex/Cursor |
 
 ## Awesome / Registry / 继续深挖入口
 
 | repo | 类型 | stars | last update | 方向 / 备注 |
 |---|---:|---:|---|---|
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Directory | 91436 | 2026-07-27 | 通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节 |
-| [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | Directory | 490 | 2026-07-26 | 科学研究 agent skills 目录 |
-| [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | Skill catalog | 174 | 2026-07-27 | literature review、research design、manuscript writing |
-| [Epsilon617/Codex-Academic-Skills](https://github.com/Epsilon617/Codex-Academic-Skills) | Skills | 157 | 2026-07-26 | Codex research-oriented skills 目录 |
-| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | Directory | 128 | 2026-07-27 | 生物医学 agent skills 目录，覆盖 genomics、proteomics、single-cell、clinical AI、protein design |
-| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | Directory | 78 | 2026-07-25 | genomics/bioinformatics agent skills、MCP、benchmarks |
-| [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | Directory | 14 | 2026-07-26 | academic agent skills，按科研生命周期组织 |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Directory | 91744 | 2026-08-03 | 通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节 |
+| [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | Directory | 499 | 2026-07-31 | 科学研究 agent skills 目录 |
+| [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | Skill catalog | 183 | 2026-08-02 | literature review、research design、manuscript writing |
+| [Epsilon617/Codex-Academic-Skills](https://github.com/Epsilon617/Codex-Academic-Skills) | Skills | 160 | 2026-08-02 | Codex research-oriented skills 目录 |
+| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | Directory | 132 | 2026-08-02 | 生物医学 agent skills 目录，覆盖 genomics、proteomics、single-cell、clinical AI、protein design |
+| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | Directory | 81 | 2026-07-30 | genomics/bioinformatics agent skills、MCP、benchmarks |
+| [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | Directory | 14 | 2026-08-02 | academic agent skills，按科研生命周期组织 |
 | [Harsh9005/awesome-scientific-ai-tools](https://github.com/Harsh9005/awesome-scientific-ai-tools) | Directory | 7 | 2026-07-02 | 科学研究 AI tools、MCP、agent skills |
 | [chrisliu298/awesome-research-agents](https://github.com/chrisliu298/awesome-research-agents) | Directory | 3 | 2026-06-29 | research agents、skill libraries、autonomous research loops、paper-writing pipelines |
 | [Agents365-ai/awesome-ai-for-science-skills](https://github.com/Agents365-ai/awesome-ai-for-science-skills) | Directory | 1 | 2026-05-11 | AI for Science skills/MCP/Agent SDK 目录 |
