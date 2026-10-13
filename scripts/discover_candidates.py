@@ -495,6 +495,12 @@ def compact_sources(text: str, limit: int = 3) -> str:
     return f"{rendered} (+{extra} more)" if extra > 0 else rendered
 
 
+def safe_description(text: str) -> str:
+    """Keep descriptions from being mistaken for repo cells: drop markdown link syntax."""
+    text = re.sub(r"\[([^\]]*)\]\(([^)]*)\)", r"\1 (\2)", text)
+    return text
+
+
 def render_row(row: dict[str, str]) -> str:
     repo = clean_cell(row.get("repo"))
     url = clean_cell(row.get("url")) or f"https://github.com/{repo}"
@@ -508,7 +514,7 @@ def render_row(row: dict[str, str]) -> str:
         clean_cell(row.get("first_seen")),
         clean_cell(row.get("times_seen")) or "1",
         compact_sources(clean_cell(row.get("sources"))),
-        clean_cell(row.get("description")),
+        safe_description(clean_cell(row.get("description"))),
     ]) + " |"
 
 
@@ -590,7 +596,7 @@ def check_candidates(output_path: Path, seed_rows: list[dict[str, str]], triage:
         errors.append("candidate report missing last push column")
     seeded = seed_keys(seed_rows)
     seen_in_report: set[str] = set()
-    for match in re.finditer(r"\|\s*\[([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\]\(", text):
+    for match in re.finditer(r"^\|\s*\[([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\]\(", text, flags=re.MULTILINE):
         key = match.group(1).lower()
         if key in seeded:
             errors.append(f"candidate report includes already seeded repo: {match.group(1)}")

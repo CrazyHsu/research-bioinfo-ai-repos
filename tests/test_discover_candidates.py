@@ -176,6 +176,7 @@ class RenderAndCheckTests(unittest.TestCase):
                 "old/two": {"repo": "old/two", "url": "https://github.com/old/two", "first_seen": "2026-07-13", "last_seen": "2026-10-13", "times_seen": "14", "last_stars": "30", "sources": "search:q", "suggested_category": "C", "suggested_type": "skill", "description": "y"},
                 "bad/three": {"repo": "bad/three", "url": "https://github.com/bad/three", "first_seen": "2026-07-13", "last_seen": "2026-10-13", "times_seen": "14", "last_stars": "1", "sources": "search:q", "suggested_category": "C", "suggested_type": "skill", "description": "z"},
                 "later/four": {"repo": "later/four", "url": "https://github.com/later/four", "first_seen": "2026-08-01", "last_seen": "2026-10-13", "times_seen": "5", "last_stars": "7", "sources": "search:q", "suggested_category": "C", "suggested_type": "skill", "description": "w"},
+                "mirror/five": {"repo": "mirror/five", "url": "https://github.com/mirror/five", "first_seen": "2026-10-13", "last_seen": "2026-10-13", "times_seen": "1", "last_stars": "2", "sources": "search:q", "suggested_category": "C", "suggested_type": "skill", "description": "[x/skill](https://github.com/x/skill) mirror of [mirror/five](https://github.com/mirror/five)"},
             }
             triage = {
                 "bad/three": {"repo": "bad/three", "decision": "reject", "reason": "paper list", "date": "2026-10-13"},
@@ -184,12 +185,13 @@ class RenderAndCheckTests(unittest.TestCase):
             queries = [{"query": "q", "target_category": "C", "sort": "stars"}]
             dc.render_candidates(seen, triage, set(), queries, ["q: boom"], "2026-10-13", {"queries": 1, "hits": 2}, output)
             text = output.read_text(encoding="utf-8")
-            self.assertIn("## New this run (1)", text)
+            self.assertIn("## New this run (2)", text)
             self.assertIn("## Seen before, not yet triaged (1)", text)
             self.assertIn("## Deferred (1)", text)
             self.assertNotIn("bad/three", text)
             self.assertIn("[later/four]", text)
             self.assertIn("## Search Warnings", text)
+            self.assertIn("x/skill (https://github.com/x/skill) mirror of mirror/five (https://github.com/mirror/five)", text)
             out, err = io.StringIO(), io.StringIO()
             with redirect_stdout(out), redirect_stderr(err):
                 code = dc.check_candidates(output, [{"repo": "x/skill"}], triage)

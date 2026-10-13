@@ -32,7 +32,7 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 ## 目录
 
 <!-- CATALOG:START -->
-元数据刷新于 2026-10-12（UTC）：159 个仓库，12 个分类。stars 与最近 push 日期来自 GitHub REST API；`(已归档)` 表示仓库已归档。license、语言、topics、接口形态、宿主等完整字段见 `data/repos.curated.tsv` 与 `catalog.json`。
+元数据刷新于 2026-10-12（UTC）：155 个仓库，12 个分类。stars 与最近 push 日期来自 GitHub REST API；`(已归档)` 表示仓库已归档。license、语言、topics、接口形态、宿主等完整字段见 `data/repos.curated.tsv` 与 `catalog.json`。
 25 个新加入的仓库标记为 `待抓取`：其元数据将在下一次定时刷新时补全。
 
 
@@ -96,7 +96,6 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | mcp-server | 2799 | 2026-10-12 | arXiv/PubMed/bioRxiv 等论文检索下载 |
 | [ShZhao27208/Aut_Sci_Write](https://github.com/ShZhao27208/Aut_Sci_Write) | skill-suite | 210 | 2026-10-10 | WoS/Elsevier/Springer 检索下载、综述、Zotero、PPT/HTML |
 | [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | mcp-server | 186 | 2026-10-10 | Web of Science/arXiv 等论文检索下载 |
-| [Agents365-ai/asta-skill](https://github.com/Agents365-ai/asta-skill) | skill | 182 | 2026-08-31 | 面向 Asta/Semantic Scholar MCP 的路由 skill |
 | [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | mcp-server | 172 | 2026-09-10 | PubMed 医学文献搜索 MCP |
 | [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) | mcp-server | 165 | 2026-09-16 | 基于 FastMCP 的 Semantic Scholar API server |
 | [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | mcp-server | 159 | 2026-10-10 | PubMed/Europe PMC/Unpaywall、MeSH、full text |
@@ -107,7 +106,6 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 | [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) | mcp-server | 116 | 2026-09-28 | Semantic Scholar 与 Crossref 检索 MCP |
 | [JackKuo666/semanticscholar-MCP-Server](https://github.com/JackKuo666/semanticscholar-MCP-Server) | mcp-server | 86 | 2026-09-29 | Semantic Scholar 论文/作者/引用/参考文献 MCP |
 | [benedict2310/Scientific-Papers-MCP](https://github.com/benedict2310/Scientific-Papers-MCP) | mcp-server | 60 | 2026-10-09 | arXiv 与 OpenAlex 论文检索 MCP |
-| [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | mcp-server | 42 | 2026-07-20 | 面向科学论文的证据检索 MCP/REST |
 | [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | mcp-server | 36 | 2026-10-09 | Semantic Scholar 论文检索与分析 MCP |
 | [lstudlo/ScholarMCP](https://github.com/lstudlo/ScholarMCP) | mcp-server | 32 | 2026-10-10 | 文献搜索、PDF ingestion、引用管理 |
 | [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | skill | 29 | 2026-09-15 | 20+ scholarly databases 多源检索与 PDF 获取 |
@@ -151,7 +149,6 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 | [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | mcp-server | 44 | 2026-10-12 | 空间转录组自然语言分析 |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | framework | 42 | 2026-10-06 | 计算生物学 skills 发现/验证 |
 | [Bioconductor/ai-agent-skills](https://github.com/Bioconductor/ai-agent-skills) | skill-suite | 8 | 2026-10-07 | R/Bioconductor 与统计生信 |
-| [Agents365-ai/seurat-skill](https://github.com/Agents365-ai/seurat-skill) | skill | 4 | 2026-08-28 | Seurat v5 单细胞分析 skill |
 | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | skill-suite | 待抓取 |  | 生信原生 agent skill 库：95 个带示例数据的 skills、Galaxy 工具封装，支持 pip/conda 安装，并提供 Claude Code plugin 与 MCP server |
 | [scmcphub/scanpy-mcp](https://github.com/scmcphub/scanpy-mcp) | mcp-server | 待抓取 |  | Scanpy MCP：覆盖读写、预处理、聚类、差异表达与绘图 |
 | [scmcphub/scmcp](https://github.com/scmcphub/scmcp) | mcp-suite | 待抓取 |  | 自然语言驱动的 scRNA-seq 分析 MCP，同时作为 scanpy-mcp、liana-mcp、cellrank-mcp 共享 AnnData 的后端 |
@@ -261,7 +258,6 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 | [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | directory | 47 | 2026-10-12 | academic agent skills，按科研生命周期组织 |
 | [Harsh9005/awesome-scientific-ai-tools](https://github.com/Harsh9005/awesome-scientific-ai-tools) | directory | 10 | 2026-09-26 | 科学研究 AI tools、MCP、agent skills |
 | [chrisliu298/awesome-research-agents](https://github.com/chrisliu298/awesome-research-agents) | directory | 3 | 2026-06-29 | research agents、skill libraries、autonomous research loops、paper-writing pipelines |
-| [Agents365-ai/awesome-ai-for-science-skills](https://github.com/Agents365-ai/awesome-ai-for-science-skills) | directory | 1 | 2026-05-11 | AI for Science skills/MCP/Agent SDK 目录 |
 | [biocontext-ai/meta-mcp](https://github.com/biocontext-ai/meta-mcp) | mcp-server | 待抓取 |  | 以极小上下文开销访问 BioContextAI 注册表中全部 server 的 Meta MCP |
 | [biocontext-ai/registry](https://github.com/biocontext-ai/registry) | registry | 待抓取 |  | BioContextAI 生物医学 MCP server 注册表，同时是本目录的候选来源 |
 | [JuneYaooo/awesome-medical-ai-skills](https://github.com/JuneYaooo/awesome-medical-ai-skills) | directory | 待抓取 |  | 医疗健康领域 agent skills、MCP server 与工具的人工目录 |

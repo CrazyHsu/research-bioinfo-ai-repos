@@ -35,7 +35,7 @@ blazickjp/arxiv-mcp-server	Literature Search / Scholarly Search MCP	mcp-server	M
 openags/paper-search-mcp	Literature Search / Scholarly Search MCP	mcp-server	MCP/CLI/skills	mcp,skill,tool		research		Paper search and download for arXiv, PubMed, bioRxiv, and related sources	arXiv/PubMed/bioRxiv 等论文检索下载	yes
 Dianel555/paper-search-mcp-nodejs	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		Paper search and download for Web of Science, arXiv, and related sources	Web of Science/arXiv 等论文检索下载	yes
 andybrandt/mcp-simple-pubmed	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		bio		PubMed medical literature search MCP	PubMed 医学文献搜索 MCP	yes
-Agents365-ai/asta-skill	Literature Search / Scholarly Search MCP	skill	Skill	skill		research		Asta/Semantic Scholar MCP routing	面向 Asta/Semantic Scholar MCP 的路由 skill	yes
+Agents365-ai/asta-skill	Literature Search / Scholarly Search MCP	skill	Skill	skill		research		Asta/Semantic Scholar MCP routing	面向 Asta/Semantic Scholar MCP 的路由 skill	no
 ShZhao27208/Aut_Sci_Write	Literature Search / Scholarly Search MCP	skill-suite	Skill suite	skill		research		WoS, Elsevier, and Springer search/download, reviews, Zotero, PPT, and HTML	WoS/Elsevier/Springer 检索下载、综述、Zotero、PPT/HTML	yes
 zongmin-yu/semantic-scholar-fastmcp-mcp-server	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		Semantic Scholar API FastMCP server	基于 FastMCP 的 Semantic Scholar API server	yes
 Darkroaster/pubmearch	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		bio		PubMed search and analysis MCP (Python)	PubMed 检索与分析 MCP（Python）	yes
@@ -45,7 +45,7 @@ JackKuo666/PubMed-MCP-Server	Literature Search / Scholarly Search MCP	mcp-server
 grll/pubmedmcp	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		bio		PubMed data MCP (Python)	PubMed 数据查询 MCP（Python）	yes
 afrise/academic-search-mcp-server	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		Semantic Scholar and Crossref search MCP	Semantic Scholar 与 Crossref 检索 MCP	yes
 benedict2310/Scientific-Papers-MCP	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		arXiv + OpenAlex scientific papers	arXiv 与 OpenAlex 论文检索 MCP	yes
-connerlambden/bgpt-mcp	Literature Search / Scholarly Search MCP	mcp-server	MCP/REST	mcp,tool		research		Scientific paper evidence search	面向科学论文的证据检索 MCP/REST	yes
+connerlambden/bgpt-mcp	Literature Search / Scholarly Search MCP	mcp-server	MCP/REST	mcp,tool		research		Scientific paper evidence search	面向科学论文的证据检索 MCP/REST	no
 akapet00/semantic-scholar-mcp	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		Semantic Scholar paper search and analysis	Semantic Scholar 论文检索与分析 MCP	yes
 masa-med-ai/pubmed-systematic-review	Literature Search / Scholarly Search MCP	skill	Skill	skill		bio		Lightweight systematic reviews integrated with a PubMed MCP	与 PubMed MCP 联动做简易 systematic review	yes
 lstudlo/ScholarMCP	Literature Search / Scholarly Search MCP	mcp-server	MCP	mcp		research		Literature search, PDF ingestion, and reference management	文献搜索、PDF ingestion、引用管理	yes
@@ -78,7 +78,7 @@ swaruplab/operon	Bioinformatics / Omics / Single-Cell Skills	agent-app	Bioinform
 variomeanalytics/bioinformatics-agent-skills	Bioinformatics / Omics / Single-Cell Skills	mcp-server	MCP/skills	mcp,skill		bio		Knowledge graph over 78 bioinformatics workflows	查询 78 个 bioinformatics workflows 的知识图谱	yes
 cafferychen777/ChatSpatial	Bioinformatics / Omics / Single-Cell Skills	mcp-server	MCP	mcp		bio		Natural-language analysis for spatial transcriptomics	空间转录组自然语言分析	yes
 ma-compbio-lab/SkillFoundry	Bioinformatics / Omics / Single-Cell Skills	framework	Skill framework	framework,skill		bio		Computational biology skill discovery and validation	计算生物学 skills 发现/验证	yes
-Agents365-ai/seurat-skill	Bioinformatics / Omics / Single-Cell Skills	skill	Skill	skill		bio		Seurat v5 single-cell analysis	Seurat v5 单细胞分析 skill	yes
+Agents365-ai/seurat-skill	Bioinformatics / Omics / Single-Cell Skills	skill	Skill	skill		bio		Seurat v5 single-cell analysis	Seurat v5 单细胞分析 skill	no
 Bioconductor/ai-agent-skills	Bioinformatics / Omics / Single-Cell Skills	skill-suite	Skill suite	skill		bio		R/Bioconductor and statistical bioinformatics	R/Bioconductor 与统计生信	yes
 ClawBio/ClawBio	Bioinformatics / Omics / Single-Cell Skills	skill-suite		skill,plugin,mcp	claude-code,cursor,vscode	bio		Bioinformatics-native agent skill library: 95 skills with demo data, Galaxy tool wrappers, pip/conda install, Claude Code plugin and MCP server	生信原生 agent skill 库：95 个带示例数据的 skills、Galaxy 工具封装，支持 pip/conda 安装，并提供 Claude Code plugin 与 MCP server	yes
 scmcphub/scmcp	Bioinformatics / Omics / Single-Cell Skills	mcp-suite		mcp		bio		Natural-language scRNA-seq analysis MCP; also the shared AnnData backend for scanpy-mcp, liana-mcp, and cellrank-mcp	自然语言驱动的 scRNA-seq 分析 MCP，同时作为 scanpy-mcp、liana-mcp、cellrank-mcp 共享 AnnData 的后端	yes
@@ -152,7 +152,7 @@ GoekeLab/awesome-genomic-skills	Awesome Lists / Registries / Further Discovery	d
 O0000-code/awesome-academic-skills	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		Academic agent skills organized by the research lifecycle	academic agent skills，按科研生命周期组织	yes
 Harsh9005/awesome-scientific-ai-tools	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		AI tools, MCP servers, and agent skills for scientific research	科学研究 AI tools、MCP、agent skills	yes
 chrisliu298/awesome-research-agents	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		research agents, skill libraries, autonomous research loops, paper-writing pipelines	research agents、skill libraries、autonomous research loops、paper-writing pipelines	yes
-Agents365-ai/awesome-ai-for-science-skills	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		AI for Science skills, MCP, and Agent SDK directory	AI for Science skills/MCP/Agent SDK 目录	yes
+Agents365-ai/awesome-ai-for-science-skills	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		AI for Science skills, MCP, and Agent SDK directory	AI for Science skills/MCP/Agent SDK 目录	no
 InternScience/Awesome-Scientific-Skills	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		research		Scientific research agent skills directory	科学研究 agent skills 目录	yes
 punkpeye/awesome-mcp-servers	Awesome Lists / Registries / Further Discovery	directory	Directory	directory		general		General MCP directory with Biology, Medicine, and Bioinformatics sections	通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节	yes
 biocontext-ai/registry	Awesome Lists / Registries / Further Discovery	registry		registry		bio		BioContextAI registry of biomedical MCP servers; also a discovery source for this catalog	BioContextAI 生物医学 MCP server 注册表，同时是本目录的候选来源	yes

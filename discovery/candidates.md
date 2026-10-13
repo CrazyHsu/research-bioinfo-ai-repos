@@ -7,7 +7,7 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - Queries run: 101 (see `data/discovery_queries.tsv`)
 - Search hits after filtering: 0
 - Awesome-list references scanned: 0 from 0 directories
-- Candidates tracked: 10 (0 untriaged, 4 deferred, 5 rejected, 7 accepted)
+- Candidates tracked: 10 (0 untriaged, 4 deferred, 9 rejected, 7 accepted)
 
 Rendered offline from the state files; no searches were run.
 

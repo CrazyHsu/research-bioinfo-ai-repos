@@ -5,7 +5,7 @@ Scope: AI-agent-related skills, plugins, MCP servers, and agent-ready workflows,
 Notes: GitHub Search cannot guarantee complete coverage. `data/repos.seed.tsv` is the manually maintained source for scope and categories, and `scripts/update_catalog.py` fetches GitHub metadata to generate this page. Star counts are GitHub metadata, not a quality judgment. Review source code, license, dependencies, network behavior, and file permissions before using any repository with your data.
 
 <!-- CATALOG:START -->
-Metadata refreshed on 2026-10-12 (UTC): 159 repositories in 12 categories. Stars and last-push dates come from the GitHub REST API; `(archived)` marks archived repositories. All fields, including license, language, topics, interfaces, and hosts, are in `data/repos.curated.tsv` and `catalog.json`.
+Metadata refreshed on 2026-10-12 (UTC): 155 repositories in 12 categories. Stars and last-push dates come from the GitHub REST API; `(archived)` marks archived repositories. All fields, including license, language, topics, interfaces, and hosts, are in `data/repos.curated.tsv` and `catalog.json`.
 25 newly seeded repositories are marked `pending`: their metadata is filled in by the next scheduled refresh.
 
 
@@ -69,7 +69,6 @@ Refresh of 2026-10-12 compared with 2026-10-05. Full history: [CHANGELOG.md](CHA
 | [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | mcp-server | 2799 | 2026-10-12 | Paper search and download for arXiv, PubMed, bioRxiv, and related sources |
 | [ShZhao27208/Aut_Sci_Write](https://github.com/ShZhao27208/Aut_Sci_Write) | skill-suite | 210 | 2026-10-10 | WoS, Elsevier, and Springer search/download, reviews, Zotero, PPT, and HTML |
 | [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | mcp-server | 186 | 2026-10-10 | Paper search and download for Web of Science, arXiv, and related sources |
-| [Agents365-ai/asta-skill](https://github.com/Agents365-ai/asta-skill) | skill | 182 | 2026-08-31 | Asta/Semantic Scholar MCP routing |
 | [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | mcp-server | 172 | 2026-09-10 | PubMed medical literature search MCP |
 | [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) | mcp-server | 165 | 2026-09-16 | Semantic Scholar API FastMCP server |
 | [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | mcp-server | 159 | 2026-10-10 | PubMed/Europe PMC/Unpaywall, MeSH, full text |
@@ -80,7 +79,6 @@ Refresh of 2026-10-12 compared with 2026-10-05. Full history: [CHANGELOG.md](CHA
 | [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) | mcp-server | 116 | 2026-09-28 | Semantic Scholar and Crossref search MCP |
 | [JackKuo666/semanticscholar-MCP-Server](https://github.com/JackKuo666/semanticscholar-MCP-Server) | mcp-server | 86 | 2026-09-29 | Semantic Scholar paper/author/citation/reference |
 | [benedict2310/Scientific-Papers-MCP](https://github.com/benedict2310/Scientific-Papers-MCP) | mcp-server | 60 | 2026-10-09 | arXiv + OpenAlex scientific papers |
-| [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp) | mcp-server | 42 | 2026-07-20 | Scientific paper evidence search |
 | [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | mcp-server | 36 | 2026-10-09 | Semantic Scholar paper search and analysis |
 | [lstudlo/ScholarMCP](https://github.com/lstudlo/ScholarMCP) | mcp-server | 32 | 2026-10-10 | Literature search, PDF ingestion, and reference management |
 | [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | skill | 29 | 2026-09-15 | 20+ scholarly databases with multi-source search and PDF retrieval |
@@ -124,7 +122,6 @@ Refresh of 2026-10-12 compared with 2026-10-05. Full history: [CHANGELOG.md](CHA
 | [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | mcp-server | 44 | 2026-10-12 | Natural-language analysis for spatial transcriptomics |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | framework | 42 | 2026-10-06 | Computational biology skill discovery and validation |
 | [Bioconductor/ai-agent-skills](https://github.com/Bioconductor/ai-agent-skills) | skill-suite | 8 | 2026-10-07 | R/Bioconductor and statistical bioinformatics |
-| [Agents365-ai/seurat-skill](https://github.com/Agents365-ai/seurat-skill) | skill | 4 | 2026-08-28 | Seurat v5 single-cell analysis |
 | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | skill-suite | pending |  | Bioinformatics-native agent skill library: 95 skills with demo data, Galaxy tool wrappers, pip/conda install, Claude Code plugin and MCP server |
 | [scmcphub/scanpy-mcp](https://github.com/scmcphub/scanpy-mcp) | mcp-server | pending |  | Scanpy MCP covering IO, preprocessing, clustering, differential expression, and plotting |
 | [scmcphub/scmcp](https://github.com/scmcphub/scmcp) | mcp-suite | pending |  | Natural-language scRNA-seq analysis MCP; also the shared AnnData backend for scanpy-mcp, liana-mcp, and cellrank-mcp |
@@ -234,7 +231,6 @@ Refresh of 2026-10-12 compared with 2026-10-05. Full history: [CHANGELOG.md](CHA
 | [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | directory | 47 | 2026-10-12 | Academic agent skills organized by the research lifecycle |
 | [Harsh9005/awesome-scientific-ai-tools](https://github.com/Harsh9005/awesome-scientific-ai-tools) | directory | 10 | 2026-09-26 | AI tools, MCP servers, and agent skills for scientific research |
 | [chrisliu298/awesome-research-agents](https://github.com/chrisliu298/awesome-research-agents) | directory | 3 | 2026-06-29 | research agents, skill libraries, autonomous research loops, paper-writing pipelines |
-| [Agents365-ai/awesome-ai-for-science-skills](https://github.com/Agents365-ai/awesome-ai-for-science-skills) | directory | 1 | 2026-05-11 | AI for Science skills, MCP, and Agent SDK directory |
 | [biocontext-ai/meta-mcp](https://github.com/biocontext-ai/meta-mcp) | mcp-server | pending |  | Meta MCP that exposes every server in the BioContextAI registry with minimal context |
 | [biocontext-ai/registry](https://github.com/biocontext-ai/registry) | registry | pending |  | BioContextAI registry of biomedical MCP servers; also a discovery source for this catalog |
 | [JuneYaooo/awesome-medical-ai-skills](https://github.com/JuneYaooo/awesome-medical-ai-skills) | directory | pending |  | Curated medical and healthcare agent skills, MCP servers, and tools |
