@@ -1,23 +1,23 @@
-repo	checked_on	relevant	stars	pushed_at	language	description
-0xE1337/thesis-figure-skill	2026-10-13	yes	144	2026-07-25	TeX	🎓 Claude Skill: Paste your paper text, auto-generate publication-ready LaTeX/TikZ diagrams. 粘贴论文文案，自动生成学术级配图。
-199-biotechnologies/claude-deep-research-skill	2026-10-13	yes	1184	2026-04-11	Python	Enterprise-grade deep research skill for Claude Code with 8-phase pipeline, source credibility scoring, and automated validation. Outperforms OpenAI, Gemini, and Claude Desktop in quality and verification.
+repo	checked_on	archived	stars	pushed_at	language	description
+0xE1337/thesis-figure-skill	2026-10-13	no	144	2026-07-25	TeX	🎓 Claude Skill: Paste your paper text, auto-generate publication-ready LaTeX/TikZ diagrams. 粘贴论文文案，自动生成学术级配图。
+199-biotechnologies/claude-deep-research-skill	2026-10-13	no	1184	2026-04-11	Python	Enterprise-grade deep research skill for Claude Code with 8-phase pipeline, source credibility scoring, and automated validation. Outperforms OpenAI, Gemini, and Claude Desktop in quality and verification.
 1luvc0d3/metabase-mcp	2026-10-13	no	5	2026-08-08	TypeScript	MCP server connecting Claude to Metabase for natural language data analysis, dashboard management, and SQL queries
 1mcp-app/agent	2026-10-13	no	516	2026-10-13	TypeScript	A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
-1sustgmboab/nexonco-mcp	2026-10-13	yes	3	2026-10-13	Python	An advanced MCP Server for accessing and analyzing clinical evidence data, with flexible search options to support precision medicine and oncology research.
+1sustgmboab/nexonco-mcp	2026-10-13	no	3	2026-10-13	Python	An advanced MCP Server for accessing and analyzing clinical evidence data, with flexible search options to support precision medicine and oncology research.
 20000419/fauxnix	2026-10-13	no	937	2026-10-13	TypeScript	Run Linux-style commands on Windows via deterministic bash→PowerShell translation. No VM, no WSL. MCP server + CLI built for AI agents (Claude Code, Codex, OpenCode...). GNU-style output, bash-style errors, UTF-8/GBK handled.
 21st-dev/magic-mcp	2026-10-13	no	6004	2026-09-09	TypeScript	It's like v0, but in your Cursor / Claude Code / Windsurf: search 10,000+ React/Tailwind components, generate new UI with AI, and publish your own — right from your editor. Magic MCP is now the 21st MCP; this package keeps old configs working. Setup: 21st.dev/mcp
 2ools/mcp-server	2026-10-13	no	1	2026-08-16	JavaScript	Remote MCP server for 2ools — build, version, review and export websites, web apps and games from the AI chat you already use. 43 tools, one free and authless.
 2s-io/sdk	2026-10-13	no	8	2026-08-21	TypeScript	Client API wrapper for 2s.io.
 34892002/bilibili-mcp-js	2026-10-13	no	194	2026-03-30	JavaScript	Bilibili video search MCP (Model Context Protocol) service - 哔哩哔哩视频搜索MCP服务
 3KniGHtcZ/codebeamer-mcp	2026-10-13	no	9	2026-06-15	TypeScript	
-402signalhq/402signal	2026-10-13	no				HTTP 404
+402signalhq/402signal	2026-10-13	yes				HTTP 404
 4DA-Systems/4DA	2026-10-13	no	2	2026-10-13	Rust	Privacy-first developer intelligence — surfaces what matters from the noise
 4everland/4everland-hosting-mcp	2026-10-13	no	2	2025-06-19	TypeScript	
 5dive-ai/5dive-mcp	2026-10-13	no	0	2026-10-02	JavaScript	MCP (Model Context Protocol) server for 5dive. Exposes the agent-fleet CLI (tasks, agents, digest) as stdio MCP tools. MIT.
-7toCR/paper2patent	2026-10-13	yes	661	2026-10-10	Python	📄→💡 Paper2Patent：面向科研成果转化的论文转专利智能模板库，提供 Flash/Pro Prompt、专利附图生成与 Agent Skills，辅助规范生成中国发明专利申请文本。
+7toCR/paper2patent	2026-10-13	no	661	2026-10-10	Python	📄→💡 Paper2Patent：面向科研成果转化的论文转专利智能模板库，提供 Flash/Pro Prompt、专利附图生成与 Agent Skills，辅助规范生成中国发明专利申请文本。
 8enSmith/mcp-open-library	2026-10-13	no	95	2026-09-03	TypeScript	A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to search for book and author information.
 8randonpickart5/alderpost-mcp	2026-10-13	no	2	2026-04-21	JavaScript	
-917Dhj/DeepPaperNote	2026-10-13	yes	1188	2026-10-13	Python	DeepPaperNote is an agent skill for deep-reading a single paper and generating high-quality Obsidian-style research notes. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+917Dhj/DeepPaperNote	2026-10-13	no	1188	2026-10-13	Python	DeepPaperNote is an agent skill for deep-reading a single paper and generating high-quality Obsidian-style research notes. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 a-25/ios-mcp-code-quality-server	2026-10-13	no	11	2025-09-26	TypeScript	This server enables AI assistants to run Xcode tests, perform linter analysis, and provide detailed feedback on iOS projects through structured, actionable reports.
 A1-x-Tech/mcp-google-gmail	2026-10-13	no	0	2026-10-04	TypeScript	MCP server for the Gmail API — search, read and send email, manage drafts, labels and the trash. For Claude, Cursor, Codex and other AI clients.
 aaif-goose/goose	2026-10-13	no	55244	2026-10-13	Rust	an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
@@ -46,156 +46,156 @@ aegis-dq/aegis-dq	2026-10-13	no	4	2026-05-27	Python	Open, audit-grade agentic da
 aeoess/mingle-mcp	2026-10-13	no	7	2026-09-15	TypeScript	Your AI meets other people's AIs. You meet the people. Agent-native networking via MCP.
 aethyn-io/aethyn-browser-mcp	2026-10-13	no	3	2026-07-11	TypeScript	Browser MCP to use custom proxies for scraping by AI Agents
 AETumiApp/aetumi-mcp	2026-10-13	no	0	2026-10-06	JavaScript	AETumi MCP — install premium, production-ready Three.js/WebGL 3D web components into Claude Code, Cursor & Codex. Premium 3D web you own, from AETumi (aetumi.app).
-affaan-m/ECC	2026-10-13	yes	278485	2026-10-12	JavaScript	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+affaan-m/ECC	2026-10-13	no	278485	2026-10-12	JavaScript	The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 Aganium/agenium	2026-10-13	no	5	2026-10-10	TypeScript	AGENIUM — DNS of the Agent Web. Identity, trust & discovery for AI agents. MCP-compatible. agent:// protocol with mTLS, trust scores & capability search.
 agent-blueprint/mcp-server	2026-10-13	no	3	2026-07-10	TypeScript	MCP server for Agent Blueprint — connect AI agents to your blueprints, business cases, and implementation plans
 agent-easy-use/mobile-easy-use	2026-10-13	no	7	2026-09-17	JavaScript	Runtime access for AI coding agents to observe and control Android and iOS apps.
 Agent360dk/browser-mcp	2026-10-13	no	54	2026-10-13	JavaScript	The browser tool that can stop and ask you. A 2FA code, a CAPTCHA, a choice only you can make: it asks on your screen, then carries on in the same signed-in Chrome. 40 tools, MCP clients that run local servers, MIT.
 agentbodegastore/agentbodega	2026-10-13	no	3	2026-07-09	JavaScript	AgentBodega MCP discovery package and public registry metadata
-agentskills/agentskills	2026-10-13	yes	26101	2026-08-09	Python	Specification and documentation for Agent Skills
-ai4s-research/awesome-ai-for-science	2026-10-13	yes	2029	2026-10-13		A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biology, materials, and beyond.
-aizech/clinical-skills	2026-10-13	yes	6	2026-06-21	Python	A collection of AI agent skills focused on medical imaging and healthcare workflows. Built for radiologists, healthcare IT professionals, and researchers who want AI coding agents to help with imaging workflows, clinical documentation, AI integration, and medical research. Works with Claude Code, Codex, Cursor, Windsurf, and many other agents.
-alaliqing/claude-paper	2026-10-13	yes	344	2026-08-14	Vue	📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.
-alfonso0512/research-writing-skill	2026-10-13	yes	491	2026-07-15	Python	🎓 AI 科研论文写作助手 - 30 个 Prompt 模板覆盖论文写作全流程。支持中英文翻译、润色、文献综述、投稿回复、基金申请等。
-alphaparkinc/genpark-clinical-conversation-ambient-scribe-soap-generator-skill	2026-10-13	yes	8	2026-08-25	Python	Ambient clinical conversation scribe and SOAP note EHR generator (Abridge style)
-alphaparkinc/genpark-clinical-peer-review-evidence-citation-engine-skill	2026-10-13	yes	8	2026-08-25	Python	Clinical peer-reviewed medical evidence citation engine (OpenEvidence style)
-andrehuang/academic-writing-agents	2026-10-13	yes	213	2026-05-11		Claude Code plugin: multi-agent orchestrator with 10 specialist agents for academic writing review, research, drafting, and polishing
-anthropics/skills	2026-10-13	yes	180904	2026-10-09	Python	Public repository for Agent Skills
-aos-standard/mcp-blast-radius	2026-10-13	yes	0	2026-07-19	Python	MCP Blast-Radius Auditor — static blast radius extraction and CI divergence gate for MCP servers.
-Aperivue/medsci-skills	2026-10-13	yes	337	2026-10-12	Python	Agent Skills for medical research — literature search, reporting-guideline & citation checks, statistics, publication figures, submission. Works with Claude Code, Codex, Cursor & GitHub Copilot. Built by a physician-researcher, tested on real publications. MIT.
-appautomaton/latex-arxiv-SKILL	2026-10-13	yes	464	2026-09-13	TeX	A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.
-Ar9av/PaperOrchestra	2026-10-13	yes	682	2026-10-11	Python	An automated AI research-paper writer based off Google's PaperOrchestra paper's implementation through a skills -  benchmark + autoraters using any coding agent (Claude Code, Cursor, Antigravity, Cline, Aider). No API keys, no LLM SDKs.
-arturseo-geo/grounded-research-skill	2026-10-13	yes	26	2026-03-26		Anti-hallucination research skill for Claude Code — admits uncertainty, extracts direct quotes before analysis, cites every claim, retracts unverifiable statements. Based on Anthropic's official guardrail techniques. By TheGEOLab.net
-avadh-pro/clinical-decision-support-mcp	2026-10-13	yes	0	2026-05-11	TypeScript	Clinical Decision Support MCP Server for Healthcare AI - Agents Assemble Hackathon
-avivlyweb/pubmed-gemini-extension	2026-10-13	yes	3	2026-03-22	Python	PubMed MCP server for Gemini CLI - PhD-level medical research analysis
-awslabs/mcp	2026-10-13	yes	9776	2026-10-12	Python	Open source MCP Servers for AWS
-bioagent-bench/bioagent-bench	2026-10-13	yes	38	2026-08-11	Python	Benchmark for evaluating LLM agents in bioinformatics
-biocontext-ai/mcp-server-cookiecutter	2026-10-13	yes	12	2025-11-15	Python	Cookiecutter template for MCP server development with FastMCP
-blencorp/clinicaltrials-mcp-server	2026-10-13	yes	2	2026-04-26	TypeScript	MCP server for ClinicalTrials.gov (by Blen). Unaffiliated with NIH/NLM.
-Boom5426/Nature-Paper-Skills	2026-10-13	yes	579	2026-10-13	Python	An AI-powered Scientific Writing Workflow: Agent skills for drafting, revising, auditing, and resubmitting Nature-style journal manuscripts.
-braincrew-lab/STORM-Research-Assistant	2026-10-13	yes	76	2025-06-06	Python	🌪️ AI research assistant that generates Wikipedia-quality articles through multi-perspective analysis. Based on Stanford's STORM methodology.
-bvisible/mcp-ssh-manager	2026-10-13	yes	506	2026-10-09	JavaScript	MCP SSH Server: 37 tools for remote SSH management / Claude Code & OpenAI Codex / DevOps automation, backups, database operations, health monitoring
-c-narcissus/research-paper-figure-skill-factory	2026-10-13	yes	49	2026-05-07		A reusable Skill Factory for creating specialized research-paper figure and diagram generation skills.
-Calix-L/awesome-latex-skills	2026-10-13	yes	182	2026-10-07	Python	LaTeX manuscript workflows with five agent skills, project diagnostics, reproducible builds and offline change review.
-carrierone/verilexdata-mcp	2026-10-13	yes	1	2026-03-18	TypeScript	MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents
-chingswy/Skill-Research-Figure	2026-10-13	yes	180	2026-09-11	Python	用来画专业学术论文tikz图和手绘风格SVG图的Claude Code Skills
-ChristianHinge/dicom-mcp	2026-10-13	yes	102	2026-10-06	Python	Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)
-ComposioHQ/awesome-claude-skills	2026-10-13	yes	77020	2026-09-18	Python	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
-crabin/paper-humanizer-skill	2026-10-13	yes	124	2026-03-28	Python	中英文学术文本润色与人性化skill，用于去除 AI 生成的痕迹，同时严格保持事实准确性。
-CUHK-AIM-Group/NeuroDiscovery	2026-10-13	yes	93	2026-10-05	Python	
-Drchronx/ai-agent-research-starter-kit	2026-10-13	yes	143	2026-05-19	Python	AI Agent 科研全流程教学包，能教学生从零部署 Codex、Claude Code、OpenClaw、Hermes 等 Agent，学会使用 Skills、飞书、AMiner、AI4Scholar、Zotero、Obsidian 等工具，完成真实文献检索、文献日报、知识库搭建、选题生成、理论建构、情景实验设计、量表开发、统计分析、因果推断、文本挖掘、EEG/ERP 实验、BCI 脑电智能建模、论文写作、审稿自查、期刊排版和盲审投稿包制作；学生学完后可以按课程模板一步步让 AI Agent 协助完成从“找文献、定选题、做实验、分析数据”到“写论文、查引用、改格式、准备投稿”的完整科研流程。
-dsebastien/ai-skill-scholar	2026-10-13	yes	16	2026-04-16	Python	Agent Skills suite for research paper discovery via OpenAlex (free, no API key): scholar-search, scholar-citations (references + citing papers), literature-review (two-pass screening orchestrator). Complements dsebastien/ai-skill-arxiv. Stdlib Python only. https://agentskills.io-compatible.
-EESJGong/scholar-skill	2026-10-13	yes	223	2026-03-20	Python	An OpenClaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in Obsidian.
-EternalWavee/benchmark-research-skill	2026-10-13	yes	38	2026-04-24	Python	Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.
-EvoScientist/EvoSkills	2026-10-13	yes	480	2026-09-30	Python	🧬 Extend EvoScientist with Installable Skill & Knowledge Packs
-flonat/flonat-research	2026-10-13	yes	146	2026-09-29	Python	Shareable Claude Code + Codex infrastructure for PhD researchers — skills, agents, hooks, and rules for academic workflows
-florensiawidjaja/BioinfoMCP	2026-10-13	yes	41	2026-03-12	HTML	
-fmschulz/omics-skills	2026-10-13	yes	10	2026-10-02	Python	
-franklee16/academic-research-skills	2026-10-13	yes	223	2026-09-18	Stata	Comprehensive collection of Claude Code skills for academic research in economics, finance, and social sciences
-fulcradynamics/fulcra-context-mcp	2026-10-13	yes	9	2026-10-13	Python	Fulcra MCP Server
-FW1201/tw-research-skills	2026-10-13	yes	15	2026-10-02	Python	26個獨立研究Skills：來源證據、研究方法、統計與學術寫作；支援Codex／Claude Code。
-ganzhi-black/humanities-thesis-skill	2026-10-13	yes	652	2026-04-29	Python	AI skill for humanities thesis writing — from topic selection to publication. 8 academic databases, 21 review rules, anti-hallucination guardrails. 人文社科论文写作 AI Skill
-Gostyan/docx-skill-4-cn-paper	2026-10-13	yes	445	2026-07-12	Python	中文论文常用排版格式Skills，适用于课程论文、数模竞赛、毕业论文等场景，让llm agent写word论文或者将.md转.docx时可调用
-grotyx/Academic_writing_c_claudecode	2026-10-13	yes	34	2026-10-10	Python	Medical Academic Writing with Claude Code
-HaonanAlex/MGMT-Paper-Skills	2026-10-13	yes	127	2026-05-02	Python	Management research paper skills and MCP workflows for Codex and Claude
-helena-bioinformatics/noodle-mcp	2026-10-13	yes	0	2026-09-01	Python	Noodle Biomedical Literature Discovery MCP — search papers and traverse citation or semantic literature graphs.
-HenryLau7/medical-image-analysis-skills	2026-10-13	yes	2	2026-03-15	Python	Portable, agent-native medical image analysis skills for OpenClaw-style frameworks.
-hesreallyhim/awesome-claude-code	2026-10-13	yes	55597	2026-10-13	Python	A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
-huangkiki/dailypaper-skills	2026-10-13	yes	1297	2026-10-12	Python	Agent skills for daily paper discovery, critical reviews, and connected research notes. Supports English and Chinese.
-HughYau/AcademicForge	2026-10-13	yes	2594	2026-08-30	Python	One Forge, All Skills: A curated skill collection for academic writing and research.  点开即用，按需配置的一站式学术研究skills平台。
-InternScience/scp	2026-10-13	yes	171	2026-06-03	Jupyter Notebook	
-Intersect-Collaborations-LLC/research-workflow-assistant	2026-10-13	yes	26	2026-09-23	HTML	Open-source AI research assistant for VS Code + GitHub Copilot. Connects to PubMed, OpenAlex, Semantic Scholar, Europe PMC, CrossRef, and Zotero via MCP servers. Custom agents guide systematic reviews, academic writing, data analysis, and project management — all ICMJE-compliant with full audit trails.
-JackKuo666/Crossref-MCP-Server	2026-10-13	yes	7	2025-04-05	Python	🔍 Enable AI assistants to search and access academic paper metadata through Crossref using a simple MCP interface.
-JackKuo666/Google-Scholar-MCP-Server	2026-10-13	yes	416	2025-03-25	Python	A MCP Server for Google Scholar: 🔍 Enable AI assistants to search and access Google Scholar papers through a simple MCP interface.
-jamditis/claude-skills-journalism	2026-10-13	yes	418	2026-10-04	Python	Claude Code skills for journalism, media, and academia - verification, FOIA, data journalism, academic writing, and more
-jessevanwyk1/claude-scholar	2026-10-13	no				HTTP 404
-JimLiu/science-skills	2026-10-13	yes	228	2026-07-01	HTML	
-jingkarqi/writing-in-the-sciences-skill	2026-10-13	yes	7	2026-04-04		Codex skill for scientific and technical writing based on Stanford's Writing in the Sciences. 基于 Stanford《Writing in the Sciences》的科学与技术写作 Codex 技能。
-JinheonBaek/ResearchAgent	2026-10-13	yes	66	2025-08-24	Python	Official Code Repository for ResearchAgent (NAACL 2025)
-jmiao24/Paper2Agent	2026-10-13	yes	3786	2026-09-17	Python	Paper2Agent is a multi-agent AI system that automatically transforms research papers into interactive AI agents.
-joshzyj/open-scholar-skill	2026-10-13	yes	169	2026-09-18	Shell	Open scholar skill, a claude code plugin, for academic research
-JuneYaooo/awesome-medical-ai	2026-10-13	yes	23	2026-10-11		A curated list of open-source medical and healthcare AI projects - LLMs, imaging, multi-agent systems, clinical software
-JuneYaooo/awesome-medical-ai-cn	2026-10-13	yes	34	2026-08-05		精选国内医疗 AI 开源项目合集 - 大模型、影像AI、临床系统、NLP、多智能体
-JuneYaooo/awesome-medical-ai-skills-cn	2026-10-13	yes	31	2026-08-19		精选国内可用的医疗和健康 AI Agent Skills、MCP 服务器和工具合集
-jxtse/scientific-research-skills	2026-10-13	yes	72	2026-05-19	Python	Skills and tools for scientific research with LLM agents. 给 Agent（如 Claude Code、Openclaw）提供的科研 skills
-K-Dense-AI/claude-scientific-writer	2026-10-13	yes	2461	2026-10-09	Python	A general purpose scientific writer
-K-Dense-AI/claude-skills-mcp	2026-10-13	yes	406	2026-07-20	Python	MCP server for searching and retrieving Scientific Agent Skills using vector search
-K-Dense-AI/scientific-agent-skills	2026-10-13	yes	48720	2026-10-12	Python	Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
-kangning-huang/science_narrative_skills	2026-10-13	yes	5	2026-01-18		Claude skills for evaluating scientific writing using the And-But-Therefore (ABT) framework
-kevinkawchak/national-mcp-pai-oncology-trials	2026-10-13	yes	6	2026-04-30	Python	National MCP servers for Physical AI oncology clinical trial systems
-Kingslayer-bot/paper-reading-skill	2026-10-13	yes	29	2026-10-06	Python	面向 AI agent 的通用学术论文阅读 Skill，适配实验、理论、方法、综述及观点文章。采用四问题框架与三种阅读深度，支持段落、公式和图表精读，交付可下载 Markdown 笔记并在对话中完整展示正文，兼容 Obsidian。
-Lambenthan/paper-discipline-skills	2026-10-13	yes	20	2026-05-15		11 个面向中文科研写作的 Claude Code 纪律 Skill。
-lingzhi227/agent-research-skills	2026-10-13	yes	398	2026-02-27	Python	Skills for Claude Code — deep-research: systematic academic literature review
-lishix520/academic-paper-skills	2026-10-13	yes	1384	2026-01-04	Python	Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.
-LitLLM/LitLLM	2026-10-13	yes	52	2026-05-07	Python	An AI-powered literature review assistant for researchers
-matsuikentaro1/humanizer_academic	2026-10-13	yes	278	2026-10-09	Python	A Claude Code skill that removes signs of AI-generated writing from academic medical papers, making them sound more natural and professionally written.
-moonlarry/codex-paper-skills	2026-10-13	yes	175	2026-08-01	TeX	Codex运行规范及写论文使用的多个skills
-mronkko/claude-academic-research	2026-10-13	yes	27	2026-10-10	Python	Claude Code plugin for academic research: MCP-grounded citations, empirical integrity, systematic reviews, Zotero operations, and parallel-critic manuscript revision.
-musharna/plant-genomics-mcp	2026-10-13	yes	7	2026-10-12	Python	Plant genomics MCP server — 50+ tools across 23 backends (Ensembl Plants, Phytozome, UniProt, AlphaFold DB, PDBe, InterPro, JASPAR, PANTHER, OrthoDB, AraGWAS, NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR, …) + cross-source synthesis. stdio + Streamable-HTTP.
-Nanboy-Ronan/awesome-medical-imaging-agents	2026-10-13	yes	70	2026-10-13	Python	Awesome list for medical imaging agents: radiology agents, pathology agents, segmentation agents, medical VLM agents, self-evolving agents, benchmarks, datasets, tools, and papers.
-ndpvt-web/latex-document-skill	2026-10-13	yes	786	2026-10-13	TeX	Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform
-NeuroAIHub/awesome_cognitive_and_neuroscience_skills	2026-10-13	yes	42	2026-07-13	Python	
-Nexgene-Research/nexonco-mcp	2026-10-13	yes	64	2025-08-12	Python	An advanced MCP Server for accessing and analyzing clinical evidence data, with flexible search options to support precision medicine and oncology research.
-ngtiendong/Academic-Research-Agent-Skill	2026-10-13	yes	62	2026-10-04	Python	Human-guided Research Agent Skill for Master and PhD students in CS, AI, math, and engineering: literature grounding, novelty gates, math formalization, experiment planning, reviewer simulation, and claim verification.
-NVIDIA-BioNeMo/bionemo-agent-toolkit	2026-10-13	yes	483	2026-10-13	Python	Turn any agent into a life science expert with NVIDIA BioNeMo skills.
-obra/superpowers	2026-10-13	yes	298603	2026-10-10	Shell	An agentic skills framework & software development methodology that works.
-OHNLP/omop_mcp	2026-10-13	yes	41	2026-05-11	Python	Model Context Protocol (MCP) server for mapping clinical terminology to Observational Medical Outcomes Partnership (OMOP) concepts using Large Language Models
-olanokhin/openresearch-mcp	2026-10-13	yes	11	2026-07-08	Python	Zero-auth, security-hardened cross-domain research MCP server: web, academic, GitHub, news, weather, macro/finance, SEC, biomedical, Bluesky, YouTube. SSRF and prompt-injection defenses.
-open-behavior-analysis/aba-clinical-agent	2026-10-13	yes	7	2026-03-27	Python	29 Claude Code Skills + Obsidian Knowledge Base = Full ABA Clinical Supervision Automation / AI驱动的ABA临床督导自动化系统
-Open-Medica/open-medical-skills	2026-10-13	yes	23	2026-09-15	Python	A curated marketplace of physician-reviewed medical AI skills and plugins. Compiled and maintained by physicians, for physicians and the healthcare industry.
-openai/skills	2026-10-13	yes	28053	2026-09-08	Python	Skills Catalog for Codex
-orhoncan/oneshot-academic-research-skill	2026-10-13	yes	8	2026-07-16		A comprehensive Claude skill for deep academic literature research with 12-50+ sources through 5-15 iterative search cycles. TR/EN.
-OSU-NLP-Group/ScienceAgentBench	2026-10-13	yes	177	2026-07-18	Python	[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery
-pedrohcgs/claude-code-my-workflow	2026-10-13	yes	1659	2026-09-27	HTML	A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.
-pengkangzhen/scientific-research-plugin	2026-10-13	yes	6	2026-10-10	Python	Claude Code Skill for academic review of Operations Research papers
-PlutoLei/paperbanana-skill	2026-10-13	yes	53	2026-10-03	TypeScript	Agent skills for academic figures and editable slide decks in Claude Code and Codex.
-qgeng1465/bio-mcp	2026-10-13	yes	14	2026-09-13	Python	🧬 BioMCP — bioinformatics MCP server: 83 tools · 43 databases · PubMed/NCBI/BLAST/PDB/UniProt/enrichment · `pip install biomcp-server` · 生信 MCP 服务器
-rewire-bio/genomics-mcp	2026-10-13	yes	3	2026-10-02	Python	Unified MCP access to genomic archives, reference databases and indexed sequencing files
-SachinGawande2003/Heuris-BioMCP	2026-10-13	yes	1	2026-04-05	Python	BioMCP - Comprehensive MCP server for bioinformatics and life sciences
-saptarsibhowmick/claude-workflow-for-econ-phd	2026-10-13	yes	10	2026-04-14	TeX	A ready-to-fork Claude Code scaffold for multi-paper PhD dissertations in empirical economics — literature review to journal submission, with verification protocols, file safety, and 8 custom skills.
-scdenney/open-science-skills	2026-10-13	yes	65	2026-10-08	Markdown	Agentic skills for Claude Code and Codex, built from published social-science methods sources. Covers experimental design, computational text analysis, manuscript QA, and transparent reporting.
-shaowen-ye/manuscript-review-skill	2026-10-13	yes	23	2026-07-16	JavaScript	Claude Code 技能：6位AI专家多智能体学术稿件审阅，生成中英双语彩色批注docx，含评分矩阵与改进优先级。/ Claude Code skill: Multi-agent academic manuscript review with 6 expert AI reviewers. Generates bilingual (EN-CN) annotated docx with color-coded critique and scoring matrix.
-sickn33/agentic-awesome-skills	2026-10-13	yes	47546	2026-10-13	Python	AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
-SidneyBissoli/medical-terminologies-mcp	2026-10-13	yes	15	2026-10-13	TypeScript	Unified MCP server for six medical terminologies (ICD-11, LOINC, RxNorm, MeSH, ATC, CID-10) with authoritative WHO ICD-10→ICD-11 mapping and provenance on every response. Hosted endpoint: no install, no credentials.
-srmadscience/mcpdbwizard-open	2026-10-13	yes	1	2026-10-04	Java	Oracle MCP server with no run-sql tool: generated tools for the PL/SQL, tables and tested SQL you choose
-sunanhe/awesome-medical-mcp-servers	2026-10-13	yes	69	2026-07-08		A collection of Medical MCP servers.
-sunjongos/paper-orchestra-for-claude-code	2026-10-13	yes	11	2026-04-10	HTML	World Best Practice SCI Paper Writing Skill for Claude Code — 12-Agent Pipeline with HITL, exceeding Google PaperOrchestra & AI Scientist
-TerryFYL/ai-research-army	2026-10-13	yes	8	2026-09-30	Python	AI Research Army: 10 AI specialists collaborate autonomously in Claude Code — from raw clinical data to submission-ready medical manuscripts.
-the-momentum/apple-health-mcp-server	2026-10-13	yes	278	2026-07-09	Python	MCP server for querying Apple Health data with natural language using DuckDB under the hood.
-the-momentum/fhir-mcp-server	2026-10-13	yes	102	2025-10-23	Python	FHIR MCP Server for handling medical data standard.
-thehealthai/fda-risk-radar-mcp	2026-10-13	yes	0	2026-09-13	JavaScript	Constat — FDA & NHTSA regulatory-risk MCP server for AI agents. 14 tools: recalls, adverse events, warning letters, 483s, 510(k) predicate chains, reimbursement, vehicle safety. com.healthai/radar on the official MCP registry. Hosted at constat.dev/api/mcp.
-TheRealDalaiLama/glyphdna-mcp	2026-10-13	yes	1	2026-10-07	Python	GlyphDNA MCP adapter: machine-native identity, verifiable meeting rooms, script provenance. Join with one MCP call.
-u9401066/med-paper-assistant	2026-10-13	yes	12	2026-09-01	Python	Auditable MCP + cross-agent harness for autonomous and human-guided academic writing—from verified evidence to reviewed DOCX/PDF.
-u9401066/medical-calc-mcp	2026-10-13	yes	4	2026-05-14	Python	🏥 MCP Server with 121 validated medical calculators for AI agents. DDD architecture, evidence-based formulas with PMID citations. Supports Claude, GPT, and other LLM integrations.
-ultimatile/arxiv-skills	2026-10-13	yes	47	2026-10-13	Python	
-vitorpavinato/ncbi-mcp-server	2026-10-13	yes	13	2025-06-28	Python	
-voidful/academic-skills	2026-10-13	yes	136	2026-04-04	TeX	A complete academic research Skill suite. Supports Claude Code, ChatGPT / Codex CLI, and Gemini CLI.
-VoltAgent/awesome-openclaw-skills	2026-10-13	yes	53113	2026-10-11		The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞
-wangshuaifbj-collab/mcp-server-bioscience	2026-10-13	yes	2	2026-08-13	Python	A high-performance MCP server empowering AI Agents with PubMed, ClinicalTrials, ChEMBL, AlphaFold, and Ensembl capabilities. 🧬
-WantongC/journal-adapt-writing-skill	2026-10-13	yes	756	2026-05-15		Learn any journal's writing conventions from its published papers, then revise your manuscript to match — section by section.
-Webioinfo01/Awesome-AI-Meets-Biology	2026-10-13	yes	41	2026-10-06		Awesome-AI-Meets-Biology is a collection of state-of-the-art, novel, exciting LLMs and agents on biomedical and bioinformatic fields.
-Weixin-Liang/LLM-scientific-feedback	2026-10-13	yes	532	2024-01-11	Python	Can large language models provide useful feedback on research papers? A large-scale empirical analysis.
-WenyuChiou/academic-writing-skills	2026-10-13	yes	98	2026-10-12	Python	Claude Code skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides.
-WenyuChiou/zotero-skills	2026-10-13	yes	58	2026-10-12	Python	A skill for managing Zotero references programmatically — search, add, classify, annotate, and organize literature.
-WILLOSCAR/research-units-pipeline-skills	2026-10-13	yes	514	2026-10-05	Python	Research pipelines as semantic execution units: each skill declares inputs/outputs, acceptance criteria, and guardrails. Evidence-first methodology prevents hollow writing through structured intermediate artifacts.
-wjddusrb03/clinical-research-mcp	2026-10-13	yes	0	2026-03-20	Python	MCP server for clinical research — PubMed papers, clinical trials, medical concepts. No API key needed.
-wjgoarxiv/autoresearch-skill	2026-10-13	yes	37	2026-06-21	Python	Autonomous research loop skill for LLM agents — inspired by Karpathy's autoresearch. Define a goal, let the agent iterate.
-wjgoarxiv/pymol-mcp	2026-10-13	yes	1	2026-09-02	Python	Headless PyMOL MCP server for molecular visualization, GROMACS/LAMMPS MD workflows, and clathrate-hydrate cage analysis
-worldbench/awesome-ai-auto-research	2026-10-13	yes	543	2026-10-11	HTML	🔥 A Survey on AI Auto-Research
-wrab12/awesome-spatial-transcriptomics	2026-10-13	yes	47	2026-10-12		A curated list of tools, foundation models, datasets and tutorials for spatial transcriptomics and single-cell analysis, ordered the way an analysis goes.
-wso2/fhir-mcp-server	2026-10-13	yes	137	2026-10-12	Python	FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.
-wu-yc/LabClaw	2026-10-13	yes	1055	2026-03-19		LabClaw – Operating Layer for LabOS (Stanford-Princeton AI Co-Scientists)
-yanlin-cheng/skill-thesis-writer	2026-10-13	yes	212	2026-04-13	Python	一个专为本科/研究生论文写作设计的AI技能，支持工科、心理学、教育学、管理学等多学科领域，提供符合中国学术规范（GB/T 7714-2015）的论文写作、数据分析、参考文献管理一体化解决方案。
-YANZHANLIN/literature-review-skill	2026-10-13	yes	25	2026-05-08		学术文献综述全流程 Claude Code Skills 套件 (5 子 skill: 检索/获取/精读/综述写作/综述章节). Free & MIT.
-yorkeccak/scientific-skills	2026-10-13	yes	63	2026-10-04	JavaScript	Natural language scientific literature search skills with semantic search over PubMed, arXiv, ChEMBL, DrugBank, bioRxiv, medRxiv, clinical trials, and more with zero API complexity.
-YuliaNuzhnenko/bioinformatics-agent-skills	2026-10-13	yes	9	2026-08-08	Python	The #1 open-source collection of scientific AI Agent Skills, tool specifications, and prompt protocols for Bioinformatics, Genomics, Drug Discovery, and Multi-Omics. Compatible with Cursor, Claude Code, Antigravity, and LangChain.
-yunshenwuchuxun/latex-paper-skills	2026-10-13	yes	268	2026-03-25	TeX	A modular skill-based framework for writing, revising, and managing LaTeX academic papers with AI assistance.
-yy/claude-scholar	2026-10-13	yes	38	2026-08-17	Python	Academic research tools for Claude Code — literature search, citation management, LaTeX checks, math verification, and submission preparation
-zamushwani/biomedical-ai-skills	2026-10-13	yes	1	2026-09-19	Jupyter Notebook	AI agent skills for cancer biology and multi-omics research
-ZhangNy301/citation-assistant	2026-10-13	yes	239	2026-03-14	Shell	Claude Code Skill for automated academic citation workflow with Semantic Scholar API
-ZIB-IOL/The-Agentic-Researcher	2026-10-13	yes	99	2026-06-12	Shell	A practical framework for AI-Assisted Research in Mathematics and Machine Learning
-zjlrock777/Awesome-LLM-Agents-Scientific-Discovery	2026-10-13	yes	82	2026-07-28		A curated list of LLM powered AI Agents in Biomedical Research. Medical Image Analysis, Multi-omics Genomics Analysis, Biomedical Scientific Discoveries...
-zongtingwei/Bioclaw_Skills_Hub	2026-10-13	yes	27	2026-04-13	Python	Official Bioclaw Skills (bioskills) Library for Bioinformatics and Omics Workflows
-zouchenzhen/thesis-defense-pptx-skill	2026-10-13	yes	268	2026-06-05	Python	Codex / Claude Skill for editable thesis-defense PPTX from PDF or LaTeX while preserving a PowerPoint template. 从论文 PDF / LaTeX 生成可编辑答辩 PPTX，并保留指定 PPT 模板风格。
-zsyggg/paper-craft-skills	2026-10-13	yes	1332	2026-05-29	Python	Claude Code skills for academic papers: deep analysis, comics, summaries / 论文工艺：深度解读、漫画生成、速览总结
-ZyhSechub/chinese-thesis-workbench-skill	2026-10-13	yes	581	2026-05-07	Python	本科毕业论文skill：会把你的项目的源码、数据库、截图和文献，按学校模板与样文风格，工程化地写成整合成可追溯、可续写、可审查的本科毕业论文
+agentskills/agentskills	2026-10-13	no	26101	2026-08-09	Python	Specification and documentation for Agent Skills
+ai4s-research/awesome-ai-for-science	2026-10-13	no	2029	2026-10-13		A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biology, materials, and beyond.
+aizech/clinical-skills	2026-10-13	no	6	2026-06-21	Python	A collection of AI agent skills focused on medical imaging and healthcare workflows. Built for radiologists, healthcare IT professionals, and researchers who want AI coding agents to help with imaging workflows, clinical documentation, AI integration, and medical research. Works with Claude Code, Codex, Cursor, Windsurf, and many other agents.
+alaliqing/claude-paper	2026-10-13	no	344	2026-08-14	Vue	📖 Cross-agent research paper toolkit for Claude Code, Codex, OpenCode, and DeepSeek Harness—quick summaries, deep study materials, code demos, and a local web viewer.
+alfonso0512/research-writing-skill	2026-10-13	no	491	2026-07-15	Python	🎓 AI 科研论文写作助手 - 30 个 Prompt 模板覆盖论文写作全流程。支持中英文翻译、润色、文献综述、投稿回复、基金申请等。
+alphaparkinc/genpark-clinical-conversation-ambient-scribe-soap-generator-skill	2026-10-13	no	8	2026-08-25	Python	Ambient clinical conversation scribe and SOAP note EHR generator (Abridge style)
+alphaparkinc/genpark-clinical-peer-review-evidence-citation-engine-skill	2026-10-13	no	8	2026-08-25	Python	Clinical peer-reviewed medical evidence citation engine (OpenEvidence style)
+andrehuang/academic-writing-agents	2026-10-13	no	213	2026-05-11		Claude Code plugin: multi-agent orchestrator with 10 specialist agents for academic writing review, research, drafting, and polishing
+anthropics/skills	2026-10-13	no	180904	2026-10-09	Python	Public repository for Agent Skills
+aos-standard/mcp-blast-radius	2026-10-13	no	0	2026-07-19	Python	MCP Blast-Radius Auditor — static blast radius extraction and CI divergence gate for MCP servers.
+Aperivue/medsci-skills	2026-10-13	no	337	2026-10-12	Python	Agent Skills for medical research — literature search, reporting-guideline & citation checks, statistics, publication figures, submission. Works with Claude Code, Codex, Cursor & GitHub Copilot. Built by a physician-researcher, tested on real publications. MIT.
+appautomaton/latex-arxiv-SKILL	2026-10-13	no	464	2026-09-13	TeX	A highly customizable agentic harness for arXiv-ready ML/AI review papers (and beyond). It drives agentic AI like Codex CLI and Claude Code through a gated LaTeX workflow with verified BibTeX citations.
+Ar9av/PaperOrchestra	2026-10-13	no	682	2026-10-11	Python	An automated AI research-paper writer based off Google's PaperOrchestra paper's implementation through a skills -  benchmark + autoraters using any coding agent (Claude Code, Cursor, Antigravity, Cline, Aider). No API keys, no LLM SDKs.
+arturseo-geo/grounded-research-skill	2026-10-13	no	26	2026-03-26		Anti-hallucination research skill for Claude Code — admits uncertainty, extracts direct quotes before analysis, cites every claim, retracts unverifiable statements. Based on Anthropic's official guardrail techniques. By TheGEOLab.net
+avadh-pro/clinical-decision-support-mcp	2026-10-13	no	0	2026-05-11	TypeScript	Clinical Decision Support MCP Server for Healthcare AI - Agents Assemble Hackathon
+avivlyweb/pubmed-gemini-extension	2026-10-13	no	3	2026-03-22	Python	PubMed MCP server for Gemini CLI - PhD-level medical research analysis
+awslabs/mcp	2026-10-13	no	9776	2026-10-12	Python	Open source MCP Servers for AWS
+bioagent-bench/bioagent-bench	2026-10-13	no	38	2026-08-11	Python	Benchmark for evaluating LLM agents in bioinformatics
+biocontext-ai/mcp-server-cookiecutter	2026-10-13	no	12	2025-11-15	Python	Cookiecutter template for MCP server development with FastMCP
+blencorp/clinicaltrials-mcp-server	2026-10-13	no	2	2026-04-26	TypeScript	MCP server for ClinicalTrials.gov (by Blen). Unaffiliated with NIH/NLM.
+Boom5426/Nature-Paper-Skills	2026-10-13	no	579	2026-10-13	Python	An AI-powered Scientific Writing Workflow: Agent skills for drafting, revising, auditing, and resubmitting Nature-style journal manuscripts.
+braincrew-lab/STORM-Research-Assistant	2026-10-13	no	76	2025-06-06	Python	🌪️ AI research assistant that generates Wikipedia-quality articles through multi-perspective analysis. Based on Stanford's STORM methodology.
+bvisible/mcp-ssh-manager	2026-10-13	no	506	2026-10-09	JavaScript	MCP SSH Server: 37 tools for remote SSH management / Claude Code & OpenAI Codex / DevOps automation, backups, database operations, health monitoring
+c-narcissus/research-paper-figure-skill-factory	2026-10-13	no	49	2026-05-07		A reusable Skill Factory for creating specialized research-paper figure and diagram generation skills.
+Calix-L/awesome-latex-skills	2026-10-13	no	182	2026-10-07	Python	LaTeX manuscript workflows with five agent skills, project diagnostics, reproducible builds and offline change review.
+carrierone/verilexdata-mcp	2026-10-13	no	1	2026-03-18	TypeScript	MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents
+chingswy/Skill-Research-Figure	2026-10-13	no	180	2026-09-11	Python	用来画专业学术论文tikz图和手绘风格SVG图的Claude Code Skills
+ChristianHinge/dicom-mcp	2026-10-13	no	102	2026-10-06	Python	Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)
+ComposioHQ/awesome-claude-skills	2026-10-13	no	77020	2026-09-18	Python	A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+crabin/paper-humanizer-skill	2026-10-13	no	124	2026-03-28	Python	中英文学术文本润色与人性化skill，用于去除 AI 生成的痕迹，同时严格保持事实准确性。
+CUHK-AIM-Group/NeuroDiscovery	2026-10-13	no	93	2026-10-05	Python	
+Drchronx/ai-agent-research-starter-kit	2026-10-13	no	143	2026-05-19	Python	AI Agent 科研全流程教学包，能教学生从零部署 Codex、Claude Code、OpenClaw、Hermes 等 Agent，学会使用 Skills、飞书、AMiner、AI4Scholar、Zotero、Obsidian 等工具，完成真实文献检索、文献日报、知识库搭建、选题生成、理论建构、情景实验设计、量表开发、统计分析、因果推断、文本挖掘、EEG/ERP 实验、BCI 脑电智能建模、论文写作、审稿自查、期刊排版和盲审投稿包制作；学生学完后可以按课程模板一步步让 AI Agent 协助完成从“找文献、定选题、做实验、分析数据”到“写论文、查引用、改格式、准备投稿”的完整科研流程。
+dsebastien/ai-skill-scholar	2026-10-13	no	16	2026-04-16	Python	Agent Skills suite for research paper discovery via OpenAlex (free, no API key): scholar-search, scholar-citations (references + citing papers), literature-review (two-pass screening orchestrator). Complements dsebastien/ai-skill-arxiv. Stdlib Python only. https://agentskills.io-compatible.
+EESJGong/scholar-skill	2026-10-13	no	223	2026-03-20	Python	An OpenClaw skill for academic reading, knowledge linking, reflection, and knowledge evolution in Obsidian.
+EternalWavee/benchmark-research-skill	2026-10-13	no	38	2026-04-24	Python	Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.
+EvoScientist/EvoSkills	2026-10-13	no	480	2026-09-30	Python	🧬 Extend EvoScientist with Installable Skill & Knowledge Packs
+flonat/flonat-research	2026-10-13	no	146	2026-09-29	Python	Shareable Claude Code + Codex infrastructure for PhD researchers — skills, agents, hooks, and rules for academic workflows
+florensiawidjaja/BioinfoMCP	2026-10-13	no	41	2026-03-12	HTML	
+fmschulz/omics-skills	2026-10-13	no	10	2026-10-02	Python	
+franklee16/academic-research-skills	2026-10-13	no	223	2026-09-18	Stata	Comprehensive collection of Claude Code skills for academic research in economics, finance, and social sciences
+fulcradynamics/fulcra-context-mcp	2026-10-13	no	9	2026-10-13	Python	Fulcra MCP Server
+FW1201/tw-research-skills	2026-10-13	no	15	2026-10-02	Python	26個獨立研究Skills：來源證據、研究方法、統計與學術寫作；支援Codex／Claude Code。
+ganzhi-black/humanities-thesis-skill	2026-10-13	no	652	2026-04-29	Python	AI skill for humanities thesis writing — from topic selection to publication. 8 academic databases, 21 review rules, anti-hallucination guardrails. 人文社科论文写作 AI Skill
+Gostyan/docx-skill-4-cn-paper	2026-10-13	no	445	2026-07-12	Python	中文论文常用排版格式Skills，适用于课程论文、数模竞赛、毕业论文等场景，让llm agent写word论文或者将.md转.docx时可调用
+grotyx/Academic_writing_c_claudecode	2026-10-13	no	34	2026-10-10	Python	Medical Academic Writing with Claude Code
+HaonanAlex/MGMT-Paper-Skills	2026-10-13	no	127	2026-05-02	Python	Management research paper skills and MCP workflows for Codex and Claude
+helena-bioinformatics/noodle-mcp	2026-10-13	no	0	2026-09-01	Python	Noodle Biomedical Literature Discovery MCP — search papers and traverse citation or semantic literature graphs.
+HenryLau7/medical-image-analysis-skills	2026-10-13	no	2	2026-03-15	Python	Portable, agent-native medical image analysis skills for OpenClaw-style frameworks.
+hesreallyhim/awesome-claude-code	2026-10-13	no	55597	2026-10-13	Python	A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC (no affiliation). A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
+huangkiki/dailypaper-skills	2026-10-13	no	1297	2026-10-12	Python	Agent skills for daily paper discovery, critical reviews, and connected research notes. Supports English and Chinese.
+HughYau/AcademicForge	2026-10-13	no	2594	2026-08-30	Python	One Forge, All Skills: A curated skill collection for academic writing and research.  点开即用，按需配置的一站式学术研究skills平台。
+InternScience/scp	2026-10-13	no	171	2026-06-03	Jupyter Notebook	
+Intersect-Collaborations-LLC/research-workflow-assistant	2026-10-13	no	26	2026-09-23	HTML	Open-source AI research assistant for VS Code + GitHub Copilot. Connects to PubMed, OpenAlex, Semantic Scholar, Europe PMC, CrossRef, and Zotero via MCP servers. Custom agents guide systematic reviews, academic writing, data analysis, and project management — all ICMJE-compliant with full audit trails.
+JackKuo666/Crossref-MCP-Server	2026-10-13	no	7	2025-04-05	Python	🔍 Enable AI assistants to search and access academic paper metadata through Crossref using a simple MCP interface.
+JackKuo666/Google-Scholar-MCP-Server	2026-10-13	no	416	2025-03-25	Python	A MCP Server for Google Scholar: 🔍 Enable AI assistants to search and access Google Scholar papers through a simple MCP interface.
+jamditis/claude-skills-journalism	2026-10-13	no	418	2026-10-04	Python	Claude Code skills for journalism, media, and academia - verification, FOIA, data journalism, academic writing, and more
+jessevanwyk1/claude-scholar	2026-10-13	yes				HTTP 404
+JimLiu/science-skills	2026-10-13	no	228	2026-07-01	HTML	
+jingkarqi/writing-in-the-sciences-skill	2026-10-13	no	7	2026-04-04		Codex skill for scientific and technical writing based on Stanford's Writing in the Sciences. 基于 Stanford《Writing in the Sciences》的科学与技术写作 Codex 技能。
+JinheonBaek/ResearchAgent	2026-10-13	no	66	2025-08-24	Python	Official Code Repository for ResearchAgent (NAACL 2025)
+jmiao24/Paper2Agent	2026-10-13	no	3786	2026-09-17	Python	Paper2Agent is a multi-agent AI system that automatically transforms research papers into interactive AI agents.
+joshzyj/open-scholar-skill	2026-10-13	no	169	2026-09-18	Shell	Open scholar skill, a claude code plugin, for academic research
+JuneYaooo/awesome-medical-ai	2026-10-13	no	23	2026-10-11		A curated list of open-source medical and healthcare AI projects - LLMs, imaging, multi-agent systems, clinical software
+JuneYaooo/awesome-medical-ai-cn	2026-10-13	no	34	2026-08-05		精选国内医疗 AI 开源项目合集 - 大模型、影像AI、临床系统、NLP、多智能体
+JuneYaooo/awesome-medical-ai-skills-cn	2026-10-13	no	31	2026-08-19		精选国内可用的医疗和健康 AI Agent Skills、MCP 服务器和工具合集
+jxtse/scientific-research-skills	2026-10-13	no	72	2026-05-19	Python	Skills and tools for scientific research with LLM agents. 给 Agent（如 Claude Code、Openclaw）提供的科研 skills
+K-Dense-AI/claude-scientific-writer	2026-10-13	no	2461	2026-10-09	Python	A general purpose scientific writer
+K-Dense-AI/claude-skills-mcp	2026-10-13	no	406	2026-07-20	Python	MCP server for searching and retrieving Scientific Agent Skills using vector search
+K-Dense-AI/scientific-agent-skills	2026-10-13	no	48720	2026-10-12	Python	Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
+kangning-huang/science_narrative_skills	2026-10-13	no	5	2026-01-18		Claude skills for evaluating scientific writing using the And-But-Therefore (ABT) framework
+kevinkawchak/national-mcp-pai-oncology-trials	2026-10-13	no	6	2026-04-30	Python	National MCP servers for Physical AI oncology clinical trial systems
+Kingslayer-bot/paper-reading-skill	2026-10-13	no	29	2026-10-06	Python	面向 AI agent 的通用学术论文阅读 Skill，适配实验、理论、方法、综述及观点文章。采用四问题框架与三种阅读深度，支持段落、公式和图表精读，交付可下载 Markdown 笔记并在对话中完整展示正文，兼容 Obsidian。
+Lambenthan/paper-discipline-skills	2026-10-13	no	20	2026-05-15		11 个面向中文科研写作的 Claude Code 纪律 Skill。
+lingzhi227/agent-research-skills	2026-10-13	no	398	2026-02-27	Python	Skills for Claude Code — deep-research: systematic academic literature review
+lishix520/academic-paper-skills	2026-10-13	no	1384	2026-01-04	Python	Systematic framework for planning and writing academic papers using Claude Code. Includes strategist (planning) and composer (writing) skills with quality checkpoints.
+LitLLM/LitLLM	2026-10-13	no	52	2026-05-07	Python	An AI-powered literature review assistant for researchers
+matsuikentaro1/humanizer_academic	2026-10-13	no	278	2026-10-09	Python	A Claude Code skill that removes signs of AI-generated writing from academic medical papers, making them sound more natural and professionally written.
+moonlarry/codex-paper-skills	2026-10-13	no	175	2026-08-01	TeX	Codex运行规范及写论文使用的多个skills
+mronkko/claude-academic-research	2026-10-13	no	27	2026-10-10	Python	Claude Code plugin for academic research: MCP-grounded citations, empirical integrity, systematic reviews, Zotero operations, and parallel-critic manuscript revision.
+musharna/plant-genomics-mcp	2026-10-13	no	7	2026-10-12	Python	Plant genomics MCP server — 50+ tools across 23 backends (Ensembl Plants, Phytozome, UniProt, AlphaFold DB, PDBe, InterPro, JASPAR, PANTHER, OrthoDB, AraGWAS, NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR, …) + cross-source synthesis. stdio + Streamable-HTTP.
+Nanboy-Ronan/awesome-medical-imaging-agents	2026-10-13	no	70	2026-10-13	Python	Awesome list for medical imaging agents: radiology agents, pathology agents, segmentation agents, medical VLM agents, self-evolving agents, benchmarks, datasets, tools, and papers.
+ndpvt-web/latex-document-skill	2026-10-13	no	786	2026-10-13	TeX	Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform
+NeuroAIHub/awesome_cognitive_and_neuroscience_skills	2026-10-13	no	42	2026-07-13	Python	
+Nexgene-Research/nexonco-mcp	2026-10-13	no	64	2025-08-12	Python	An advanced MCP Server for accessing and analyzing clinical evidence data, with flexible search options to support precision medicine and oncology research.
+ngtiendong/Academic-Research-Agent-Skill	2026-10-13	no	62	2026-10-04	Python	Human-guided Research Agent Skill for Master and PhD students in CS, AI, math, and engineering: literature grounding, novelty gates, math formalization, experiment planning, reviewer simulation, and claim verification.
+NVIDIA-BioNeMo/bionemo-agent-toolkit	2026-10-13	no	483	2026-10-13	Python	Turn any agent into a life science expert with NVIDIA BioNeMo skills.
+obra/superpowers	2026-10-13	no	298603	2026-10-10	Shell	An agentic skills framework & software development methodology that works.
+OHNLP/omop_mcp	2026-10-13	no	41	2026-05-11	Python	Model Context Protocol (MCP) server for mapping clinical terminology to Observational Medical Outcomes Partnership (OMOP) concepts using Large Language Models
+olanokhin/openresearch-mcp	2026-10-13	no	11	2026-07-08	Python	Zero-auth, security-hardened cross-domain research MCP server: web, academic, GitHub, news, weather, macro/finance, SEC, biomedical, Bluesky, YouTube. SSRF and prompt-injection defenses.
+open-behavior-analysis/aba-clinical-agent	2026-10-13	no	7	2026-03-27	Python	29 Claude Code Skills + Obsidian Knowledge Base = Full ABA Clinical Supervision Automation / AI驱动的ABA临床督导自动化系统
+Open-Medica/open-medical-skills	2026-10-13	no	23	2026-09-15	Python	A curated marketplace of physician-reviewed medical AI skills and plugins. Compiled and maintained by physicians, for physicians and the healthcare industry.
+openai/skills	2026-10-13	no	28053	2026-09-08	Python	Skills Catalog for Codex
+orhoncan/oneshot-academic-research-skill	2026-10-13	no	8	2026-07-16		A comprehensive Claude skill for deep academic literature research with 12-50+ sources through 5-15 iterative search cycles. TR/EN.
+OSU-NLP-Group/ScienceAgentBench	2026-10-13	no	177	2026-07-18	Python	[ICLR'25] ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery
+pedrohcgs/claude-code-my-workflow	2026-10-13	no	1659	2026-09-27	HTML	A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.
+pengkangzhen/scientific-research-plugin	2026-10-13	no	6	2026-10-10	Python	Claude Code Skill for academic review of Operations Research papers
+PlutoLei/paperbanana-skill	2026-10-13	no	53	2026-10-03	TypeScript	Agent skills for academic figures and editable slide decks in Claude Code and Codex.
+qgeng1465/bio-mcp	2026-10-13	no	14	2026-09-13	Python	🧬 BioMCP — bioinformatics MCP server: 83 tools · 43 databases · PubMed/NCBI/BLAST/PDB/UniProt/enrichment · `pip install biomcp-server` · 生信 MCP 服务器
+rewire-bio/genomics-mcp	2026-10-13	no	3	2026-10-02	Python	Unified MCP access to genomic archives, reference databases and indexed sequencing files
+SachinGawande2003/Heuris-BioMCP	2026-10-13	no	1	2026-04-05	Python	BioMCP - Comprehensive MCP server for bioinformatics and life sciences
+saptarsibhowmick/claude-workflow-for-econ-phd	2026-10-13	no	10	2026-04-14	TeX	A ready-to-fork Claude Code scaffold for multi-paper PhD dissertations in empirical economics — literature review to journal submission, with verification protocols, file safety, and 8 custom skills.
+scdenney/open-science-skills	2026-10-13	no	65	2026-10-08	Markdown	Agentic skills for Claude Code and Codex, built from published social-science methods sources. Covers experimental design, computational text analysis, manuscript QA, and transparent reporting.
+shaowen-ye/manuscript-review-skill	2026-10-13	no	23	2026-07-16	JavaScript	Claude Code 技能：6位AI专家多智能体学术稿件审阅，生成中英双语彩色批注docx，含评分矩阵与改进优先级。/ Claude Code skill: Multi-agent academic manuscript review with 6 expert AI reviewers. Generates bilingual (EN-CN) annotated docx with color-coded critique and scoring matrix.
+sickn33/agentic-awesome-skills	2026-10-13	no	47546	2026-10-13	Python	AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.
+SidneyBissoli/medical-terminologies-mcp	2026-10-13	no	15	2026-10-13	TypeScript	Unified MCP server for six medical terminologies (ICD-11, LOINC, RxNorm, MeSH, ATC, CID-10) with authoritative WHO ICD-10→ICD-11 mapping and provenance on every response. Hosted endpoint: no install, no credentials.
+srmadscience/mcpdbwizard-open	2026-10-13	no	1	2026-10-04	Java	Oracle MCP server with no run-sql tool: generated tools for the PL/SQL, tables and tested SQL you choose
+sunanhe/awesome-medical-mcp-servers	2026-10-13	no	69	2026-07-08		A collection of Medical MCP servers.
+sunjongos/paper-orchestra-for-claude-code	2026-10-13	no	11	2026-04-10	HTML	World Best Practice SCI Paper Writing Skill for Claude Code — 12-Agent Pipeline with HITL, exceeding Google PaperOrchestra & AI Scientist
+TerryFYL/ai-research-army	2026-10-13	no	8	2026-09-30	Python	AI Research Army: 10 AI specialists collaborate autonomously in Claude Code — from raw clinical data to submission-ready medical manuscripts.
+the-momentum/apple-health-mcp-server	2026-10-13	no	278	2026-07-09	Python	MCP server for querying Apple Health data with natural language using DuckDB under the hood.
+the-momentum/fhir-mcp-server	2026-10-13	no	102	2025-10-23	Python	FHIR MCP Server for handling medical data standard.
+thehealthai/fda-risk-radar-mcp	2026-10-13	no	0	2026-09-13	JavaScript	Constat — FDA & NHTSA regulatory-risk MCP server for AI agents. 14 tools: recalls, adverse events, warning letters, 483s, 510(k) predicate chains, reimbursement, vehicle safety. com.healthai/radar on the official MCP registry. Hosted at constat.dev/api/mcp.
+TheRealDalaiLama/glyphdna-mcp	2026-10-13	no	1	2026-10-07	Python	GlyphDNA MCP adapter: machine-native identity, verifiable meeting rooms, script provenance. Join with one MCP call.
+u9401066/med-paper-assistant	2026-10-13	no	12	2026-09-01	Python	Auditable MCP + cross-agent harness for autonomous and human-guided academic writing—from verified evidence to reviewed DOCX/PDF.
+u9401066/medical-calc-mcp	2026-10-13	no	4	2026-05-14	Python	🏥 MCP Server with 121 validated medical calculators for AI agents. DDD architecture, evidence-based formulas with PMID citations. Supports Claude, GPT, and other LLM integrations.
+ultimatile/arxiv-skills	2026-10-13	no	47	2026-10-13	Python	
+vitorpavinato/ncbi-mcp-server	2026-10-13	no	13	2025-06-28	Python	
+voidful/academic-skills	2026-10-13	no	136	2026-04-04	TeX	A complete academic research Skill suite. Supports Claude Code, ChatGPT / Codex CLI, and Gemini CLI.
+VoltAgent/awesome-openclaw-skills	2026-10-13	no	53113	2026-10-11		The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞
+wangshuaifbj-collab/mcp-server-bioscience	2026-10-13	no	2	2026-08-13	Python	A high-performance MCP server empowering AI Agents with PubMed, ClinicalTrials, ChEMBL, AlphaFold, and Ensembl capabilities. 🧬
+WantongC/journal-adapt-writing-skill	2026-10-13	no	756	2026-05-15		Learn any journal's writing conventions from its published papers, then revise your manuscript to match — section by section.
+Webioinfo01/Awesome-AI-Meets-Biology	2026-10-13	no	41	2026-10-06		Awesome-AI-Meets-Biology is a collection of state-of-the-art, novel, exciting LLMs and agents on biomedical and bioinformatic fields.
+Weixin-Liang/LLM-scientific-feedback	2026-10-13	no	532	2024-01-11	Python	Can large language models provide useful feedback on research papers? A large-scale empirical analysis.
+WenyuChiou/academic-writing-skills	2026-10-13	no	98	2026-10-12	Python	Claude Code skill for rigorous academic paper writing, revision, and submission. Field-agnostic with per-paper journal overrides.
+WenyuChiou/zotero-skills	2026-10-13	no	58	2026-10-12	Python	A skill for managing Zotero references programmatically — search, add, classify, annotate, and organize literature.
+WILLOSCAR/research-units-pipeline-skills	2026-10-13	no	514	2026-10-05	Python	Research pipelines as semantic execution units: each skill declares inputs/outputs, acceptance criteria, and guardrails. Evidence-first methodology prevents hollow writing through structured intermediate artifacts.
+wjddusrb03/clinical-research-mcp	2026-10-13	no	0	2026-03-20	Python	MCP server for clinical research — PubMed papers, clinical trials, medical concepts. No API key needed.
+wjgoarxiv/autoresearch-skill	2026-10-13	no	37	2026-06-21	Python	Autonomous research loop skill for LLM agents — inspired by Karpathy's autoresearch. Define a goal, let the agent iterate.
+wjgoarxiv/pymol-mcp	2026-10-13	no	1	2026-09-02	Python	Headless PyMOL MCP server for molecular visualization, GROMACS/LAMMPS MD workflows, and clathrate-hydrate cage analysis
+worldbench/awesome-ai-auto-research	2026-10-13	no	543	2026-10-11	HTML	🔥 A Survey on AI Auto-Research
+wrab12/awesome-spatial-transcriptomics	2026-10-13	no	47	2026-10-12		A curated list of tools, foundation models, datasets and tutorials for spatial transcriptomics and single-cell analysis, ordered the way an analysis goes.
+wso2/fhir-mcp-server	2026-10-13	no	137	2026-10-12	Python	FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.
+wu-yc/LabClaw	2026-10-13	no	1055	2026-03-19		LabClaw – Operating Layer for LabOS (Stanford-Princeton AI Co-Scientists)
+yanlin-cheng/skill-thesis-writer	2026-10-13	no	212	2026-04-13	Python	一个专为本科/研究生论文写作设计的AI技能，支持工科、心理学、教育学、管理学等多学科领域，提供符合中国学术规范（GB/T 7714-2015）的论文写作、数据分析、参考文献管理一体化解决方案。
+YANZHANLIN/literature-review-skill	2026-10-13	no	25	2026-05-08		学术文献综述全流程 Claude Code Skills 套件 (5 子 skill: 检索/获取/精读/综述写作/综述章节). Free & MIT.
+yorkeccak/scientific-skills	2026-10-13	no	63	2026-10-04	JavaScript	Natural language scientific literature search skills with semantic search over PubMed, arXiv, ChEMBL, DrugBank, bioRxiv, medRxiv, clinical trials, and more with zero API complexity.
+YuliaNuzhnenko/bioinformatics-agent-skills	2026-10-13	no	9	2026-08-08	Python	The #1 open-source collection of scientific AI Agent Skills, tool specifications, and prompt protocols for Bioinformatics, Genomics, Drug Discovery, and Multi-Omics. Compatible with Cursor, Claude Code, Antigravity, and LangChain.
+yunshenwuchuxun/latex-paper-skills	2026-10-13	no	268	2026-03-25	TeX	A modular skill-based framework for writing, revising, and managing LaTeX academic papers with AI assistance.
+yy/claude-scholar	2026-10-13	no	38	2026-08-17	Python	Academic research tools for Claude Code — literature search, citation management, LaTeX checks, math verification, and submission preparation
+zamushwani/biomedical-ai-skills	2026-10-13	no	1	2026-09-19	Jupyter Notebook	AI agent skills for cancer biology and multi-omics research
+ZhangNy301/citation-assistant	2026-10-13	no	239	2026-03-14	Shell	Claude Code Skill for automated academic citation workflow with Semantic Scholar API
+ZIB-IOL/The-Agentic-Researcher	2026-10-13	no	99	2026-06-12	Shell	A practical framework for AI-Assisted Research in Mathematics and Machine Learning
+zjlrock777/Awesome-LLM-Agents-Scientific-Discovery	2026-10-13	no	82	2026-07-28		A curated list of LLM powered AI Agents in Biomedical Research. Medical Image Analysis, Multi-omics Genomics Analysis, Biomedical Scientific Discoveries...
+zongtingwei/Bioclaw_Skills_Hub	2026-10-13	no	27	2026-04-13	Python	Official Bioclaw Skills (bioskills) Library for Bioinformatics and Omics Workflows
+zouchenzhen/thesis-defense-pptx-skill	2026-10-13	no	268	2026-06-05	Python	Codex / Claude Skill for editable thesis-defense PPTX from PDF or LaTeX while preserving a PowerPoint template. 从论文 PDF / LaTeX 生成可编辑答辩 PPTX，并保留指定 PPT 模板风格。
+zsyggg/paper-craft-skills	2026-10-13	no	1332	2026-05-29	Python	Claude Code skills for academic papers: deep analysis, comics, summaries / 论文工艺：深度解读、漫画生成、速览总结
+ZyhSechub/chinese-thesis-workbench-skill	2026-10-13	no	581	2026-05-07	Python	本科毕业论文skill：会把你的项目的源码、数据库、截图和文献，按学校模板与样文风格，工程化地写成整合成可追溯、可续写、可审查的本科毕业论文

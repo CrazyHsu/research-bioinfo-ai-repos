@@ -82,19 +82,22 @@ class SearchTests(unittest.TestCase):
 class AwesomeTests(unittest.TestCase):
     def test_crossref_collects_lists_per_reference(self):
         seed_rows = [
-            {"repo": "L1/list", "type": "directory", "include": "yes"},
-            {"repo": "L2/list", "type": "registry", "include": "yes"},
-            {"repo": "x/skill", "type": "skill", "include": "yes"},
+            {"repo": "L1/list", "type": "directory", "include": "yes", "domain": "bio"},
+            {"repo": "L2/list", "type": "registry", "include": "yes", "domain": "research"},
+            {"repo": "G/generic", "type": "directory", "include": "yes", "domain": "general"},
+            {"repo": "x/skill", "type": "skill", "include": "yes", "domain": "bio"},
         ]
         readmes = {
             "L1/list": "https://github.com/x/skill https://github.com/fresh/pubmed-mcp https://github.com/other/random-thing",
             "L2/list": "github.com/fresh/pubmed-mcp github.com/other/random-thing https://github.com/L2/list",
+            "G/generic": "https://github.com/noise/one https://github.com/noise/two",
         }
         refs, warnings = dc.run_awesome_crossref(seed_rows, None, 0.0, reader=lambda repo, token: readmes[repo])
         self.assertEqual(warnings, [])
         self.assertEqual(refs["x/skill"], {"L1/list"})
         self.assertEqual(refs["fresh/pubmed-mcp"], {"L1/list", "L2/list"})
         self.assertNotIn("l2/list", refs)
+        self.assertNotIn("noise/one", refs)  # generic directories are not cross-referenced
 
     def test_enrichment_uses_descriptions_cache_and_budget(self):
         refs = {
@@ -128,8 +131,8 @@ class AwesomeTests(unittest.TestCase):
         self.assertIn("scmcphub/scmcp", found)  # neutral name, relevant description
         self.assertNotIn("other/random-thing", found)  # single list, irrelevant description
         self.assertNotIn("gone/repo", found)
-        self.assertEqual(cache["gone/repo"]["relevant"], "no")
-        self.assertEqual(cache["scmcphub/scmcp"]["relevant"], "yes")
+        self.assertEqual(cache["gone/repo"]["archived"], "yes")
+        self.assertEqual(cache["scmcphub/scmcp"]["description"], "MCP server for scRNA-seq analysis")
         # second run within the cache window makes no network calls
         calls.clear()
         found2 = dc.enrich_awesome_refs(refs, {"x/skill"}, cache, "2026-10-20", None, fetch_limit=10, fetcher=fetcher)
@@ -200,6 +203,8 @@ class RenderAndCheckTests(unittest.TestCase):
             dc.render_candidates(seen, triage, set(), queries, ["q: boom"], "2026-10-13", {"queries": 1, "hits": 2}, output)
             text = output.read_text(encoding="utf-8")
             self.assertIn("## New this run (2)", text)
+            first_new = text.index("[mirror/five]")
+            self.assertLess(text.index("[new/one]"), first_new)  # more sources / stars first
             self.assertIn("## Seen before, not yet triaged (1)", text)
             self.assertIn("## Deferred (1)", text)
             self.assertNotIn("bad/three", text)

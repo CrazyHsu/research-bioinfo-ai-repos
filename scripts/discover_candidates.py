@@ -54,10 +54,10 @@ SEEN_FIELDS = [
 ]
 TRIAGE_FIELDS = ["repo", "decision", "reason", "date"]
 AWESOME_FIELDS = ["repo", "listed_in", "lists"]
-AWESOME_CACHE_FIELDS = ["repo", "checked_on", "relevant", "stars", "pushed_at", "language", "description"]
+AWESOME_CACHE_FIELDS = ["repo", "checked_on", "archived", "stars", "pushed_at", "language", "description"]
 AWESOME_CACHE_DAYS = 90
 TRIAGE_DECISIONS = {"accept", "reject", "defer"}
-MAX_SEEN_ROWS = 250
+MAX_TABLE_ROWS = 150
 
 TABLE_HEADER = "| repo | suggested category | suggested type | stars | last push | first seen | seen | sources | description |"
 TABLE_DIVIDER = "|---|---|---|---:|---|---|---:|---|---|"
@@ -311,7 +311,9 @@ def run_awesome_crossref(seed_rows: list[dict[str, str]], token: str | None, del
     warnings: list[str] = []
     directories = [
         row["repo"] for row in seed_rows
-        if row.get("type", "").strip() in {"directory", "registry"} and (row.get("include") or "yes").lower() == "yes"
+        if row.get("type", "").strip() in {"directory", "registry"}
+        and (row.get("include") or "yes").lower() == "yes"
+        and (row.get("domain") or "").strip() != "general"  # generic directories link thousands of unrelated repos
     ]
     for list_repo in directories:
         try:
@@ -368,20 +370,17 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
             budget -= 1
             try:
                 meta = fetcher(key, token)
-                archived = bool(meta.get("archived") or meta.get("disabled"))
-                description = clean_cell(meta.get("description"))
-                relevant = (not archived) and (is_relevant_candidate(key, description) or len(lists) >= min_lists)
                 row = {
                     "repo": clean_cell(meta.get("full_name")) or key,
                     "checked_on": today,
-                    "relevant": "yes" if relevant else "no",
+                    "archived": "yes" if (meta.get("archived") or meta.get("disabled")) else "no",
                     "stars": str(as_int(meta.get("stargazers_count"))),
                     "pushed_at": clean_cell(meta.get("pushed_at"))[:10],
                     "language": clean_cell(meta.get("language")),
-                    "description": description,
+                    "description": clean_cell(meta.get("description")),
                 }
             except HTTPError as exc:
-                row = {"repo": key, "checked_on": today, "relevant": "no", "stars": "", "pushed_at": "", "language": "",
+                row = {"repo": key, "checked_on": today, "archived": "yes", "stars": "", "pushed_at": "", "language": "",
                        "description": f"HTTP {exc.code}"}
             except (URLError, TimeoutError, json.JSONDecodeError, OSError):
                 row = None
@@ -390,13 +389,15 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
             if delay:
                 time.sleep(delay)
         if row and row.get("checked_on"):
-            if row.get("relevant") != "yes":
+            if row.get("archived") == "yes" or str(row.get("description", "")).startswith("HTTP "):
+                continue
+            repo_name = row.get("repo") or key
+            description = row.get("description", "")
+            if not (is_relevant_candidate(repo_name, description) or len(lists) >= min_lists):
                 continue
             stars: object = row.get("stars", "")
             pushed_at = row.get("pushed_at", "")
             language = row.get("language", "")
-            description = row.get("description", "")
-            repo_name = row.get("repo") or key
         else:
             if not (len(lists) >= min_lists or is_relevant_candidate(key, "")):
                 continue
@@ -530,8 +531,13 @@ def render_row(row: dict[str, str]) -> str:
     ]) + " |"
 
 
+def source_count(row: dict[str, str]) -> int:
+    return len([item for item in str(row.get("sources", "")).split("; ") if item])
+
+
 def sort_key(row: dict[str, str]) -> tuple:
-    return (row.get("last_seen", ""), as_int(row.get("last_stars")), row.get("repo", "").lower())
+    """More independent sources first, then stars; the repo name breaks ties."""
+    return (source_count(row), as_int(row.get("last_stars")), row.get("repo", "").lower())
 
 
 def render_candidates(seen: dict[str, dict[str, str]], triage: dict[str, dict[str, str]], seeded: set[str],
@@ -540,7 +546,7 @@ def render_candidates(seen: dict[str, dict[str, str]], triage: dict[str, dict[st
     untriaged = [row for key, row in seen.items() if key not in seeded and key not in triage]
     deferred = [row for key, row in seen.items() if key not in seeded and triage.get(key, {}).get("decision") == "defer"]
     new_rows = sorted((row for row in untriaged if row.get("first_seen") == today), key=sort_key, reverse=True)
-    old_rows = sorted((row for row in untriaged if row.get("first_seen") != today), key=sort_key, reverse=True)
+    old_rows = sorted((row for row in untriaged if row.get("first_seen") != today), key=lambda row: (row.get("last_seen", ""),) + sort_key(row), reverse=True)
     decisions = {"accept": 0, "reject": 0, "defer": 0}
     for row in triage.values():
         decision = row.get("decision", "").strip().lower()
@@ -579,12 +585,15 @@ def render_candidates(seen: dict[str, dict[str, str]], triage: dict[str, dict[st
         out.append("")
         return out
 
-    lines.extend([f"## New this run ({len(new_rows)})", ""])
-    lines.extend(table(new_rows, "No new candidates this run."))
-    shown_old = old_rows[:MAX_SEEN_ROWS]
-    suffix = f", showing {len(shown_old)}" if len(old_rows) > len(shown_old) else ""
-    lines.extend([f"## Seen before, not yet triaged ({len(old_rows)}{suffix})", ""])
-    lines.extend(table(shown_old, "No untriaged candidates."))
+    def heading(label: str, rows: list[dict[str, str]]) -> str:
+        shown = min(len(rows), MAX_TABLE_ROWS)
+        suffix = f", showing {shown}; the rest are in data/candidates_seen.tsv" if len(rows) > shown else ""
+        return f"## {label} ({len(rows)}{suffix})"
+
+    lines.extend([heading("New this run", new_rows), ""])
+    lines.extend(table(new_rows[:MAX_TABLE_ROWS], "No new candidates this run."))
+    lines.extend([heading("Seen before, not yet triaged", old_rows), ""])
+    lines.extend(table(old_rows[:MAX_TABLE_ROWS], "No untriaged candidates."))
     lines.extend([f"## Deferred ({len(deferred)})", ""])
     lines.extend(table(sorted(deferred, key=sort_key, reverse=True), "No deferred candidates."))
     lines.extend(["## Queries", ""])
@@ -644,7 +653,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--include-forks", action="store_true", help="Include fork repositories")
     parser.add_argument("--include-broad-matches", action="store_true", help="Keep hits that fail the relevance filter")
     parser.add_argument("--skip-awesome", action="store_true", help="Skip awesome-list cross-referencing")
-    parser.add_argument("--awesome-fetch-limit", type=int, default=200, help="Max GitHub metadata lookups for awesome-list references per run")
+    parser.add_argument("--awesome-fetch-limit", type=int, default=400, help="Max GitHub metadata lookups for awesome-list references per run")
     parser.add_argument("--max-queries", type=int, default=None, help="Only run the first N queries (debugging)")
     parser.add_argument("--delay", type=float, default=2.1, help="Delay between GitHub API calls (search allows 30/min)")
     parser.add_argument("--offline", action="store_true", help="Re-render the report from state files without network")

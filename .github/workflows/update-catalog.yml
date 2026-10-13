@@ -44,6 +44,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/discover_candidates.py --output discovery/candidates.md
 
+      - name: Re-render with awesome-list references
+        run: python3 scripts/update_catalog.py --from-curated
+
       - name: Validate generated outputs
         run: |
           python3 scripts/update_catalog.py --check
