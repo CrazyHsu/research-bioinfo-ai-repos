@@ -140,6 +140,20 @@ class AwesomeTests(unittest.TestCase):
         self.assertEqual(set(found3), {"a/b", "c/zotero-mcp"})
         self.assertEqual(found3["a/b"]["stars"], "")
 
+    def test_redirected_references_are_keyed_by_resolved_name(self):
+        refs = {"old-org/skills": {"L1/list"}, "a/old-name": {"L1/list"}, "a/new-name": {"L2/list"}}
+        metas = {
+            "old-org/skills": {"full_name": "K-Dense-AI/scientific-agent-skills", "stargazers_count": 1, "description": "agent skills for science"},
+            "a/old-name": {"full_name": "a/new-name", "stargazers_count": 7, "description": "arxiv mcp server"},
+            "a/new-name": {"full_name": "a/new-name", "stargazers_count": 7, "description": "arxiv mcp server"},
+        }
+        found = dc.enrich_awesome_refs(refs, {"k-dense-ai/scientific-agent-skills"}, {}, "2026-10-13", None, fetch_limit=10, fetcher=lambda repo, token: metas[repo])
+        self.assertEqual(set(found), {"a/new-name"})
+        self.assertEqual(found["a/new-name"]["sources"], ["awesome:L1/list", "awesome:L2/list"])
+        seen: dict = {}
+        dc.update_seen(seen, {"weird-key": {"repo": "A/New-Name", "url": "u", "stars": 1, "sources": ["search:q"]}}, "2026-10-13")
+        self.assertEqual(list(seen), ["a/new-name"])
+
     def test_merge_candidates_combines_sources(self):
         found = {"a/b": {"repo": "a/b", "stars": 5, "sources": ["search:q"], "description": "d"}}
         dc.merge_candidates(found, {"a/b": {"repo": "a/b", "stars": "", "sources": ["awesome:L"], "description": ""}, "c/d": {"repo": "c/d", "sources": ["awesome:L"]}})

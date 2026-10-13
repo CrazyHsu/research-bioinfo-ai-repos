@@ -401,7 +401,18 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
             if not (len(lists) >= min_lists or is_relevant_candidate(key, "")):
                 continue
             stars, pushed_at, language, description, repo_name = "", "", "", "", key
-        found[key] = {
+        # a link under an old name redirects to the current full_name: key by the resolved name
+        resolved = repo_name.lower()
+        if resolved in skip:
+            continue
+        sources = [f"awesome:{name}" for name in sorted(lists, key=str.lower)]
+        existing = found.get(resolved)
+        if existing:
+            existing_sources = existing["sources"]
+            if isinstance(existing_sources, list):
+                existing_sources.extend(source for source in sources if source not in existing_sources)
+            continue
+        found[resolved] = {
             "repo": repo_name,
             "url": f"https://github.com/{repo_name}",
             "stars": stars,
@@ -409,7 +420,7 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
             "language": language,
             "suggested_category": suggest_category(repo_name, description),
             "suggested_type": suggest_type(repo_name, description),
-            "sources": [f"awesome:{name}" for name in sorted(lists, key=str.lower)],
+            "sources": sources,
             "description": description,
         }
     return found
@@ -431,7 +442,8 @@ def merge_candidates(found: dict[str, dict[str, object]], extra: dict[str, dict[
 
 def update_seen(seen: dict[str, dict[str, str]], found: dict[str, dict[str, object]], today: str) -> None:
     """Merge this run's candidates into the seen table; times_seen grows at most once per run date."""
-    for key, record in found.items():
+    for found_key, record in found.items():
+        key = str(record.get("repo") or found_key).strip().lower()
         stars = record.get("stars")
         stars_text = str(stars) if stars not in ("", None) else ""
         sources = record.get("sources", [])
@@ -670,6 +682,7 @@ def main(argv: list[str] | None = None) -> int:
             extra = enrich_awesome_refs(refs, skip, cache, today, token, args.awesome_fetch_limit, min(args.delay, 0.5))
             write_awesome_cache(cache)
             merge_candidates(found, extra)
+            found = {key: record for key, record in found.items() if key not in seeded}
             write_awesome_refs(refs, seed_rows)
         update_seen(seen, found, today)
         write_seen(seen)
