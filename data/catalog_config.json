@@ -22,12 +22,20 @@
       "zh": "生信 / 组学 / 单细胞 Skills"
     },
     {
+      "en": "Protein Design / Structural Biology",
+      "zh": "蛋白设计 / 结构生物学"
+    },
+    {
+      "en": "Pipelines / Sequence & Genome Tool MCP",
+      "zh": "流程 / 序列与基因组工具 MCP"
+    },
+    {
       "en": "Biomedical / Clinical / Medical Research",
       "zh": "生物医学 / 临床 / 医学研究"
     },
     {
-      "en": "Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP",
-      "zh": "生物数据库 / 结构生物学 / 化学 / 药物发现 MCP"
+      "en": "Biological Databases / Pathways / Chemistry / Drug Discovery MCP",
+      "zh": "生物数据库 / 通路 / 化学 / 药物发现 MCP"
     },
     {
       "en": "Research Agent Apps / Workspaces",

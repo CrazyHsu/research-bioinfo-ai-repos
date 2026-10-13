@@ -11,8 +11,10 @@ Use exactly one of these category labels per repo:
 - `Literature Search / Scholarly Search MCP`
 - `Zotero / CNKI / Google Scholar / Reference Management`
 - `Bioinformatics / Omics / Single-Cell Skills`
+- `Protein Design / Structural Biology`
+- `Pipelines / Sequence & Genome Tool MCP`
 - `Biomedical / Clinical / Medical Research`
-- `Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP`
+- `Biological Databases / Pathways / Chemistry / Drug Discovery MCP`
 - `Research Agent Apps / Workspaces`
 - `Figures / PDF / LaTeX / Research Artifact Tools`
 - `Awesome Lists / Registries / Further Discovery`
