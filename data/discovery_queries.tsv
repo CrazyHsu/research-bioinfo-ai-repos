@@ -1,0 +1,102 @@
+query	target_category	sort
+"academic research" skills agent	General Research / AI4S Skill Suites	stars
+"AI for Science" skills	General Research / AI4S Skill Suites	stars
+"research skills" "claude code"	General Research / AI4S Skill Suites	updated
+"scientific research" "agent skills"	General Research / AI4S Skill Suites	stars
+phd skills agent research	General Research / AI4S Skill Suites	stars
+"paper writing" skill	Paper Writing / Peer Review / Submission Skills	stars
+"academic writing" skill agent	Paper Writing / Peer Review / Submission Skills	updated
+"peer review" skill agent paper	Paper Writing / Peer Review / Submission Skills	stars
+latex skill "claude code" paper	Paper Writing / Peer Review / Submission Skills	stars
+arxiv mcp server	Literature Search / Scholarly Search MCP	stars
+arxiv mcp server	Literature Search / Scholarly Search MCP	updated
+pubmed mcp server	Literature Search / Scholarly Search MCP	stars
+pubmed mcp server	Literature Search / Scholarly Search MCP	updated
+"semantic scholar" mcp	Literature Search / Scholarly Search MCP	stars
+openalex mcp	Literature Search / Scholarly Search MCP	stars
+crossref mcp	Literature Search / Scholarly Search MCP	stars
+"europe pmc" mcp	Literature Search / Scholarly Search MCP	stars
+biorxiv mcp	Literature Search / Scholarly Search MCP	stars
+medrxiv mcp	Literature Search / Scholarly Search MCP	stars
+"google scholar" mcp	Literature Search / Scholarly Search MCP	stars
+"literature search" mcp	Literature Search / Scholarly Search MCP	stars
+"paper search" mcp	Literature Search / Scholarly Search MCP	updated
+zotero mcp	Zotero / CNKI / Google Scholar / Reference Management	stars
+zotero mcp	Zotero / CNKI / Google Scholar / Reference Management	updated
+zotero plugin llm	Zotero / CNKI / Google Scholar / Reference Management	stars
+zotero agent skill	Zotero / CNKI / Google Scholar / Reference Management	stars
+cnki skill agent	Zotero / CNKI / Google Scholar / Reference Management	stars
+mendeley OR endnote mcp	Zotero / CNKI / Google Scholar / Reference Management	stars
+bioinformatics mcp server	Bioinformatics / Omics / Single-Cell Skills	stars
+bioinformatics mcp server	Bioinformatics / Omics / Single-Cell Skills	updated
+bioinformatics "agent skills"	Bioinformatics / Omics / Single-Cell Skills	stars
+bioinformatics "claude code" skills	Bioinformatics / Omics / Single-Cell Skills	updated
+genomics mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+"single-cell" mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+scanpy mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+seurat skill agent	Bioinformatics / Omics / Single-Cell Skills	stars
+"spatial transcriptomics" mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+proteomics mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+"multi-omics" agent skills	Bioinformatics / Omics / Single-Cell Skills	stars
+bioconductor skill agent	Bioinformatics / Omics / Single-Cell Skills	stars
+nextflow mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+"nf-core" mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+galaxy bioinformatics mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+snakemake mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+samtools OR bcftools mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+blast mcp server sequence	Bioinformatics / Omics / Single-Cell Skills	stars
+biopython mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+igv OR jbrowse mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+topic:mcp-server topic:bioinformatics	Bioinformatics / Omics / Single-Cell Skills	stars
+topic:mcp-server topic:genomics	Bioinformatics / Omics / Single-Cell Skills	stars
+topic:agent-skills topic:bioinformatics	Bioinformatics / Omics / Single-Cell Skills	stars
+topic:claude-code topic:bioinformatics	Bioinformatics / Omics / Single-Cell Skills	stars
+ProteinMCP in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+"protein MCP" in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+"autonomous protein design" in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+"protein engineering" "MCP" in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+"Claude Code" "protein" in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+MacromNex MCP in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+Boltz MCP in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+AlphaFold MCP in:name,description,readme	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+protein agent skills in:name,description,readme	Bioinformatics / Omics / Single-Cell Skills	stars
+"protein design" mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+rfdiffusion OR proteinmpnn OR esmfold mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+pymol OR chimerax mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+"molecular dynamics" mcp	Bioinformatics / Omics / Single-Cell Skills	stars
+"clinical trials" mcp	Biomedical / Clinical / Medical Research	stars
+"medical research" skills agent	Biomedical / Clinical / Medical Research	stars
+biomedical mcp server	Biomedical / Clinical / Medical Research	stars
+biomedical mcp server	Biomedical / Clinical / Medical Research	updated
+fda OR openfda mcp server	Biomedical / Clinical / Medical Research	stars
+"drug discovery" mcp	Biomedical / Clinical / Medical Research	stars
+"precision medicine" mcp	Biomedical / Clinical / Medical Research	stars
+medical "agent skills"	Biomedical / Clinical / Medical Research	stars
+uniprot mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"protein data bank" OR rcsb mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+ensembl mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+chembl mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+pubchem mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+kegg mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+reactome mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"string" protein interaction mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"open targets" mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+clinvar OR gnomad mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"gwas catalog" mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+ncbi mcp server	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"gene ontology" mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"ucsc genome" mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+rdkit OR cheminformatics mcp	Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP	stars
+"AI scientist" agent research	Research Agent Apps / Workspaces	stars
+"co-scientist" agent	Research Agent Apps / Workspaces	stars
+"research assistant" agent skills	Research Agent Apps / Workspaces	stars
+biomedical "AI agent" autonomous	Research Agent Apps / Workspaces	stars
+"scientific figure" skill agent	Figures / PDF / LaTeX / Research Artifact Tools	stars
+"pdf" scientific translate mcp	Figures / PDF / LaTeX / Research Artifact Tools	stars
+latex mcp server	Figures / PDF / LaTeX / Research Artifact Tools	stars
+grobid OR "pdf parsing" mcp scientific	Figures / PDF / LaTeX / Research Artifact Tools	stars
+awesome "agent skills" science	Awesome Lists / Registries / Further Discovery	stars
+awesome mcp bioinformatics	Awesome Lists / Registries / Further Discovery	stars
+awesome scientific skills	Awesome Lists / Registries / Further Discovery	stars
+awesome academic skills	Awesome Lists / Registries / Further Discovery	stars
+biomedical mcp registry	Awesome Lists / Registries / Further Discovery	stars

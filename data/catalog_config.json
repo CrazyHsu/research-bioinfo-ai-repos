@@ -1,0 +1,155 @@
+{
+  "schema_version": 2,
+  "categories": [
+    {
+      "en": "General Research / AI4S Skill Suites",
+      "zh": "综合科研 / AI4S Skill Suites"
+    },
+    {
+      "en": "Paper Writing / Peer Review / Submission Skills",
+      "zh": "论文写作 / 审稿 / 投稿 Skills"
+    },
+    {
+      "en": "Literature Search / Scholarly Search MCP",
+      "zh": "文献检索 / 学术搜索 MCP"
+    },
+    {
+      "en": "Zotero / CNKI / Google Scholar / Reference Management",
+      "zh": "Zotero / CNKI / Google Scholar / 文献管理"
+    },
+    {
+      "en": "Bioinformatics / Omics / Single-Cell Skills",
+      "zh": "生信 / 组学 / 单细胞 Skills"
+    },
+    {
+      "en": "Biomedical / Clinical / Medical Research",
+      "zh": "生物医学 / 临床 / 医学研究"
+    },
+    {
+      "en": "Biological Databases / Structural Biology / Chemistry / Drug Discovery MCP",
+      "zh": "生物数据库 / 结构生物学 / 化学 / 药物发现 MCP"
+    },
+    {
+      "en": "Research Agent Apps / Workspaces",
+      "zh": "科研 Agent Apps / Workspaces"
+    },
+    {
+      "en": "Figures / PDF / LaTeX / Research Artifact Tools",
+      "zh": "图表 / PDF / LaTeX / 研究产物工具"
+    },
+    {
+      "en": "Awesome Lists / Registries / Further Discovery",
+      "zh": "Awesome / Registry / 继续深挖入口"
+    }
+  ],
+  "types": [
+    {
+      "key": "skill",
+      "en": "A single agent skill (one SKILL.md or one focused workflow)",
+      "zh": "单个 agent skill（一个 SKILL.md 或单一工作流）"
+    },
+    {
+      "key": "skill-suite",
+      "en": "A library or suite of multiple skills",
+      "zh": "多个 skill 组成的库或套件"
+    },
+    {
+      "key": "mcp-server",
+      "en": "One MCP server",
+      "zh": "单个 MCP server"
+    },
+    {
+      "key": "mcp-suite",
+      "en": "A collection or platform of several MCP servers",
+      "zh": "多个 MCP server 组成的集合或平台"
+    },
+    {
+      "key": "plugin",
+      "en": "A host-specific plugin (Zotero, Claude Code, Codex, VS Code, ...)",
+      "zh": "面向特定宿主的插件（Zotero、Claude Code、Codex、VS Code 等）"
+    },
+    {
+      "key": "agent-app",
+      "en": "A standalone research agent application or workspace",
+      "zh": "独立的科研 agent 应用或工作台"
+    },
+    {
+      "key": "framework",
+      "en": "A framework or harness for building agents or skills",
+      "zh": "用于构建 agent 或 skill 的框架 / harness"
+    },
+    {
+      "key": "tool",
+      "en": "An agent-ready tool or toolkit that is not primarily a skill or MCP server",
+      "zh": "可被 agent 调用但主体不是 skill/MCP 的工具或工具包"
+    },
+    {
+      "key": "directory",
+      "en": "An awesome list or curated directory",
+      "zh": "awesome 列表或人工目录"
+    },
+    {
+      "key": "registry",
+      "en": "A machine-readable registry or marketplace",
+      "zh": "机器可读的注册表或市场"
+    }
+  ],
+  "interfaces": [
+    "skill",
+    "mcp",
+    "plugin",
+    "app",
+    "tool",
+    "framework",
+    "directory",
+    "registry"
+  ],
+  "hosts": [
+    "claude-code",
+    "claude-desktop",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "opencode",
+    "openclaw",
+    "copilot",
+    "vscode"
+  ],
+  "domains": [
+    "bio",
+    "research",
+    "general"
+  ],
+  "pinned_repos": [
+    "WUBING2023/PaperSpine",
+    "charlesxu90/ProteinMCP"
+  ],
+  "policy": {
+    "include": {
+      "heading": {
+        "en": "## Inclusion / Exclusion Rules",
+        "zh": "## 纳入 / 排除规则"
+      },
+      "en": [
+        "Include repositories that clearly target research, paper writing, literature, Zotero/PubMed/arXiv/Semantic Scholar, medicine, bioinformatics, or life sciences, and expose that capability as a skill, plugin, MCP server, agent workflow, or agent-ready tool.",
+        "Keep low-star repositories when they are direct, domain-specific, and interface-ready.",
+        "Exclude ordinary tutorials, book inventory apps, generic agent infrastructure without a research angle, mirror-only forks without meaningful additions, and empty shells with no useful description.",
+        "Notes must say what the repo does and how it differs from neighbours in the same category; a bare database name is not a note."
+      ],
+      "zh": [
+        "纳入：明确面向科研、论文写作、文献、Zotero/PubMed/arXiv/Semantic Scholar、医学、生物信息、生命科学，并以 skill、plugin、MCP、agent workflow 或 agent-ready tool 形式服务 AI agent 的仓库。",
+        "保留低 star 项：如果领域直接、接口明确、方向独特，即使 stars 很低也保留。",
+        "排除：普通教程、书籍/藏书 app、无科研方向的通用 agent 基础设施、无新增价值的镜像或 fork、无描述且无法判断用途的空壳仓库。",
+        "备注必须说明仓库做什么、与同类条目有何差异；只写一个数据库名不算备注。"
+      ]
+    },
+    "stopping": {
+      "heading": {
+        "en": "## Coverage Notes",
+        "zh": "## 覆盖说明"
+      },
+      "en": "GitHub Search cannot guarantee complete coverage. New repositories enter through the weekly discovery report in `discovery/candidates.md`, awesome-list cross-references, and manual triage recorded in `data/triage.tsv`.",
+      "zh": "GitHub Search 无法保证完整覆盖。新仓库通过每周的 `discovery/candidates.md` 候选报告、awesome 列表反查以及记录在 `data/triage.tsv` 中的人工审核进入目录。"
+    }
+  }
+}
