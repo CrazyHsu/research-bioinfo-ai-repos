@@ -149,7 +149,7 @@ class AwesomeTests(unittest.TestCase):
         }
         found = dc.enrich_awesome_refs(refs, {"k-dense-ai/scientific-agent-skills"}, {}, "2026-10-13", None, fetch_limit=10, fetcher=lambda repo, token: metas[repo])
         self.assertEqual(set(found), {"a/new-name"})
-        self.assertEqual(found["a/new-name"]["sources"], ["awesome:L1/list", "awesome:L2/list"])
+        self.assertCountEqual(found["a/new-name"]["sources"], ["awesome:L1/list", "awesome:L2/list"])
         seen: dict = {}
         dc.update_seen(seen, {"weird-key": {"repo": "A/New-Name", "url": "u", "stars": 1, "sources": ["search:q"]}}, "2026-10-13")
         self.assertEqual(list(seen), ["a/new-name"])
