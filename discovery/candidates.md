@@ -4,19 +4,19 @@ Generated on: 2026-10-13 (UTC)
 
 GitHub Search hits and awesome-list cross-references that are not yet in `data/repos.seed.tsv`. They are candidates only: review README evidence, scope, overlap, license, maintenance, and safety before adding an entry to the seed file. Record every decision in `data/triage.tsv` (`accept`, `reject`, or `defer` with a reason) so the repo stops reappearing here. Candidates are tracked across runs in `data/candidates_seen.tsv`.
 
-- Queries run: 101 (see `data/discovery_queries.tsv`)
-- Search hits after filtering: 1382
-- Awesome-list references scanned: 550 from 9 directories
-- Candidates tracked: 1042 (1032 untriaged, 4 deferred, 9 rejected, 7 accepted)
+- Queries run: 111 (see `data/discovery_queries.tsv`)
+- Search hits after filtering: 0
+- Awesome-list references scanned: 0 from 0 directories
+- Candidates tracked: 1042 (1030 untriaged, 4 deferred, 11 rejected, 7 accepted)
 
-## New this run (1032, showing 150; the rest are in data/candidates_seen.tsv)
+Rendered offline from the state files; no searches were run.
+
+## New this run (1030, showing 150; the rest are in data/candidates_seen.tsv)
 
 | repo | suggested category | suggested type | stars | last push | first seen | seen | sources | description |
 |---|---|---|---:|---|---|---:|---|---|
 | [qgeng1465/bio-mcp](https://github.com/qgeng1465/bio-mcp) | Literature Search / Scholarly Search MCP | mcp-server | 14 | 2026-09-13 | 2026-10-13 | 1 | search:pubmed mcp server; search:openalex mcp; search:bioinformatics mcp server (+10 more) | 🧬 BioMCP — bioinformatics MCP server: 83 tools · 43 databases · PubMed/NCBI/BLAST/PDB/UniProt/enrichment · `pip install biomcp-server` · 生信 MCP 服务器 |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | Zotero / CNKI / Google Scholar / Reference Management | skill-suite | 278487 | 2026-10-12 | 2026-10-13 | 1 | search:mendeley OR endnote mcp; search:samtools OR bcftools mcp; search:igv OR jbrowse mcp (+5 more) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. |
 | [ai4s-research/awesome-ai-for-science](https://github.com/ai4s-research/awesome-ai-for-science) | Bioinformatics / Omics / Single-Cell Skills | directory | 2029 | 2026-10-13 | 2026-10-13 | 1 | search:protein MCP in:name,description,readme; search:autonomous protein design in:name,description,readme; search:protein engineering "MCP" in:name,description,readme (+5 more) | A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biology, materials, and beyond. |
-| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | Zotero / CNKI / Google Scholar / Reference Management | agent-app | 101489 | 2026-10-13 | 2026-10-13 | 1 | search:mendeley OR endnote mcp; search:samtools OR bcftools mcp; search:igv OR jbrowse mcp (+4 more) | The open-source app everyone uses to manage agents at work |
 | [nickjlamb/pubcrawl](https://github.com/nickjlamb/pubcrawl) | Literature Search / Scholarly Search MCP | mcp-server | 14 | 2026-10-06 | 2026-10-13 | 1 | search:pubmed mcp server; search:europe pmc mcp; search:bioinformatics mcp server (+4 more) | MCP server giving AI assistants verifiable access to PubMed, Europe PMC, US/UK drug labelling, and ClinicalTrials.gov. Built by PharmaTools.AI. |
 | [musharna/plant-genomics-mcp](https://github.com/musharna/plant-genomics-mcp) | Bioinformatics / Omics / Single-Cell Skills | mcp-server | 7 | 2026-10-12 | 2026-10-13 | 1 | search:bioinformatics mcp server; search:genomics mcp; search:uniprot mcp (+4 more) | Plant genomics MCP server — 50+ tools across 23 backends (Ensembl Plants, Phytozome, UniProt, AlphaFold DB, PDBe, InterPro, JASPAR, PANTHER, OrthoDB, AraGWAS, NCBI BLAST, Gramene, KEGG, STRING-DB, ATTED-II, BAR, …) + cross-source synthesis. stdio + Streamable-HTTP. |
 | [berntpopp/genefoundry-router](https://github.com/berntpopp/genefoundry-router) | Bioinformatics / Omics / Single-Cell Skills | mcp-server | 6 | 2026-10-10 | 2026-10-13 | 1 | search:bioinformatics mcp server; search:genomics mcp; search:topic:mcp-server topic:bioinformatics (+4 more) | MCP gateway federating 21 biomedical MCP servers — gnomAD, ClinVar, HPO, UniProt, Ensembl VEP, PanelApp and more — behind one Streamable-HTTP endpoint, with collision-free namespaced tools and BM25 tool search. |
@@ -163,6 +163,8 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 | [panjose/Co-Scientist](https://github.com/panjose/Co-Scientist) | General Research / AI4S Skill Suites | skill-suite | 6 | 2026-06-11 | 2026-10-13 | 1 | search:scientific research "agent skills"; search:co-scientist agent | Scientific agent skills for Claude Code and Codex that turn research goals into auditable hypothesis generation, review, ranking, evolution, and synthesis. |
 | [Orchestra-Research/Agent-Native-Research-Artifact-template](https://github.com/Orchestra-Research/Agent-Native-Research-Artifact-template) | Research Agent Apps / Workspaces | agent-app | 6 | 2026-04-05 | 2026-10-13 | 1 | search:AI scientist agent research; search:co-scientist agent | The research artifact protocol for the era of AI co-scientists. |
 | [nnkunkun/research-skills-summary-bilingual](https://github.com/nnkunkun/research-skills-summary-bilingual) | Bioinformatics / Omics / Single-Cell Skills | skill-suite | 6 | 2026-06-07 | 2026-10-13 | 1 | search:topic:agent-skills topic:bioinformatics; search:topic:claude-code topic:bioinformatics | 科研 skills 汇总（中英文） for Codex, Claude Code, Cursor, OpenCode, Gemini CLI and other agents. |
+| [kevinkawchak/national-mcp-pai-oncology-trials](https://github.com/kevinkawchak/national-mcp-pai-oncology-trials) | Biomedical / Clinical / Medical Research | mcp-server | 6 | 2026-04-30 | 2026-10-13 | 1 | search:clinical trials mcp; awesome:JuneYaooo/awesome-medical-ai-skills | National MCP servers for Physical AI oncology clinical trial systems |
+| [KalarisLabs/Myriad](https://github.com/KalarisLabs/Myriad) | Bioinformatics / Omics / Single-Cell Skills | skill-suite | 6 | 2026-08-26 | 2026-10-13 | 1 | search:bioinformatics "agent skills"; search:topic:agent-skills topic:bioinformatics | Agent skills for biotech and pharmaceutical . Access 10,000 searchable, installable tasks for bioinformatics, drug discovery, genomics, and automated life-science workflows. |
 
 ## Seen before, not yet triaged (0)
 
@@ -206,7 +208,8 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - `zotero plugin llm` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
 - `zotero agent skill` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
 - `cnki skill agent` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
-- `mendeley OR endnote mcp` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
+- `mendeley mcp` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
+- `endnote mcp` (stars) -> Zotero / CNKI / Google Scholar / Reference Management
 - `bioinformatics mcp server` (stars) -> Bioinformatics / Omics / Single-Cell Skills
 - `bioinformatics mcp server` (updated) -> Bioinformatics / Omics / Single-Cell Skills
 - `bioinformatics "agent skills"` (stars) -> Bioinformatics / Omics / Single-Cell Skills
@@ -223,10 +226,12 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - `nf-core mcp` (stars) -> Bioinformatics / Omics / Single-Cell Skills
 - `galaxy bioinformatics mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
 - `snakemake mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
-- `samtools OR bcftools mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
+- `samtools mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
+- `bcftools mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
 - `blast mcp server sequence` (stars) -> Pipelines / Sequence & Genome Tool MCP
 - `biopython mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
-- `igv OR jbrowse mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
+- `igv mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
+- `jbrowse mcp` (stars) -> Pipelines / Sequence & Genome Tool MCP
 - `topic:mcp-server topic:bioinformatics` (stars) -> Bioinformatics / Omics / Single-Cell Skills
 - `topic:mcp-server topic:genomics` (stars) -> Bioinformatics / Omics / Single-Cell Skills
 - `topic:agent-skills topic:bioinformatics` (stars) -> Bioinformatics / Omics / Single-Cell Skills
@@ -241,14 +246,18 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - `AlphaFold MCP in:name,description,readme` (stars) -> Protein Design / Structural Biology
 - `protein agent skills in:name,description,readme` (stars) -> Protein Design / Structural Biology
 - `protein design mcp` (stars) -> Bioinformatics / Omics / Single-Cell Skills
-- `rfdiffusion OR proteinmpnn OR esmfold mcp` (stars) -> Protein Design / Structural Biology
-- `pymol OR chimerax mcp` (stars) -> Protein Design / Structural Biology
+- `rfdiffusion mcp` (stars) -> Protein Design / Structural Biology
+- `proteinmpnn mcp` (stars) -> Protein Design / Structural Biology
+- `esmfold mcp` (stars) -> Protein Design / Structural Biology
+- `pymol mcp` (stars) -> Protein Design / Structural Biology
+- `chimerax mcp` (stars) -> Protein Design / Structural Biology
 - `molecular dynamics mcp` (stars) -> Bioinformatics / Omics / Single-Cell Skills
 - `clinical trials mcp` (stars) -> Biomedical / Clinical / Medical Research
 - `medical research skills agent` (stars) -> Biomedical / Clinical / Medical Research
 - `biomedical mcp server` (stars) -> Biomedical / Clinical / Medical Research
 - `biomedical mcp server` (updated) -> Biomedical / Clinical / Medical Research
-- `fda OR openfda mcp server` (stars) -> Biomedical / Clinical / Medical Research
+- `openfda mcp` (stars) -> Biomedical / Clinical / Medical Research
+- `"fda" mcp server drug` (stars) -> Biomedical / Clinical / Medical Research
 - `drug discovery mcp` (stars) -> Biomedical / Clinical / Medical Research
 - `precision medicine mcp` (stars) -> Biomedical / Clinical / Medical Research
 - `medical "agent skills"` (stars) -> Biomedical / Clinical / Medical Research
@@ -261,12 +270,14 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - `reactome mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `string protein interaction mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `open targets mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
-- `clinvar OR gnomad mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `clinvar mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `gnomad mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `gwas catalog mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `ncbi mcp server` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `gene ontology mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `ucsc genome mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
-- `rdkit OR cheminformatics mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `rdkit mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `cheminformatics mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `AI scientist agent research` (stars) -> Research Agent Apps / Workspaces
 - `co-scientist agent` (stars) -> Research Agent Apps / Workspaces
 - `research assistant agent skills` (stars) -> Research Agent Apps / Workspaces
@@ -274,7 +285,8 @@ GitHub Search hits and awesome-list cross-references that are not yet in `data/r
 - `scientific figure skill agent` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
 - `pdf scientific translate mcp` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
 - `latex mcp server` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
-- `grobid OR "pdf parsing" mcp scientific` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
+- `grobid mcp` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
+- `"pdf parsing" mcp scientific` (stars) -> Figures / PDF / LaTeX / Research Artifact Tools
 - `awesome "agent skills" science` (stars) -> Awesome Lists / Registries / Further Discovery
 - `awesome mcp bioinformatics` (stars) -> Awesome Lists / Registries / Further Discovery
 - `awesome scientific skills` (stars) -> Awesome Lists / Registries / Further Discovery

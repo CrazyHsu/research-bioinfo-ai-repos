@@ -26,7 +26,8 @@ zotero mcp	Zotero / CNKI / Google Scholar / Reference Management	updated
 zotero plugin llm	Zotero / CNKI / Google Scholar / Reference Management	stars
 zotero agent skill	Zotero / CNKI / Google Scholar / Reference Management	stars
 cnki skill agent	Zotero / CNKI / Google Scholar / Reference Management	stars
-mendeley OR endnote mcp	Zotero / CNKI / Google Scholar / Reference Management	stars
+mendeley mcp	Zotero / CNKI / Google Scholar / Reference Management	stars
+endnote mcp	Zotero / CNKI / Google Scholar / Reference Management	stars
 bioinformatics mcp server	Bioinformatics / Omics / Single-Cell Skills	stars
 bioinformatics mcp server	Bioinformatics / Omics / Single-Cell Skills	updated
 "bioinformatics ""agent skills"""	Bioinformatics / Omics / Single-Cell Skills	stars
@@ -43,10 +44,12 @@ nextflow mcp	Pipelines / Sequence & Genome Tool MCP	stars
 nf-core mcp	Bioinformatics / Omics / Single-Cell Skills	stars
 galaxy bioinformatics mcp	Pipelines / Sequence & Genome Tool MCP	stars
 snakemake mcp	Pipelines / Sequence & Genome Tool MCP	stars
-samtools OR bcftools mcp	Pipelines / Sequence & Genome Tool MCP	stars
+samtools mcp	Pipelines / Sequence & Genome Tool MCP	stars
+bcftools mcp	Pipelines / Sequence & Genome Tool MCP	stars
 blast mcp server sequence	Pipelines / Sequence & Genome Tool MCP	stars
 biopython mcp	Pipelines / Sequence & Genome Tool MCP	stars
-igv OR jbrowse mcp	Pipelines / Sequence & Genome Tool MCP	stars
+igv mcp	Pipelines / Sequence & Genome Tool MCP	stars
+jbrowse mcp	Pipelines / Sequence & Genome Tool MCP	stars
 topic:mcp-server topic:bioinformatics	Bioinformatics / Omics / Single-Cell Skills	stars
 topic:mcp-server topic:genomics	Bioinformatics / Omics / Single-Cell Skills	stars
 topic:agent-skills topic:bioinformatics	Bioinformatics / Omics / Single-Cell Skills	stars
@@ -61,14 +64,18 @@ Boltz MCP in:name,description,readme	Protein Design / Structural Biology	stars
 AlphaFold MCP in:name,description,readme	Protein Design / Structural Biology	stars
 protein agent skills in:name,description,readme	Protein Design / Structural Biology	stars
 protein design mcp	Bioinformatics / Omics / Single-Cell Skills	stars
-rfdiffusion OR proteinmpnn OR esmfold mcp	Protein Design / Structural Biology	stars
-pymol OR chimerax mcp	Protein Design / Structural Biology	stars
+rfdiffusion mcp	Protein Design / Structural Biology	stars
+proteinmpnn mcp	Protein Design / Structural Biology	stars
+esmfold mcp	Protein Design / Structural Biology	stars
+pymol mcp	Protein Design / Structural Biology	stars
+chimerax mcp	Protein Design / Structural Biology	stars
 molecular dynamics mcp	Bioinformatics / Omics / Single-Cell Skills	stars
 clinical trials mcp	Biomedical / Clinical / Medical Research	stars
 medical research skills agent	Biomedical / Clinical / Medical Research	stars
 biomedical mcp server	Biomedical / Clinical / Medical Research	stars
 biomedical mcp server	Biomedical / Clinical / Medical Research	updated
-fda OR openfda mcp server	Biomedical / Clinical / Medical Research	stars
+openfda mcp	Biomedical / Clinical / Medical Research	stars
+"""fda"" mcp server drug"	Biomedical / Clinical / Medical Research	stars
 drug discovery mcp	Biomedical / Clinical / Medical Research	stars
 precision medicine mcp	Biomedical / Clinical / Medical Research	stars
 "medical ""agent skills"""	Biomedical / Clinical / Medical Research	stars
@@ -81,12 +88,14 @@ kegg mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 reactome mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 string protein interaction mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 open targets mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
-clinvar OR gnomad mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+clinvar mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+gnomad mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 gwas catalog mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 ncbi mcp server	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 gene ontology mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 ucsc genome mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
-rdkit OR cheminformatics mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+rdkit mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+cheminformatics mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 AI scientist agent research	Research Agent Apps / Workspaces	stars
 co-scientist agent	Research Agent Apps / Workspaces	stars
 research assistant agent skills	Research Agent Apps / Workspaces	stars
@@ -94,7 +103,8 @@ research assistant agent skills	Research Agent Apps / Workspaces	stars
 scientific figure skill agent	Figures / PDF / LaTeX / Research Artifact Tools	stars
 pdf scientific translate mcp	Figures / PDF / LaTeX / Research Artifact Tools	stars
 latex mcp server	Figures / PDF / LaTeX / Research Artifact Tools	stars
-"grobid OR ""pdf parsing"" mcp scientific"	Figures / PDF / LaTeX / Research Artifact Tools	stars
+grobid mcp	Figures / PDF / LaTeX / Research Artifact Tools	stars
+"""pdf parsing"" mcp scientific"	Figures / PDF / LaTeX / Research Artifact Tools	stars
 "awesome ""agent skills"" science"	Awesome Lists / Registries / Further Discovery	stars
 awesome mcp bioinformatics	Awesome Lists / Registries / Further Discovery	stars
 awesome scientific skills	Awesome Lists / Registries / Further Discovery	stars
