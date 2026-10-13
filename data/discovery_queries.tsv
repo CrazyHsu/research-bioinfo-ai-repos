@@ -80,7 +80,8 @@ drug discovery mcp	Biomedical / Clinical / Medical Research	stars
 precision medicine mcp	Biomedical / Clinical / Medical Research	stars
 "medical ""agent skills"""	Biomedical / Clinical / Medical Research	stars
 uniprot mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
-protein data bank OR rcsb mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+protein data bank mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
+rcsb mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 ensembl mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 chembl mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars
 pubchem mcp	Biological Databases / Pathways / Chemistry / Drug Discovery MCP	stars

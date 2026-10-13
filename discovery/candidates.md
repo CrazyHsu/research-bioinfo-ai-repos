@@ -4,7 +4,7 @@ Generated on: 2026-10-13 (UTC)
 
 GitHub Search hits and awesome-list cross-references that are not yet in `data/repos.seed.tsv`. They are candidates only: review README evidence, scope, overlap, license, maintenance, and safety before adding an entry to the seed file. Record every decision in `data/triage.tsv` (`accept`, `reject`, or `defer` with a reason) so the repo stops reappearing here. Candidates are tracked across runs in `data/candidates_seen.tsv`.
 
-- Queries run: 111 (see `data/discovery_queries.tsv`)
+- Queries run: 112 (see `data/discovery_queries.tsv`)
 - Search hits after filtering: 0
 - Awesome-list references scanned: 0 from 0 directories
 - Candidates tracked: 1042 (1030 untriaged, 4 deferred, 11 rejected, 7 accepted)
@@ -262,7 +262,8 @@ Rendered offline from the state files; no searches were run.
 - `precision medicine mcp` (stars) -> Biomedical / Clinical / Medical Research
 - `medical "agent skills"` (stars) -> Biomedical / Clinical / Medical Research
 - `uniprot mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
-- `protein data bank OR rcsb mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `protein data bank mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+- `rcsb mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `ensembl mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `chembl mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 - `pubchem mcp` (stars) -> Biological Databases / Pathways / Chemistry / Drug Discovery MCP
