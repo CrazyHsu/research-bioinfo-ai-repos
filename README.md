@@ -43,14 +43,14 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 - Archived: `GPTomics/bioSkills`, `gyger/mcp-pyzotero`
 - Renamed: none
 - Missing on GitHub: none
-- Top star gains: `Imbad0202/academic-research-skills` +317 (51478 -> 51795), `K-Dense-AI/scientific-agent-skills` +211 (48508 -> 48719), `Imbad0202/academic-research-skills-codex` +124 (12642 -> 12766), `punkpeye/awesome-mcp-servers` +103 (96181 -> 96284), `wanshuiyin/Auto-claude-code-research-in-sleep` +100 (17315 -> 17415)
+- Top star gains: `Imbad0202/academic-research-skills` +317 (51478 -> 51795), `K-Dense-AI/scientific-agent-skills` +212 (48508 -> 48720), `Imbad0202/academic-research-skills-codex` +124 (12642 -> 12766), `punkpeye/awesome-mcp-servers` +105 (96181 -> 96286), `wanshuiyin/Auto-claude-code-research-in-sleep` +100 (17315 -> 17415)
 
 ## General Research / AI4S Skill Suites
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | skill-suite | 51795 | 2026-10-13 | Academic research skills: research -> write -> review -> revise -> finalize |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 48719 | 2026-10-12 | Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 48720 | 2026-10-12 | Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery |
 | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | skill-suite | 17415 | 2026-10-07 | ARIS automated research loop, idea discovery, and experiment automation |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | skill-suite | 13532 | 2026-10-11 | AI research and engineering skills for Claude, Codex, and Gemini |
 | [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | skill-suite | 12766 | 2026-10-03 | Codex-native academic research workflow |
@@ -246,7 +246,7 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96284 | 2026-10-09 | General MCP directory with Biology, Medicine, and Bioinformatics sections |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96286 | 2026-10-09 | General MCP directory with Biology, Medicine, and Bioinformatics sections |
 | [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | registry | 621 | 2026-08-14 | Claude life-sciences MCP and skills directory |
 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | directory | 565 | 2026-08-13 | Scientific research agent skills directory |
 | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | directory | 382 | 2026-10-13 | literature review, research design, manuscript writing |

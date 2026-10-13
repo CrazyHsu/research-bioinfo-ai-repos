@@ -43,14 +43,14 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 - 已归档: `GPTomics/bioSkills`, `gyger/mcp-pyzotero`
 - 已改名: 无
 - GitHub 上已不存在: 无
-- 本期 star 增长 Top: `Imbad0202/academic-research-skills` +317 (51478 -> 51795), `K-Dense-AI/scientific-agent-skills` +211 (48508 -> 48719), `Imbad0202/academic-research-skills-codex` +124 (12642 -> 12766), `punkpeye/awesome-mcp-servers` +103 (96181 -> 96284), `wanshuiyin/Auto-claude-code-research-in-sleep` +100 (17315 -> 17415)
+- 本期 star 增长 Top: `Imbad0202/academic-research-skills` +317 (51478 -> 51795), `K-Dense-AI/scientific-agent-skills` +212 (48508 -> 48720), `Imbad0202/academic-research-skills-codex` +124 (12642 -> 12766), `punkpeye/awesome-mcp-servers` +105 (96181 -> 96286), `wanshuiyin/Auto-claude-code-research-in-sleep` +100 (17315 -> 17415)
 
 ## 综合科研 / AI4S Skill Suites
 
 | repo | 类型 | stars | 最近 push | 方向 / 备注 |
 |---|---|---:|---|---|
 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | skill-suite | 51795 | 2026-10-13 | Academic research skills：research -> write -> review -> revise -> finalize |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 48719 | 2026-10-12 | 科学研究、生物/化学/医学/药物发现，Agent Skills 标准 |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 48720 | 2026-10-12 | 科学研究、生物/化学/医学/药物发现，Agent Skills 标准 |
 | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | skill-suite | 17415 | 2026-10-07 | ARIS 自动科研循环、idea discovery、实验自动化 |
 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | skill-suite | 13532 | 2026-10-11 | AI research and engineering skills，Claude/Codex/Gemini 可用 |
 | [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | skill-suite | 12766 | 2026-10-03 | 面向 Codex 的学术研究工作流 skill 套件 |
@@ -246,7 +246,7 @@ python3 -m unittest discover -s tests              # 运行测试（仅依赖标
 
 | repo | 类型 | stars | 最近 push | 方向 / 备注 |
 |---|---|---:|---|---|
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96284 | 2026-10-09 | 通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节 |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96286 | 2026-10-09 | 通用 MCP 目录，含 Biology/Medicine/Bioinformatics 小节 |
 | [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | registry | 621 | 2026-08-14 | Claude life-sciences MCP/skills 目录 |
 | [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | directory | 565 | 2026-08-13 | 科学研究 agent skills 目录 |
 | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | directory | 382 | 2026-10-13 | literature review、research design、manuscript writing |

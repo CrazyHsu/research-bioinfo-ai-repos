@@ -76,7 +76,7 @@ jaechang-hits/SciAgent-Skills	4	BioTender-max/awesome-bio-agent-skills; GoekeLab
 TianGzlab/OmicsClaw	1	BioTender-max/awesome-bio-agent-skills
 swaruplab/operon	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
 variomeanalytics/bioinformatics-agent-skills	1	JuneYaooo/awesome-medical-ai-skills
-cafferychen777/ChatSpatial	3	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; punkpeye/awesome-mcp-servers
+cafferychen777/ChatSpatial	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
 ma-compbio-lab/SkillFoundry	1	O0000-code/awesome-academic-skills
 Agents365-ai/seurat-skill	0	
 Bioconductor/ai-agent-skills	0	
@@ -90,7 +90,7 @@ Augmented-Nature/AlphaFold-MCP-Server	0
 Augmented-Nature/PDB-MCP-Server	0	
 cyanheads/protein-mcp-server	0	
 PabloPauling/posebusters-mcp-server	0	
-smaniches/alphafold-sovereign-mcp	1	punkpeye/awesome-mcp-servers
+smaniches/alphafold-sovereign-mcp	0	
 vrtejus/pymol-mcp	0	
 001TMF/blatant-why	0	
 jasonkim8652/protein-design-mcp	0	
@@ -103,18 +103,18 @@ lynnlangit/precision-medicine-mcp	1	JuneYaooo/awesome-medical-ai-skills
 FreedomIntelligence/OpenClaw-Medical-Skills	4	BioTender-max/awesome-bio-agent-skills; GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
 mims-harvard/ToolUniverse	1	GoekeLab/awesome-genomic-skills
 aipoch/medical-research-skills	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
-genomoncology/biomcp	3	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; punkpeye/awesome-mcp-servers
+genomoncology/biomcp	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
 LeonChaoX/qinyan-academic-skills	1	JuneYaooo/awesome-medical-ai-skills
 Cicatriiz/healthcare-mcp-public	1	JuneYaooo/awesome-medical-ai-skills
-JamesANZ/medical-mcp	2	JuneYaooo/awesome-medical-ai-skills; punkpeye/awesome-mcp-servers
+JamesANZ/medical-mcp	1	JuneYaooo/awesome-medical-ai-skills
 cyanheads/clinicaltrialsgov-mcp-server	2	Harsh9005/awesome-scientific-ai-tools; JuneYaooo/awesome-medical-ai-skills
 pascalwhoop/medical-mcps	1	JuneYaooo/awesome-medical-ai-skills
 JackKuo666/ClinicalTrials-MCP-Server	0	
 HolobiomicsLab/asb-skill-collections	0	
-ammawla/encode-toolkit	3	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills; punkpeye/awesome-mcp-servers
+ammawla/encode-toolkit	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
 Augmented-Nature/ChEMBL-MCP-Server	1	Harsh9005/awesome-scientific-ai-tools
-longevity-genie/biothings-mcp	2	JuneYaooo/awesome-medical-ai-skills; punkpeye/awesome-mcp-servers
-longevity-genie/gget-mcp	3	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; punkpeye/awesome-mcp-servers
+longevity-genie/biothings-mcp	1	JuneYaooo/awesome-medical-ai-skills
+longevity-genie/gget-mcp	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
 Augmented-Nature/Augmented-Nature-UniProt-MCP-Server	0	
 nickzren/opentargets-mcp	0	
 tamerh/biobtree	1	JuneYaooo/awesome-medical-ai-skills
@@ -122,13 +122,13 @@ cyanheads/pubchem-mcp-server	0
 effieklimi/ensembl-mcp-server	0	
 Augmented-Nature/SureChEMBL-MCP-Server	0	
 donbr/lifesciences-research	0	
-hlydecker/ucsc-genome-mcp	1	punkpeye/awesome-mcp-servers
+hlydecker/ucsc-genome-mcp	0	
 EBISPOT/GrEBI	1	JuneYaooo/awesome-medical-ai-skills
 Lucas-Servi/kegg-mcp-server-python	0	
-smaniches/uniprot-mcp	1	punkpeye/awesome-mcp-servers
+smaniches/uniprot-mcp	0	
 longevity-genie/holy-bio-mcp	0	
-longevity-genie/opengenes-mcp	1	punkpeye/awesome-mcp-servers
-longevity-genie/synergy-age-mcp	1	punkpeye/awesome-mcp-servers
+longevity-genie/opengenes-mcp	0	
+longevity-genie/synergy-age-mcp	0	
 longevity-genie/pharmacology-mcp	0	
 Augmented-Nature/STRING-db-MCP-Server	0	
 Augmented-Nature/Reactome-MCP-Server	0	
