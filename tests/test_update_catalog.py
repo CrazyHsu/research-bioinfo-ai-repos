@@ -148,6 +148,32 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(report["renamed"], ["old/name -> new/name"])
 
 
+class HistoryTests(unittest.TestCase):
+    def rows(self):
+        return [
+            {"repo": "a/b", "status": "ok", "stars": "10", "forks": "1", "pushed_at": "2026-10-01"},
+            {"repo": "c/d", "status": "cached", "stars": "5", "forks": "0", "pushed_at": "2026-09-01"},
+            {"repo": "e/f", "status": "pending", "stars": "", "forks": "", "pushed_at": ""},
+            {"repo": "g/h", "status": "missing", "stars": "3", "forks": "", "pushed_at": ""},
+        ]
+
+    def test_cached_rows_stay_in_snapshot_and_pending_missing_do_not(self):
+        history: dict = {}
+        uc.append_history(history, self.rows(), "2026-10-13")
+        self.assertEqual(set(history["2026-10-13"]), {"a/b", "c/d"})
+        self.assertEqual(history["2026-10-13"]["c/d"]["stars"], "5")
+
+    def test_same_day_rerun_replaces_snapshot(self):
+        history = {"2026-10-13": {"a/b": {"stars": "1"}, "old/repo": {"stars": "9"}}}
+        uc.append_history(history, self.rows(), "2026-10-13")
+        self.assertNotIn("old/repo", history["2026-10-13"])
+
+    def test_previous_snapshot_skips_same_day(self):
+        history = {"2026-10-06": {"x/y": {}}, "2026-10-13": {"z/w": {}}}
+        self.assertEqual(uc.previous_snapshot(history, "2026-10-13"), {"x/y": {}})
+        self.assertEqual(uc.previous_snapshot(history, "2026-10-06"), {})
+
+
 class ChangesTests(unittest.TestCase):
     def test_added_removed_and_gains(self):
         history = {
@@ -292,6 +318,19 @@ class CheckTests(unittest.TestCase):
         code, _, err = self.run_main("--check", "--strict")
         self.assertEqual(code, 1)
         self.assertIn("pending its first GitHub refresh", err)
+
+    def test_stale_json_and_changelog_fail_check(self):
+        self.run_main("--from-curated")
+        json_path = self.tmp / "catalog.json"
+        json_path.write_text(json_path.read_text(encoding="utf-8").replace('"schema_version": 2', '"schema_version": 1'), encoding="utf-8")
+        code, _, err = self.run_main("--check")
+        self.assertEqual(code, 1)
+        self.assertIn("catalog.json is stale", err)
+        self.run_main("--from-curated")
+        (self.tmp / "CHANGELOG.md").write_text("# edited by hand\n", encoding="utf-8")
+        code, _, err = self.run_main("--check")
+        self.assertEqual(code, 1)
+        self.assertIn("CHANGELOG.md is stale", err)
 
     def test_pinned_repo_missing_fails_check(self):
         seed_path = self.tmp / "data" / "repos.seed.tsv"

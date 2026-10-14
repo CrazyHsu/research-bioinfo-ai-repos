@@ -363,14 +363,26 @@ def write_history(history: dict[str, dict[str, dict[str, str]]], path: Path | No
 
 
 def append_history(history: dict[str, dict[str, dict[str, str]]], rows: list[dict[str, str]], date: str) -> None:
-    snapshot = history.setdefault(date, {})
+    """Record the snapshot for ``date``, replacing any earlier snapshot taken the same day.
+
+    Rows served from cache keep their last known metrics so a transient fetch failure does not
+    show up as a removal followed by a re-addition; pending and missing rows have no metrics.
+    """
+    snapshot: dict[str, dict[str, str]] = {}
     for row in rows:
-        if row.get("status") != "ok":
+        if row.get("status") not in {"ok", "cached"} or not str(row.get("stars", "")).isdigit():
             continue
         snapshot[row["repo"]] = {
             "date": date, "repo": row["repo"], "stars": row.get("stars", ""),
             "forks": row.get("forks", ""), "pushed_at": row.get("pushed_at", ""),
         }
+    history[date] = snapshot
+
+
+def previous_snapshot(history: dict[str, dict[str, dict[str, str]]], date: str) -> dict[str, dict[str, str]]:
+    """The latest snapshot strictly before ``date`` (same-day reruns must not compare with themselves)."""
+    earlier = [item for item in sorted(history) if item < date]
+    return history[earlier[-1]] if earlier else {}
 
 
 def compute_changes(history: dict[str, dict[str, dict[str, str]]], curated: list[dict[str, str]], limit: int | None = None) -> list[dict[str, object]]:
@@ -554,8 +566,7 @@ def inject(path: Path, body: str) -> None:
     path.write_text(f"{head}\n{body}\n{tail}", encoding="utf-8")
 
 
-def export_json(rows: list[dict[str, str]], cfg: dict, refresh_info: dict[str, object], path: Path | None = None) -> None:
-    path = path or JSON_PATH
+def render_json(rows: list[dict[str, str]], cfg: dict, refresh_info: dict[str, object]) -> str:
     def convert(row: dict[str, str]) -> dict[str, object]:
         item: dict[str, object] = dict(row)
         for key in ("stars", "forks", "open_issues"):
@@ -574,7 +585,11 @@ def export_json(rows: list[dict[str, str]], cfg: dict, refresh_info: dict[str, o
         "types": cfg["types"],
         "repos": [convert(row) for row in rows],
     }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return json.dumps(payload, ensure_ascii=False, indent=1) + "\n"
+
+
+def export_json(rows: list[dict[str, str]], cfg: dict, refresh_info: dict[str, object], path: Path | None = None) -> None:
+    (path or JSON_PATH).write_text(render_json(rows, cfg, refresh_info), encoding="utf-8")
 
 
 def render_outputs(rows: list[dict[str, str]], cfg: dict) -> None:
@@ -740,9 +755,14 @@ def check_catalog(seed_rows: list[dict[str, str]], curated: list[dict[str, str]]
         for repo in pinned:
             if repo not in text:
                 errors.append(f"{label} missing pinned repo {repo}")
-    for path in (JSON_PATH, CHANGELOG_PATH):
+    for path, label, expected in (
+        (JSON_PATH, "catalog.json", render_json(curated, cfg, refresh_info)),
+        (CHANGELOG_PATH, "CHANGELOG.md", render_changelog(entries)),
+    ):
         if not path.exists():
             errors.append(f"missing generated file: {path} (run --from-curated)")
+        elif path.read_text(encoding="utf-8") != expected:
+            errors.append(f"{label} is stale: run --from-curated (or --refresh) to regenerate")
 
     if strict:
         errors.extend(f"strict: {warning}" for warning in warnings)
@@ -799,8 +819,7 @@ def main(argv: list[str] | None = None) -> int:
         for row in rows:
             row["listed_in"] = awesome_refs.get(row["repo"].lower(), row.get("listed_in", ""))
         history = load_history()
-        previous_dates = sorted(history)
-        previous = history[previous_dates[-1]] if previous_dates else {}
+        previous = previous_snapshot(history, report["date"])
         append_history(history, rows, report["date"])
         write_history(history)
         current = history[report["date"]]

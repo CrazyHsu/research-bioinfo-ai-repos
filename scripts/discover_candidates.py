@@ -368,6 +368,7 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
         row = cache.get(key)
         if not cache_is_fresh(row, today) and budget > 0:
             budget -= 1
+            stale = row
             try:
                 meta = fetcher(key, token)
                 row = {
@@ -380,11 +381,19 @@ def enrich_awesome_refs(refs: dict[str, set[str]], skip: set[str], cache: dict[s
                     "description": clean_cell(meta.get("description")),
                 }
             except HTTPError as exc:
-                row = {"repo": key, "checked_on": today, "archived": "yes", "stars": "", "pushed_at": "", "language": "",
-                       "description": f"HTTP {exc.code}"}
+                if exc.code in (404, 410, 451):
+                    # definitively gone: negative-cache it
+                    row = {"repo": key, "checked_on": today, "archived": "yes", "stars": "", "pushed_at": "", "language": "",
+                           "description": f"HTTP {exc.code}"}
+                else:
+                    # transient (rate limit, server error): keep whatever we knew, never cache the failure
+                    remaining = exc.headers.get("x-ratelimit-remaining") if exc.headers else None
+                    if exc.code in (403, 429) and remaining == "0":
+                        budget = 0
+                    row = stale
             except (URLError, TimeoutError, json.JSONDecodeError, OSError):
-                row = None
-            if row:
+                row = stale
+            if row is not None and row is not stale:
                 cache[key] = row
             if delay:
                 time.sleep(delay)

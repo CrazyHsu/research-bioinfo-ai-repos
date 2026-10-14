@@ -143,6 +143,28 @@ class AwesomeTests(unittest.TestCase):
         self.assertEqual(set(found3), {"a/b", "c/zotero-mcp"})
         self.assertEqual(found3["a/b"]["stars"], "")
 
+    def test_transient_http_errors_are_not_negatively_cached(self):
+        import io as _io
+        from email.message import Message
+        from urllib.error import HTTPError
+
+        def fetcher(repo, token):
+            if repo == "limited/one":
+                headers = Message(); headers["x-ratelimit-remaining"] = "0"
+                raise HTTPError("u", 403, "rate limited", headers, _io.BytesIO(b""))
+            if repo == "broken/two":
+                raise HTTPError("u", 502, "bad gateway", Message(), _io.BytesIO(b""))
+            return {"full_name": repo, "stargazers_count": 1, "description": "pubmed mcp"}
+
+        cache = {"broken/two": {"repo": "broken/two", "checked_on": "2026-01-01", "archived": "no", "stars": "4", "pushed_at": "", "language": "", "description": "old pubmed mcp"}}
+        refs = {"broken/two": {"L1/list"}, "limited/one": {"L1/list"}, "zfine/three": {"L1/list"}}
+        found = dc.enrich_awesome_refs(refs, set(), cache, "2026-10-13", None, fetch_limit=10, fetcher=fetcher)
+        self.assertNotIn("limited/one", cache)  # transient failure is never cached
+        self.assertEqual(cache["broken/two"]["checked_on"], "2026-01-01")  # stale entry kept
+        self.assertIn("broken/two", found)  # stale facts still used
+        self.assertEqual(found["broken/two"]["stars"], "4")
+        self.assertNotIn("zfine/three", cache)  # budget stopped after the rate-limit response
+
     def test_redirected_references_are_keyed_by_resolved_name(self):
         refs = {"old-org/skills": {"L1/list"}, "a/old-name": {"L1/list"}, "a/new-name": {"L2/list"}}
         metas = {
