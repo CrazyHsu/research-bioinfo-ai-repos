@@ -1,0 +1,160 @@
+repo	listed_in	lists
+Imbad0202/academic-research-skills	2	chrisliu298/awesome-research-agents; O0000-code/awesome-academic-skills
+K-Dense-AI/scientific-agent-skills	6	BioTender-max/awesome-bio-agent-skills; chrisliu298/awesome-research-agents; GoekeLab/awesome-genomic-skills; Harsh9005/awesome-scientific-ai-tools; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+wanshuiyin/Auto-claude-code-research-in-sleep	2	chrisliu298/awesome-research-agents; O0000-code/awesome-academic-skills
+Orchestra-Research/AI-Research-SKILLs	2	chrisliu298/awesome-research-agents; O0000-code/awesome-academic-skills
+Imbad0202/academic-research-skills-codex	1	O0000-code/awesome-academic-skills
+openai/plugins	1	GoekeLab/awesome-genomic-skills
+brycewang-stanford/Auto-Empirical-Research-Skills	0	
+google-deepmind/science-skills	2	GoekeLab/awesome-genomic-skills; O0000-code/awesome-academic-skills
+zLanqing/codex-claude-academic-skills	0	
+Weizhena/Deep-Research-skills	2	InternScience/Awesome-Scientific-Skills; O0000-code/awesome-academic-skills
+luwill/research-skills	0	
+chrisblattman/claudeblattman	0	
+fcakyon/phd-skills	1	O0000-code/awesome-academic-skills
+chtc66/academic-skills	1	O0000-code/awesome-academic-skills
+ai4s-research/ai4s-skills	0	
+AlterLab-IEU/AlterLab-Academic-Skills	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+s-choung/Research-Skills	0	
+JhonHander/academic-agent-toolkit	0	
+Jason-0409-G/scriptorium	0	
+Master-cai/Research-Paper-Writing-Skills	1	O0000-code/awesome-academic-skills
+WUBING2023/PaperSpine	1	O0000-code/awesome-academic-skills
+PaperDebugger/paperdebugger	0	
+fakerqwq/social-science-paper-writing-skill	0	
+SNL-UCSB/paper-writing-skill	1	O0000-code/awesome-academic-skills
+SyntaxSmith/nature-writing-skill	1	O0000-code/awesome-academic-skills
+cLin-c/paper-skill	0	
+fuhaoda/stats-paper-writing-agent-skills	1	O0000-code/awesome-academic-skills
+MetaQiu/Trivium	1	O0000-code/awesome-academic-skills
+Zhangyanbo/vibe-paper-writing	0	
+AGISAFETYLAB/Paper-Writing-skill	0	
+dailycafi/biomed-paper-writing-skill	0	
+JackKuo666/semanticscholar-MCP-Server	1	Harsh9005/awesome-scientific-ai-tools
+blazickjp/arxiv-mcp-server	2	chrisliu298/awesome-research-agents; Harsh9005/awesome-scientific-ai-tools
+openags/paper-search-mcp	2	chrisliu298/awesome-research-agents; JuneYaooo/awesome-medical-ai-skills
+Dianel555/paper-search-mcp-nodejs	0	
+andybrandt/mcp-simple-pubmed	1	JuneYaooo/awesome-medical-ai-skills
+Agents365-ai/asta-skill	0	
+ShZhao27208/Aut_Sci_Write	1	O0000-code/awesome-academic-skills
+zongmin-yu/semantic-scholar-fastmcp-mcp-server	0	
+Darkroaster/pubmearch	0	
+takashiishida/arxiv-latex-mcp	0	
+cyanheads/pubmed-mcp-server	2	Harsh9005/awesome-scientific-ai-tools; JuneYaooo/awesome-medical-ai-skills
+JackKuo666/PubMed-MCP-Server	0	
+grll/pubmedmcp	0	
+afrise/academic-search-mcp-server	0	
+benedict2310/Scientific-Papers-MCP	0	
+connerlambden/bgpt-mcp	1	JuneYaooo/awesome-medical-ai-skills
+akapet00/semantic-scholar-mcp	1	chrisliu298/awesome-research-agents
+masa-med-ai/pubmed-systematic-review	0	
+lstudlo/ScholarMCP	0	
+u9401066/pubmed-search-mcp	1	JuneYaooo/awesome-medical-ai-skills
+TaewoooPark/scholar-megasearch	0	
+zongmin-yu/semantic-scholar-skills	0	
+aringadre76/mcp-for-research	1	JuneYaooo/awesome-medical-ai-skills
+JackKuo666/bioRxiv-MCP-Server	1	Harsh9005/awesome-scientific-ai-tools
+JackKuo666/medRxiv-MCP-Server	0	
+54yyyu/zotero-mcp	1	chrisliu298/awesome-research-agents
+papersgpt/papersgpt-for-zotero	0	
+yilewang/llm-for-zotero	0	
+cookjohn/zotero-mcp	0	
+cookjohn/cnki-skills	1	O0000-code/awesome-academic-skills
+cookjohn/gs-skills	1	O0000-code/awesome-academic-skills
+kaliaboi/mcp-zotero	0	
+kujenga/zotero-mcp	0	
+introfini/ZotSeek	0	
+TonybotNi/ZotLink	0	
+dralkh/seerai	0	
+gyger/mcp-pyzotero	0	
+Xevos117/mcp-zotero	0	
+cookjohn/pm-skills	1	JuneYaooo/awesome-medical-ai-skills
+MuiseDestiny/zotero-gpt	0	
+lifan0127/ai-research-assistant	0	
+GPTomics/bioSkills	4	BioTender-max/awesome-bio-agent-skills; GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+jaechang-hits/SciAgent-Skills	4	BioTender-max/awesome-bio-agent-skills; GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+TianGzlab/OmicsClaw	1	BioTender-max/awesome-bio-agent-skills
+swaruplab/operon	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+variomeanalytics/bioinformatics-agent-skills	1	JuneYaooo/awesome-medical-ai-skills
+cafferychen777/ChatSpatial	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+ma-compbio-lab/SkillFoundry	1	O0000-code/awesome-academic-skills
+Agents365-ai/seurat-skill	0	
+Bioconductor/ai-agent-skills	0	
+ClawBio/ClawBio	4	BioTender-max/awesome-bio-agent-skills; GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+scmcphub/scmcp	0	
+scmcphub/scanpy-mcp	0	
+adaptyvbio/protein-design-skills	2	BioTender-max/awesome-bio-agent-skills; O0000-code/awesome-academic-skills
+charlesxu90/ProteinMCP	0	
+PDBeurope/PDBe-MCP-Servers	0	
+Augmented-Nature/AlphaFold-MCP-Server	0	
+Augmented-Nature/PDB-MCP-Server	0	
+cyanheads/protein-mcp-server	0	
+PabloPauling/posebusters-mcp-server	0	
+smaniches/alphafold-sovereign-mcp	0	
+vrtejus/pymol-mcp	0	
+001TMF/blatant-why	0	
+jasonkim8652/protein-design-mcp	0	
+igvteam/igv-mcp	0	
+bio-mcp/bio-mcp-blast	0	
+bio-mcp/bio-mcp-bwa	0	
+kmaneesh/biopython-mcp	0	
+wjlim/nf-core_mcp	0	
+lynnlangit/precision-medicine-mcp	1	JuneYaooo/awesome-medical-ai-skills
+FreedomIntelligence/OpenClaw-Medical-Skills	4	BioTender-max/awesome-bio-agent-skills; GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+mims-harvard/ToolUniverse	1	GoekeLab/awesome-genomic-skills
+aipoch/medical-research-skills	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+genomoncology/biomcp	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+LeonChaoX/qinyan-academic-skills	1	JuneYaooo/awesome-medical-ai-skills
+Cicatriiz/healthcare-mcp-public	1	JuneYaooo/awesome-medical-ai-skills
+JamesANZ/medical-mcp	1	JuneYaooo/awesome-medical-ai-skills
+cyanheads/clinicaltrialsgov-mcp-server	2	Harsh9005/awesome-scientific-ai-tools; JuneYaooo/awesome-medical-ai-skills
+pascalwhoop/medical-mcps	1	JuneYaooo/awesome-medical-ai-skills
+JackKuo666/ClinicalTrials-MCP-Server	0	
+HolobiomicsLab/asb-skill-collections	0	
+ammawla/encode-toolkit	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+Augmented-Nature/ChEMBL-MCP-Server	1	Harsh9005/awesome-scientific-ai-tools
+longevity-genie/biothings-mcp	1	JuneYaooo/awesome-medical-ai-skills
+longevity-genie/gget-mcp	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+Augmented-Nature/Augmented-Nature-UniProt-MCP-Server	0	
+nickzren/opentargets-mcp	0	
+tamerh/biobtree	1	JuneYaooo/awesome-medical-ai-skills
+cyanheads/pubchem-mcp-server	0	
+effieklimi/ensembl-mcp-server	0	
+Augmented-Nature/SureChEMBL-MCP-Server	0	
+donbr/lifesciences-research	0	
+hlydecker/ucsc-genome-mcp	0	
+EBISPOT/GrEBI	1	JuneYaooo/awesome-medical-ai-skills
+Lucas-Servi/kegg-mcp-server-python	0	
+smaniches/uniprot-mcp	0	
+longevity-genie/holy-bio-mcp	0	
+longevity-genie/opengenes-mcp	0	
+longevity-genie/synergy-age-mcp	0	
+longevity-genie/pharmacology-mcp	0	
+Augmented-Nature/STRING-db-MCP-Server	0	
+Augmented-Nature/Reactome-MCP-Server	0	
+biocontext-ai/knowledgebase-mcp	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+Galaxy-Dawn/claude-scholar	2	chrisliu298/awesome-research-agents; O0000-code/awesome-academic-skills
+yb2460/harness-anything	0	
+K-Dense-AI/k-dense-byok	1	JuneYaooo/awesome-medical-ai-skills
+beita6969/ScienceClaw	2	JuneYaooo/awesome-medical-ai-skills; O0000-code/awesome-academic-skills
+AgentTeam-TaichuAI/ScienceClaw	0	
+ymx10086/ResearchClaw	1	chrisliu298/awesome-research-agents
+WenyuChiou/research-hub	1	WenyuChiou/ai-research-skills
+snap-stanford/Biomni	1	chrisliu298/awesome-research-agents
+PDFMathTranslate/PDFMathTranslate	0	
+llmsresearch/paperbanana	0	
+Dsadd4/AgentFigureGallery	1	O0000-code/awesome-academic-skills
+anthropics/life-sciences	2	GoekeLab/awesome-genomic-skills; O0000-code/awesome-academic-skills
+Epsilon617/Codex-Academic-Skills	0	
+WenyuChiou/ai-research-skills	0	
+BioTender-max/awesome-bio-agent-skills	1	JuneYaooo/awesome-medical-ai-skills
+GoekeLab/awesome-genomic-skills	1	JuneYaooo/awesome-medical-ai-skills
+O0000-code/awesome-academic-skills	0	
+Harsh9005/awesome-scientific-ai-tools	0	
+chrisliu298/awesome-research-agents	0	
+Agents365-ai/awesome-ai-for-science-skills	0	
+InternScience/Awesome-Scientific-Skills	2	GoekeLab/awesome-genomic-skills; O0000-code/awesome-academic-skills
+punkpeye/awesome-mcp-servers	1	GoekeLab/awesome-genomic-skills
+biocontext-ai/registry	2	GoekeLab/awesome-genomic-skills; JuneYaooo/awesome-medical-ai-skills
+biocontext-ai/meta-mcp	0	
+JuneYaooo/awesome-medical-ai-skills	0	

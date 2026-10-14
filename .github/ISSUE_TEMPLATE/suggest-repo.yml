@@ -1,0 +1,50 @@
+name: Suggest a repository
+description: Propose a skill, plugin, or MCP server for the catalog
+title: "[repo] owner/name"
+labels: ["candidate"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: owner/name on GitHub
+      placeholder: scmcphub/scmcp
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - General Research / AI4S Skill Suites
+        - Paper Writing / Peer Review / Submission Skills
+        - Literature Search / Scholarly Search MCP
+        - Zotero / CNKI / Google Scholar / Reference Management
+        - Bioinformatics / Omics / Single-Cell Skills
+        - Protein Design / Structural Biology
+        - Pipelines / Sequence & Genome Tool MCP
+        - Biomedical / Clinical / Medical Research
+        - Biological Databases / Pathways / Chemistry / Drug Discovery MCP
+        - Research Agent Apps / Workspaces
+        - Figures / PDF / LaTeX / Research Artifact Tools
+        - Awesome Lists / Registries / Further Discovery
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [skill, skill-suite, mcp-server, mcp-suite, plugin, agent-app, framework, tool, directory, registry]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and how does it differ from similar entries already in the catalog?
+    validations:
+      required: true
+  - type: input
+    id: hosts
+    attributes:
+      label: Hosts the README explicitly supports
+      placeholder: claude-code, codex, cursor

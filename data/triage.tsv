@@ -1,0 +1,23 @@
+repo	decision	reason	date
+001TMF/blatant-why	accept	biologics design agent with explicit tool orchestration; added to Protein Design / Structural Biology	2026-10-13
+jasonkim8652/protein-design-mcp	accept	domain-specific MCP chaining RFdiffusion/ProteinMPNN/ESMFold/AlphaFold2	2026-10-13
+JuneYaooo/awesome-medical-ai-skills	accept	medical agent skills and MCP directory; useful discovery source	2026-10-13
+ClawBio/ClawBio	accept	listed in the 2026-07-09 draft but never seeded; bioinformatics-native skill library with Claude Code plugin and MCP	2026-10-13
+biocontext-ai/registry	accept	listed in the 2026-07-09 draft but never seeded; biomedical MCP registry	2026-10-13
+biocontext-ai/knowledgebase-mcp	accept	listed in the 2026-07-09 draft but never seeded; multi-database biomedical MCP	2026-10-13
+biocontext-ai/meta-mcp	accept	registry-wide access MCP from the BioContextAI project	2026-10-13
+seandavi/awesome-single-cell	reject	software and data resource list without agent skill/plugin/MCP content	2026-10-13
+Peldom/papers_for_protein_design_using_DL	reject	paper list, not an agent extension	2026-10-13
+yboulaamane/awesome-drug-discovery	reject	general computational drug discovery resource list, not agent-specific	2026-10-13
+krinoz/Awesome-biomolecular-design	reject	method and tool list for binder design, not agent-specific	2026-10-13
+AI-in-Health/MedLLMsPracticalGuide	reject	medical LLM paper guide without reusable agent skill/plugin/MCP content	2026-10-13
+Tyche-MKR/scientific-agent-skills	defer	description duplicates K-Dense-AI/scientific-agent-skills; confirm it is not a mirror before adding	2026-10-13
+hoon-ock/AgentD	defer	LLM agent for drug discovery shipped as notebooks; check for an agent-ready interface	2026-10-13
+biocontext-ai/skill-to-mcp	defer	domain-agnostic SKILL.md-to-MCP bridge; decide whether generic agent infrastructure is in scope	2026-10-13
+PaperDebugger/paperdebugger-mcp	defer	companion MCP of PaperDebugger with very few stars in the draft; check maintenance before adding	2026-10-13
+Agents365-ai/asta-skill	reject	HTTP 404 in the 2026-10-13 refresh; Agents365-ai organisation no longer exists on GitHub	2026-10-13
+Agents365-ai/seurat-skill	reject	HTTP 404 in the 2026-10-13 refresh; Agents365-ai organisation no longer exists on GitHub	2026-10-13
+Agents365-ai/awesome-ai-for-science-skills	reject	HTTP 404 in the 2026-10-13 refresh; Agents365-ai organisation no longer exists on GitHub	2026-10-13
+connerlambden/bgpt-mcp	reject	HTTP 404 in the 2026-10-13 refresh; repository deleted or made private	2026-10-13
+affaan-m/ECC	reject	generic multi-harness agent operating system without a research or bio focus	2026-10-13
+paperclipai/paperclip	reject	generic agent product, not research-specific	2026-10-13

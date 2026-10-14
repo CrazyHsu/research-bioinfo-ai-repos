@@ -4,9 +4,19 @@ on:
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
+    inputs:
+      skip_discovery:
+        description: "Skip the discovery step (metadata refresh only)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  issues: write
+
+concurrency:
+  group: update-catalog
+  cancel-in-progress: false
 
 jobs:
   update-catalog:
@@ -18,7 +28,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests
 
       - name: Refresh catalog metadata
         env:
@@ -26,24 +39,44 @@ jobs:
         run: python3 scripts/update_catalog.py --refresh
 
       - name: Discover candidate repositories
+        if: ${{ !inputs.skip_discovery }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 scripts/discover_candidates.py --limit-per-query 20 --min-stars 5 --output discovery/candidates.md
+        run: python3 scripts/discover_candidates.py --output discovery/candidates.md
 
-      - name: Validate generated catalog
+      - name: Re-render with awesome-list references
+        run: python3 scripts/update_catalog.py --from-curated
+
+      - name: Validate generated outputs
         run: |
           python3 scripts/update_catalog.py --check
           python3 scripts/discover_candidates.py --check --output discovery/candidates.md
-          python3 -m py_compile scripts/update_catalog.py scripts/discover_candidates.py
 
       - name: Commit refreshed catalog
         run: |
-          if git diff --quiet; then
+          git add -A data discovery README.md README-zh.md catalog.md catalog.json CHANGELOG.md
+          if git diff --cached --quiet; then
             echo "No catalog changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md README-zh.md catalog.md data/repos.curated.tsv discovery/candidates.md
-          git commit -m "Update catalog metadata"
+          git commit -m "$(python3 scripts/update_catalog.py --summary)"
           git push
+
+      - name: Report failure as an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          report="$(cat data/refresh_report.md 2>/dev/null || echo 'No refresh report was written.')"
+          body="$(printf 'The scheduled catalog update failed.\n\nRun: %s\n\n%s\n' "$run_url" "$report")"
+          gh label create catalog-failure --description "Scheduled catalog update failed" --color d73a4a --force
+          existing="$(gh issue list --label catalog-failure --state open --json number --jq '.[0].number')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "Scheduled catalog update failed" --label catalog-failure --body "$body"
+          fi
