@@ -32,39 +32,39 @@ python3 -m unittest discover -s tests              # run the test suite (standar
 ## Catalog
 
 <!-- CATALOG:START -->
-Metadata refreshed on 2026-10-13 (UTC): 155 repositories in 12 categories. Stars and last-push dates come from the GitHub REST API; `(archived)` marks archived repositories. All fields, including license, language, topics, interfaces, and hosts, are in `data/repos.curated.tsv` and `catalog.json`.
+Metadata refreshed on 2026-10-19 (UTC): 155 repositories in 12 categories. Stars and last-push dates come from the GitHub REST API; `(archived)` marks archived repositories. All fields, including license, language, topics, interfaces, and hosts, are in `data/repos.curated.tsv` and `catalog.json`.
 
 ### Recent changes
 
-Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHANGELOG.md).
+Refresh of 2026-10-19 compared with 2026-10-13. Full history: [CHANGELOG.md](CHANGELOG.md).
 
-- Added: `001TMF/blatant-why`, `Augmented-Nature/Reactome-MCP-Server`, `Augmented-Nature/STRING-db-MCP-Server`, `bio-mcp/bio-mcp-blast`, `bio-mcp/bio-mcp-bwa`, `biocontext-ai/knowledgebase-mcp`, `biocontext-ai/meta-mcp`, `biocontext-ai/registry`, `ClawBio/ClawBio`, `JackKuo666/bioRxiv-MCP-Server`, `JackKuo666/medRxiv-MCP-Server`, `jasonkim8652/protein-design-mcp`, `JuneYaooo/awesome-medical-ai-skills`, `kmaneesh/biopython-mcp`, `lifan0127/ai-research-assistant`, `longevity-genie/holy-bio-mcp`, `longevity-genie/opengenes-mcp`, `longevity-genie/pharmacology-mcp`, `longevity-genie/synergy-age-mcp`, `MuiseDestiny/zotero-gpt`, `scmcphub/scanpy-mcp`, `scmcphub/scmcp`, `snap-stanford/Biomni`, `vrtejus/pymol-mcp`, `wjlim/nf-core_mcp`
-- Removed: `Agents365-ai/asta-skill`, `Agents365-ai/awesome-ai-for-science-skills`, `Agents365-ai/seurat-skill`, `connerlambden/bgpt-mcp`
+- Added: none
+- Removed: none
 - Archived: `GPTomics/bioSkills`, `gyger/mcp-pyzotero`
 - Renamed: none
 - Missing on GitHub: none
-- Top star gains: `Imbad0202/academic-research-skills` +317 (51478 -> 51795), `K-Dense-AI/scientific-agent-skills` +212 (48508 -> 48720), `Imbad0202/academic-research-skills-codex` +124 (12642 -> 12766), `punkpeye/awesome-mcp-servers` +105 (96181 -> 96286), `wanshuiyin/Auto-claude-code-research-in-sleep` +100 (17315 -> 17415)
+- Top star gains: `K-Dense-AI/scientific-agent-skills` +4033 (48720 -> 52753), `Imbad0202/academic-research-skills` +1089 (51795 -> 52884), `Imbad0202/academic-research-skills-codex` +378 (12766 -> 13144), `punkpeye/awesome-mcp-servers` +306 (96286 -> 96592), `wanshuiyin/Auto-claude-code-research-in-sleep` +283 (17415 -> 17698)
 
 ## General Research / AI4S Skill Suites
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | skill-suite | 51795 | 2026-10-13 | Academic research skills: research -> write -> review -> revise -> finalize |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 48720 | 2026-10-12 | Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery |
-| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | skill-suite | 17415 | 2026-10-07 | ARIS automated research loop, idea discovery, and experiment automation |
-| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | skill-suite | 13532 | 2026-10-11 | AI research and engineering skills for Claude, Codex, and Gemini |
-| [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | skill-suite | 12766 | 2026-10-03 | Codex-native academic research workflow |
-| [openai/plugins](https://github.com/openai/plugins) | plugin | 7431 | 2026-10-08 | OpenAI Codex plugins, including life-science-research |
-| [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | skill-suite | 4839 | 2026-05-14 | Chinese-language research reading, writing, and scientific computing |
-| [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | skill-suite | 4606 | 2026-10-12 | Empirical social science research with 23,000+ agent skills |
-| [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills) | skill-suite | 3249 | 2026-10-09 | DeepMind science agent skills |
-| [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | skill | 2346 | 2026-08-23 | Structured deep research skill, Claude/OpenCode/Codex |
-| [luwill/research-skills](https://github.com/luwill/research-skills) | skill-suite | 865 | 2026-10-10 | Common research practices and workflows packaged as agent skills |
-| [chrisblattman/claudeblattman](https://github.com/chrisblattman/claudeblattman) | skill-suite | 464 | 2026-10-07 | Claude Code for academics: skills, agents, setup guides |
-| [fcakyon/phd-skills](https://github.com/fcakyon/phd-skills) | skill-suite | 418 | 2026-10-11 | PhD research: reproduction, experimental design, paper review, and result comparison |
-| [chtc66/academic-skills](https://github.com/chtc66/academic-skills) | skill-suite | 363 | 2026-04-05 | Paper reading, surveys, experiment summaries, rebuttals, and lab updates |
-| [ai4s-research/ai4s-skills](https://github.com/ai4s-research/ai4s-skills) | skill-suite | 236 | 2026-07-28 | AI for Science: topic exploration, literature survey, experiments, writing, and integrity audit |
-| [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) | skill-suite | 74 | 2026-10-01 | 239 evaluated academic skills, including bioinformatics and clinical research |
+| [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | skill-suite | 52884 | 2026-10-18 | Academic research skills: research -> write -> review -> revise -> finalize |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | skill-suite | 52753 | 2026-10-15 | Agent Skills standard for scientific research, biology, chemistry, medicine, and drug discovery |
+| [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | skill-suite | 17698 | 2026-10-19 | ARIS automated research loop, idea discovery, and experiment automation |
+| [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | skill-suite | 13701 | 2026-10-11 | AI research and engineering skills for Claude, Codex, and Gemini |
+| [Imbad0202/academic-research-skills-codex](https://github.com/Imbad0202/academic-research-skills-codex) | skill-suite | 13144 | 2026-10-16 | Codex-native academic research workflow |
+| [openai/plugins](https://github.com/openai/plugins) | plugin | 7498 | 2026-10-08 | OpenAI Codex plugins, including life-science-research |
+| [zLanqing/codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | skill-suite | 5064 | 2026-05-14 | Chinese-language research reading, writing, and scientific computing |
+| [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | skill-suite | 4678 | 2026-10-15 | Empirical social science research with 23,000+ agent skills |
+| [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills) | skill-suite | 3291 | 2026-10-15 | DeepMind science agent skills |
+| [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | skill | 2381 | 2026-08-23 | Structured deep research skill, Claude/OpenCode/Codex |
+| [luwill/research-skills](https://github.com/luwill/research-skills) | skill-suite | 871 | 2026-10-10 | Common research practices and workflows packaged as agent skills |
+| [chrisblattman/claudeblattman](https://github.com/chrisblattman/claudeblattman) | skill-suite | 465 | 2026-10-07 | Claude Code for academics: skills, agents, setup guides |
+| [fcakyon/phd-skills](https://github.com/fcakyon/phd-skills) | skill-suite | 424 | 2026-10-11 | PhD research: reproduction, experimental design, paper review, and result comparison |
+| [chtc66/academic-skills](https://github.com/chtc66/academic-skills) | skill-suite | 364 | 2026-04-05 | Paper reading, surveys, experiment summaries, rebuttals, and lab updates |
+| [ai4s-research/ai4s-skills](https://github.com/ai4s-research/ai4s-skills) | skill-suite | 239 | 2026-07-28 | AI for Science: topic exploration, literature survey, experiments, writing, and integrity audit |
+| [AlterLab-IEU/AlterLab-Academic-Skills](https://github.com/AlterLab-IEU/AlterLab-Academic-Skills) | skill-suite | 76 | 2026-10-14 | 239 evaluated academic skills, including bioinformatics and clinical research |
 | [s-choung/Research-Skills](https://github.com/s-choung/Research-Skills) | skill-suite | 36 | 2026-10-06 | Research writing, figures, document automation, and Korean academic materials |
 | [JhonHander/academic-agent-toolkit](https://github.com/JhonHander/academic-agent-toolkit) | tool | 8 | 2026-06-09 | Installer for MCP tools and AI research skills |
 
@@ -72,17 +72,17 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | skill-suite | 7450 | 2026-06-23 | ML/CV/NLP paper writing for Codex, Claude, and Gemini |
-| [WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine) | skill | 5923 | 2026-09-24 | Central paper argumentation, strong-paper learning, manuscript rewriting, and LaTeX-safe audits |
-| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | plugin | 1547 | 2026-07-03 | Academic writing, peer review, and editing |
-| [fakerqwq/social-science-paper-writing-skill](https://github.com/fakerqwq/social-science-paper-writing-skill) | skill | 399 | 2026-06-02 | Social science paper writing, topic selection, literature reviews, and citation risk checks |
-| [SNL-UCSB/paper-writing-skill](https://github.com/SNL-UCSB/paper-writing-skill) | skill | 234 | 2026-07-31 | Brainstorm -> Draft -> Evaluate -> Write -> Compress paper writing |
-| [SyntaxSmith/nature-writing-skill](https://github.com/SyntaxSmith/nature-writing-skill) | skill | 170 | 2026-04-27 | Nature-family paper writing |
-| [cLin-c/paper-skill](https://github.com/cLin-c/paper-skill) | skill | 122 | 2026-09-26 | Paper writing, polishing, peer review, translation, and submission |
+| [Master-cai/Research-Paper-Writing-Skills](https://github.com/Master-cai/Research-Paper-Writing-Skills) | skill-suite | 7592 | 2026-06-23 | ML/CV/NLP paper writing for Codex, Claude, and Gemini |
+| [WUBING2023/PaperSpine](https://github.com/WUBING2023/PaperSpine) | skill | 5998 | 2026-10-14 | Central paper argumentation, strong-paper learning, manuscript rewriting, and LaTeX-safe audits |
+| [PaperDebugger/paperdebugger](https://github.com/PaperDebugger/paperdebugger) | plugin | 1546 | 2026-07-03 | Academic writing, peer review, and editing |
+| [fakerqwq/social-science-paper-writing-skill](https://github.com/fakerqwq/social-science-paper-writing-skill) | skill | 412 | 2026-06-02 | Social science paper writing, topic selection, literature reviews, and citation risk checks |
+| [SNL-UCSB/paper-writing-skill](https://github.com/SNL-UCSB/paper-writing-skill) | skill | 240 | 2026-07-31 | Brainstorm -> Draft -> Evaluate -> Write -> Compress paper writing |
+| [SyntaxSmith/nature-writing-skill](https://github.com/SyntaxSmith/nature-writing-skill) | skill | 172 | 2026-04-27 | Nature-family paper writing |
+| [cLin-c/paper-skill](https://github.com/cLin-c/paper-skill) | skill | 125 | 2026-09-26 | Paper writing, polishing, peer review, translation, and submission |
 | [fuhaoda/stats-paper-writing-agent-skills](https://github.com/fuhaoda/stats-paper-writing-agent-skills) | skill | 30 | 2026-02-13 | Agent skills for statistics paper writing |
 | [Zhangyanbo/vibe-paper-writing](https://github.com/Zhangyanbo/vibe-paper-writing) | skill | 25 | 2026-02-28 | Convert notes, chats, and emails into LaTeX academic papers |
 | [MetaQiu/Trivium](https://github.com/MetaQiu/Trivium) | skill | 24 | 2026-02-15 | Multi-agent collaborative paper writing for Claude, Codex, and Gemini |
-| [AGISAFETYLAB/Paper-Writing-skill](https://github.com/AGISAFETYLAB/Paper-Writing-skill) | skill | 20 | 2026-06-26 | Planning, writing, polishing, figures, and citation checks for CS, medical, and finance papers |
+| [AGISAFETYLAB/Paper-Writing-skill](https://github.com/AGISAFETYLAB/Paper-Writing-skill) | skill | 21 | 2026-06-26 | Planning, writing, polishing, figures, and citation checks for CS, medical, and finance papers |
 | [dailycafi/biomed-paper-writing-skill](https://github.com/dailycafi/biomed-paper-writing-skill) | skill | 2 | 2026-03-16 | Biomedical and pharmaceutical paper writing with CONSORT, STROBE, PRISMA, and ARRIVE |
 | [Jason-0409-G/scriptorium](https://github.com/Jason-0409-G/scriptorium) | skill | 1 | 2026-06-25 | DOI-verified literature library, NCBI/UniProt/PDB/AlphaFold integration, writing, and review |
 
@@ -90,23 +90,23 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | mcp-server | 3214 | 2026-10-08 | arXiv search and paper analysis MCP |
-| [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | mcp-server | 2819 | 2026-10-02 | Paper search and download for arXiv, PubMed, bioRxiv, and related sources |
+| [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) | mcp-server | 3224 | 2026-10-08 | arXiv search and paper analysis MCP |
+| [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) | mcp-server | 2864 | 2026-10-02 | Paper search and download for arXiv, PubMed, bioRxiv, and related sources |
 | [ShZhao27208/Aut_Sci_Write](https://github.com/ShZhao27208/Aut_Sci_Write) | skill-suite | 210 | 2026-08-13 | WoS, Elsevier, and Springer search/download, reviews, Zotero, PPT, and HTML |
-| [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | mcp-server | 186 | 2026-09-20 | Paper search and download for Web of Science, arXiv, and related sources |
-| [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | mcp-server | 172 | 2026-03-19 | PubMed medical literature search MCP |
+| [Dianel555/paper-search-mcp-nodejs](https://github.com/Dianel555/paper-search-mcp-nodejs) | mcp-server | 187 | 2026-09-20 | Paper search and download for Web of Science, arXiv, and related sources |
+| [andybrandt/mcp-simple-pubmed](https://github.com/andybrandt/mcp-simple-pubmed) | mcp-server | 171 | 2026-03-19 | PubMed medical literature search MCP |
 | [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server) | mcp-server | 165 | 2026-03-20 | Semantic Scholar API FastMCP server |
-| [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | mcp-server | 160 | 2026-10-12 | PubMed/Europe PMC/Unpaywall, MeSH, full text |
-| [Darkroaster/pubmearch](https://github.com/Darkroaster/pubmearch) | mcp-server | 149 | 2025-05-07 | PubMed search and analysis MCP (Python) |
-| [takashiishida/arxiv-latex-mcp](https://github.com/takashiishida/arxiv-latex-mcp) | mcp-server | 146 | 2026-09-19 | arXiv LaTeX source parsing |
-| [JackKuo666/PubMed-MCP-Server](https://github.com/JackKuo666/PubMed-MCP-Server) | mcp-server | 131 | 2025-05-08 | PubMed article search, access, and analysis |
+| [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server) | mcp-server | 163 | 2026-10-12 | PubMed/Europe PMC/Unpaywall, MeSH, full text |
+| [Darkroaster/pubmearch](https://github.com/Darkroaster/pubmearch) | mcp-server | 150 | 2025-05-07 | PubMed search and analysis MCP (Python) |
+| [takashiishida/arxiv-latex-mcp](https://github.com/takashiishida/arxiv-latex-mcp) | mcp-server | 148 | 2026-09-19 | arXiv LaTeX source parsing |
+| [JackKuo666/PubMed-MCP-Server](https://github.com/JackKuo666/PubMed-MCP-Server) | mcp-server | 132 | 2025-05-08 | PubMed article search, access, and analysis |
 | [grll/pubmedmcp](https://github.com/grll/pubmedmcp) | mcp-server | 123 | 2025-09-02 | PubMed data MCP (Python) |
 | [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server) | mcp-server | 116 | 2025-02-12 | Semantic Scholar and Crossref search MCP |
-| [JackKuo666/semanticscholar-MCP-Server](https://github.com/JackKuo666/semanticscholar-MCP-Server) | mcp-server | 86 | 2025-03-25 | Semantic Scholar paper/author/citation/reference |
+| [JackKuo666/semanticscholar-MCP-Server](https://github.com/JackKuo666/semanticscholar-MCP-Server) | mcp-server | 87 | 2025-03-25 | Semantic Scholar paper/author/citation/reference |
 | [benedict2310/Scientific-Papers-MCP](https://github.com/benedict2310/Scientific-Papers-MCP) | mcp-server | 60 | 2025-08-14 | arXiv + OpenAlex scientific papers |
-| [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | mcp-server | 36 | 2026-05-07 | Semantic Scholar paper search and analysis |
+| [akapet00/semantic-scholar-mcp](https://github.com/akapet00/semantic-scholar-mcp) | mcp-server | 37 | 2026-05-07 | Semantic Scholar paper search and analysis |
 | [lstudlo/ScholarMCP](https://github.com/lstudlo/ScholarMCP) | mcp-server | 32 | 2026-09-23 | Literature search, PDF ingestion, and reference management |
-| [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | skill | 29 | 2026-08-14 | 20+ scholarly databases with multi-source search and PDF retrieval |
+| [TaewoooPark/scholar-megasearch](https://github.com/TaewoooPark/scholar-megasearch) | skill | 31 | 2026-08-14 | 20+ scholarly databases with multi-source search and PDF retrieval |
 | [u9401066/pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) | mcp-server | 28 | 2026-10-01 | PubMed/Europe PMC/CORE/OpenAlex, citation networks, PICO |
 | [JackKuo666/bioRxiv-MCP-Server](https://github.com/JackKuo666/bioRxiv-MCP-Server) | mcp-server | 25 | 2025-03-18 | bioRxiv preprint search, metadata, and download MCP (FastMCP) |
 | [masa-med-ai/pubmed-systematic-review](https://github.com/masa-med-ai/pubmed-systematic-review) | skill | 25 | 2026-05-20 | Lightweight systematic reviews integrated with a PubMed MCP |
@@ -118,19 +118,19 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) | plugin | 7471 | 2026-05-01 | Zotero GPT plugin: chat with papers and your library through OpenAI-compatible APIs |
-| [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) | mcp-server | 5366 | 2026-10-08 | Connect Zotero libraries to Claude and AI assistants |
-| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | agent-app | 3291 | 2026-10-12 | Research agent system based on a Zotero library |
-| [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) | plugin | 2667 | 2026-09-29 | Zotero AI/MCP plugin with multi-model paper Q&A |
-| [lifan0127/ai-research-assistant](https://github.com/lifan0127/ai-research-assistant) | plugin | 1729 | 2025-04-01 | Aria: LLM-powered research assistant plugin for Zotero (OpenAI models) |
-| [cookjohn/zotero-mcp](https://github.com/cookjohn/zotero-mcp) | plugin | 1232 | 2026-09-09 | Deep integration between Zotero and AI assistants |
-| [cookjohn/cnki-skills](https://github.com/cookjohn/cnki-skills) | skill-suite | 989 | 2026-03-13 | CNKI search, PDFs, and Zotero export |
-| [cookjohn/gs-skills](https://github.com/cookjohn/gs-skills) | skill-suite | 529 | 2026-03-13 | Google Scholar search, citation tracking, and Zotero export |
-| [introfini/ZotSeek](https://github.com/introfini/ZotSeek) | plugin | 225 | 2026-10-08 | Zotero semantic search with local privacy and built-in MCP |
+| [MuiseDestiny/zotero-gpt](https://github.com/MuiseDestiny/zotero-gpt) | plugin | 7483 | 2026-05-01 | Zotero GPT plugin: chat with papers and your library through OpenAI-compatible APIs |
+| [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) | mcp-server | 5462 | 2026-10-16 | Connect Zotero libraries to Claude and AI assistants |
+| [yilewang/llm-for-zotero](https://github.com/yilewang/llm-for-zotero) | agent-app | 3344 | 2026-10-18 | Research agent system based on a Zotero library |
+| [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) | plugin | 2671 | 2026-10-15 | Zotero AI/MCP plugin with multi-model paper Q&A |
+| [lifan0127/ai-research-assistant](https://github.com/lifan0127/ai-research-assistant) | plugin | 1728 | 2025-04-01 | Aria: LLM-powered research assistant plugin for Zotero (OpenAI models) |
+| [cookjohn/zotero-mcp](https://github.com/cookjohn/zotero-mcp) | plugin | 1242 | 2026-09-09 | Deep integration between Zotero and AI assistants |
+| [cookjohn/cnki-skills](https://github.com/cookjohn/cnki-skills) | skill-suite | 1000 | 2026-03-13 | CNKI search, PDFs, and Zotero export |
+| [cookjohn/gs-skills](https://github.com/cookjohn/gs-skills) | skill-suite | 531 | 2026-03-13 | Google Scholar search, citation tracking, and Zotero export |
+| [introfini/ZotSeek](https://github.com/introfini/ZotSeek) | plugin | 228 | 2026-10-08 | Zotero semantic search with local privacy and built-in MCP |
 | [kaliaboi/mcp-zotero](https://github.com/kaliaboi/mcp-zotero) | mcp-server | 164 | 2025-02-04 | Connect Claude Desktop to Zotero Cloud |
 | [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp) | mcp-server | 162 | 2026-08-07 | Zotero Web API MCP server (Python) |
 | [TonybotNi/ZotLink](https://github.com/TonybotNi/ZotLink) | mcp-server | 136 | 2025-10-12 | Save arXiv, CVF, bioRxiv, and medRxiv papers to Zotero |
-| [dralkh/seerai](https://github.com/dralkh/seerai) | plugin | 89 | 2026-10-06 | Zotero AI plugin, RAG, OCR, systematic reviews, MCP, skills |
+| [dralkh/seerai](https://github.com/dralkh/seerai) | plugin | 91 | 2026-10-06 | Zotero AI plugin, RAG, OCR, systematic reviews, MCP, skills |
 | [gyger/mcp-pyzotero](https://github.com/gyger/mcp-pyzotero) (archived) | mcp-server | 56 | 2025-11-20 | Local Zotero MCP connector |
 | [Xevos117/mcp-zotero](https://github.com/Xevos117/mcp-zotero) | mcp-server | 37 | 2026-10-12 | Zotero library operations, DOI, PDF, Unpaywall, docx citation fields |
 | [cookjohn/pm-skills](https://github.com/cookjohn/pm-skills) | skill-suite | 19 | 2026-03-13 | PubMed literature search, citation export, Zotero |
@@ -139,13 +139,13 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) (archived) | skill-suite | 1219 | 2026-08-15 | RNA-seq, scRNA, variant, multi-omics |
-| [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | skill-suite | 1160 | 2026-10-13 | Bioinformatics-native agent skill library: 95 skills with demo data, Galaxy tool wrappers, pip/conda install, Claude Code plugin and MCP server |
-| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | skill-suite | 378 | 2026-09-29 | 197 life-science and bioinformatics skills |
+| [GPTomics/bioSkills](https://github.com/GPTomics/bioSkills) (archived) | skill-suite | 1225 | 2026-08-15 | RNA-seq, scRNA, variant, multi-omics |
+| [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | skill-suite | 1161 | 2026-10-19 | Bioinformatics-native agent skill library: 95 skills with demo data, Galaxy tool wrappers, pip/conda install, Claude Code plugin and MCP server |
+| [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | skill-suite | 381 | 2026-10-16 | 197 life-science and bioinformatics skills |
 | [TianGzlab/OmicsClaw](https://github.com/TianGzlab/OmicsClaw) | agent-app | 161 | 2026-10-07 | Multi-omics analysis through manuscript generation |
-| [swaruplab/operon](https://github.com/swaruplab/operon) | agent-app | 99 | 2026-10-11 | Claude Code bioinformatics IDE and protocols |
+| [swaruplab/operon](https://github.com/swaruplab/operon) | agent-app | 100 | 2026-10-11 | Claude Code bioinformatics IDE and protocols |
 | [variomeanalytics/bioinformatics-agent-skills](https://github.com/variomeanalytics/bioinformatics-agent-skills) | mcp-server | 63 | 2026-04-18 | Knowledge graph over 78 bioinformatics workflows |
-| [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | mcp-server | 44 | 2026-10-13 | Natural-language analysis for spatial transcriptomics |
+| [cafferychen777/ChatSpatial](https://github.com/cafferychen777/ChatSpatial) | mcp-server | 45 | 2026-10-13 | Natural-language analysis for spatial transcriptomics |
 | [ma-compbio-lab/SkillFoundry](https://github.com/ma-compbio-lab/SkillFoundry) | framework | 42 | 2026-09-14 | Computational biology skill discovery and validation |
 | [scmcphub/scmcp](https://github.com/scmcphub/scmcp) | mcp-suite | 16 | 2025-07-10 | Natural-language scRNA-seq analysis MCP; also the shared AnnData backend for scanpy-mcp, liana-mcp, and cellrank-mcp |
 | [Bioconductor/ai-agent-skills](https://github.com/Bioconductor/ai-agent-skills) | skill-suite | 9 | 2026-10-07 | R/Bioconductor and statistical bioinformatics |
@@ -155,17 +155,17 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | skill-suite | 165 | 2026-06-11 | Adaptyv Bio skill suite for protein design workflows |
-| [001TMF/blatant-why](https://github.com/001TMF/blatant-why) | agent-app | 117 | 2026-08-16 | Multi-agent biologics design campaigns orchestrating BoltzGen, PXDesign, Protenix, and cloud tools for antibodies, nanobodies, and de novo binders |
+| [adaptyvbio/protein-design-skills](https://github.com/adaptyvbio/protein-design-skills) | skill-suite | 168 | 2026-06-11 | Adaptyv Bio skill suite for protein design workflows |
+| [001TMF/blatant-why](https://github.com/001TMF/blatant-why) | agent-app | 118 | 2026-10-16 | Multi-agent biologics design campaigns orchestrating BoltzGen, PXDesign, Protenix, and cloud tools for antibodies, nanobodies, and de novo binders |
 | [charlesxu90/ProteinMCP](https://github.com/charlesxu90/ProteinMCP) | framework | 71 | 2026-05-01 | Agentic framework for autonomous protein engineering with Claude Code workflow skills and 38 supported MCPs |
 | [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp) | mcp-server | 68 | 2025-03-18 | Drive PyMOL from Claude: load structures, change representations, measure, align, and run Python inside PyMOL |
-| [PDBeurope/PDBe-MCP-Servers](https://github.com/PDBeurope/PDBe-MCP-Servers) | mcp-server | 42 | 2026-10-12 | PDBe and protein structures |
+| [PDBeurope/PDBe-MCP-Servers](https://github.com/PDBeurope/PDBe-MCP-Servers) | mcp-server | 42 | 2026-10-18 | PDBe and protein structures |
 | [Augmented-Nature/AlphaFold-MCP-Server](https://github.com/Augmented-Nature/AlphaFold-MCP-Server) | mcp-server | 35 | 2025-12-21 | Unofficial AlphaFold DB MCP for predicted structures and confidence metrics (Node.js) |
 | [Augmented-Nature/PDB-MCP-Server](https://github.com/Augmented-Nature/PDB-MCP-Server) | mcp-server | 27 | 2025-12-21 | Unofficial RCSB PDB MCP for structure search and metadata (Node.js) |
 | [jasonkim8652/protein-design-mcp](https://github.com/jasonkim8652/protein-design-mcp) | mcp-server | 17 | 2026-10-01 | Protein binder design MCP chaining RFdiffusion, ProteinMPNN, ESMFold, and AlphaFold2 |
-| [cyanheads/protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | mcp-server | 6 | 2026-10-07 | PDB and AlphaFold protein structure and annotation federation |
+| [cyanheads/protein-mcp-server](https://github.com/cyanheads/protein-mcp-server) | mcp-server | 6 | 2026-10-17 | PDB and AlphaFold protein structure and annotation federation |
 | [PabloPauling/posebusters-mcp-server](https://github.com/PabloPauling/posebusters-mcp-server) | mcp-server | 5 | 2025-07-14 | PoseBusters molecular pose validation |
-| [smaniches/alphafold-sovereign-mcp](https://github.com/smaniches/alphafold-sovereign-mcp) | mcp-server | 4 | 2026-10-13 | AlphaFold DB plus eight public sources with a local knowledge graph |
+| [smaniches/alphafold-sovereign-mcp](https://github.com/smaniches/alphafold-sovereign-mcp) | mcp-server | 4 | 2026-10-15 | AlphaFold DB plus eight public sources with a local knowledge graph |
 
 ## Pipelines / Sequence & Genome Tool MCP
 
@@ -181,18 +181,18 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | skill-suite | 3063 | 2026-07-21 | Large OpenClaw medical AI skills collection |
-| [aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills) | skill-suite | 1948 | 2026-09-17 | Medical research, protocols, data analysis, and academic writing |
-| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | tool | 1732 | 2026-10-13 | Tool universe for biomedical AI scientists |
-| [LeonChaoX/qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) | skill-suite | 948 | 2026-07-20 | 177 academic research skills, including bioinformatics, drug discovery, and clinical medicine |
-| [genomoncology/biomcp](https://github.com/genomoncology/biomcp) | mcp-server | 654 | 2026-10-13 | BioMCP for clinical trials, genomic data, and medical literature |
-| [Cicatriiz/healthcare-mcp-public](https://github.com/Cicatriiz/healthcare-mcp-public) | mcp-server | 131 | 2025-08-16 | Medical data from FDA, PubMed, medRxiv, clinical trials, ICD-10, and related sources |
-| [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) | mcp-server | 116 | 2026-10-07 | FDA, WHO, PubMed, Google Scholar, RxNorm |
-| [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | mcp-server | 99 | 2026-10-05 | ClinicalTrials.gov search, details, results, and patient matching |
+| [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) | skill-suite | 3075 | 2026-07-21 | Large OpenClaw medical AI skills collection |
+| [aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills) | skill-suite | 1970 | 2026-09-17 | Medical research, protocols, data analysis, and academic writing |
+| [mims-harvard/ToolUniverse](https://github.com/mims-harvard/ToolUniverse) | tool | 1746 | 2026-10-19 | Tool universe for biomedical AI scientists |
+| [LeonChaoX/qinyan-academic-skills](https://github.com/LeonChaoX/qinyan-academic-skills) | skill-suite | 966 | 2026-07-20 | 177 academic research skills, including bioinformatics, drug discovery, and clinical medicine |
+| [genomoncology/biomcp](https://github.com/genomoncology/biomcp) | mcp-server | 659 | 2026-10-19 | BioMCP for clinical trials, genomic data, and medical literature |
+| [Cicatriiz/healthcare-mcp-public](https://github.com/Cicatriiz/healthcare-mcp-public) | mcp-server | 132 | 2025-08-16 | Medical data from FDA, PubMed, medRxiv, clinical trials, ICD-10, and related sources |
+| [JamesANZ/medical-mcp](https://github.com/JamesANZ/medical-mcp) | mcp-server | 119 | 2026-10-15 | FDA, WHO, PubMed, Google Scholar, RxNorm |
+| [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server) | mcp-server | 99 | 2026-10-17 | ClinicalTrials.gov search, details, results, and patient matching |
 | [lynnlangit/precision-medicine-mcp](https://github.com/lynnlangit/precision-medicine-mcp) | mcp-suite | 24 | 2026-08-25 | Precision medicine across multi-omics, genomics, and spatial transcriptomics |
 | [pascalwhoop/medical-mcps](https://github.com/pascalwhoop/medical-mcps) | mcp-suite | 23 | 2026-09-01 | MCP tool collection for major biomedical databases |
-| [JackKuo666/ClinicalTrials-MCP-Server](https://github.com/JackKuo666/ClinicalTrials-MCP-Server) | mcp-server | 17 | 2025-04-09 | ClinicalTrials.gov search and study detail MCP (Python) |
-| [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections) | skill-suite | 15 | 2026-09-20 | Evidence-grounded skill and tool collections for scientific AI agents |
+| [JackKuo666/ClinicalTrials-MCP-Server](https://github.com/JackKuo666/ClinicalTrials-MCP-Server) | mcp-server | 18 | 2025-04-09 | ClinicalTrials.gov search and study detail MCP (Python) |
+| [HolobiomicsLab/asb-skill-collections](https://github.com/HolobiomicsLab/asb-skill-collections) | skill-suite | 16 | 2026-09-20 | Evidence-grounded skill and tool collections for scientific AI agents |
 
 ## Biological Databases / Pathways / Chemistry / Drug Discovery MCP
 
@@ -206,56 +206,56 @@ Refresh of 2026-10-13 compared with 2026-10-12. Full history: [CHANGELOG.md](CHA
 | [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp) | mcp-server | 21 | 2025-10-14 | OpenGenes aging-gene database MCP: lifespan experiments, hallmarks of aging, longevity variants |
 | [Augmented-Nature/Augmented-Nature-UniProt-MCP-Server](https://github.com/Augmented-Nature/Augmented-Nature-UniProt-MCP-Server) | mcp-server | 20 | 2025-12-21 | Unofficial UniProt MCP with 26 protein lookup, comparative, and structural tools (Node.js) |
 | [longevity-genie/holy-bio-mcp](https://github.com/longevity-genie/holy-bio-mcp) | mcp-suite | 20 | 2025-07-14 | Umbrella for the Holy Bio MCP family (gget, BioThings, OpenGenes, SynergyAge, pharmacology); Bio x AI Hackathon 2025 winner |
-| [tamerh/biobtree](https://github.com/tamerh/biobtree) | mcp-server | 20 | 2026-10-13 | BioBTree v2, 70+ biomedical datasets |
+| [tamerh/biobtree](https://github.com/tamerh/biobtree) | mcp-server | 20 | 2026-10-14 | BioBTree v2, 70+ biomedical datasets |
 | [nickzren/opentargets-mcp](https://github.com/nickzren/opentargets-mcp) | mcp-server | 19 | 2026-10-09 | Open Targets MCP for target-disease associations and drug evidence |
 | [Augmented-Nature/Reactome-MCP-Server](https://github.com/Augmented-Nature/Reactome-MCP-Server) | mcp-server | 12 | 2025-12-21 | Unofficial Reactome MCP over the Content Service for curated pathway data |
-| [cyanheads/pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | mcp-server | 10 | 2026-10-07 | PubChem compounds, properties, safety, and bioactivity |
+| [cyanheads/pubchem-mcp-server](https://github.com/cyanheads/pubchem-mcp-server) | mcp-server | 10 | 2026-10-17 | PubChem compounds, properties, safety, and bioactivity |
 | [longevity-genie/synergy-age-mcp](https://github.com/longevity-genie/synergy-age-mcp) | mcp-server | 10 | 2025-08-25 | SynergyAge MCP for genetic interventions and their combined effects on lifespan |
 | [Augmented-Nature/SureChEMBL-MCP-Server](https://github.com/Augmented-Nature/SureChEMBL-MCP-Server) | mcp-server | 8 | 2025-12-21 | Unofficial SureChEMBL MCP for chemical patent search (Node.js) |
+| [donbr/lifesciences-research](https://github.com/donbr/lifesciences-research) | mcp-suite | 8 | 2026-10-15 | Open Targets, ChEMBL, UniProt |
 | [effieklimi/ensembl-mcp-server](https://github.com/effieklimi/ensembl-mcp-server) | mcp-server | 8 | 2026-02-11 | Ensembl REST MCP for genes, sequences, variants, and comparative genomics (TypeScript) |
-| [donbr/lifesciences-research](https://github.com/donbr/lifesciences-research) | mcp-suite | 7 | 2026-09-03 | Open Targets, ChEMBL, UniProt |
 | [hlydecker/ucsc-genome-mcp](https://github.com/hlydecker/ucsc-genome-mcp) | mcp-server | 6 | 2025-11-13 | UCSC Genome Browser API MCP for tracks and sequence lookups |
 | [longevity-genie/pharmacology-mcp](https://github.com/longevity-genie/pharmacology-mcp) | mcp-server | 6 | 2025-09-02 | Pharmacology database MCP from the Holy Bio MCP family (targets, ligands, interactions) |
 | [Augmented-Nature/STRING-db-MCP-Server](https://github.com/Augmented-Nature/STRING-db-MCP-Server) | mcp-server | 4 | 2025-12-21 | Unofficial STRING MCP: protein interaction networks, functional enrichment, and homolog lookup |
 | [EBISPOT/GrEBI](https://github.com/EBISPOT/GrEBI) | mcp-server | 4 | 2026-09-30 | biomedical data integration, API/MCP server |
-| [Lucas-Servi/kegg-mcp-server-python](https://github.com/Lucas-Servi/kegg-mcp-server-python) | mcp-server | 3 | 2026-09-22 | KEGG REST MCP for pathways, genes, and compounds (Python) |
-| [smaniches/uniprot-mcp](https://github.com/smaniches/uniprot-mcp) | mcp-server | 3 | 2026-10-13 | Auditable UniProt MCP with release pinning and offline replay |
+| [Lucas-Servi/kegg-mcp-server-python](https://github.com/Lucas-Servi/kegg-mcp-server-python) | mcp-server | 3 | 2026-10-16 | KEGG REST MCP for pathways, genes, and compounds (Python) |
+| [smaniches/uniprot-mcp](https://github.com/smaniches/uniprot-mcp) | mcp-server | 3 | 2026-10-15 | Auditable UniProt MCP with release pinning and offline replay |
 
 ## Research Agent Apps / Workspaces
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | agent-app | 5773 | 2026-09-23 | Research, experiments, writing, and submission support for Claude Code and Codex CLI |
-| [snap-stanford/Biomni](https://github.com/snap-stanford/Biomni) | agent-app | 3967 | 2026-10-12 | General-purpose biomedical AI agent with retrieval-augmented planning and code execution (Apache-2.0; executes LLM-written code, sandbox recommended) |
-| [yb2460/harness-anything](https://github.com/yb2460/harness-anything) | framework | 2275 | 2026-10-09 | WPS, MS Office, Zotero, academic skills, and document automation |
-| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | agent-app | 1330 | 2026-10-04 | Desktop AI co-scientist based on scientific-agent-skills |
-| [beita6969/ScienceClaw](https://github.com/beita6969/ScienceClaw) | agent-app | 971 | 2026-10-08 | Self-evolving research assistant with skills and persistent memory |
-| [AgentTeam-TaichuAI/ScienceClaw](https://github.com/AgentTeam-TaichuAI/ScienceClaw) | agent-app | 670 | 2026-05-09 | Research assistant built with LangChain DeepAgents and sandboxing |
-| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | agent-app | 312 | 2026-04-04 | Literature reviews, notes, experiment tracking, and paper writing |
-| [WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) | agent-app | 64 | 2026-10-13 | Zotero, Obsidian, NotebookLM, CLI/MCP/REST/dashboard |
+| [Galaxy-Dawn/claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | agent-app | 5828 | 2026-09-23 | Research, experiments, writing, and submission support for Claude Code and Codex CLI |
+| [snap-stanford/Biomni](https://github.com/snap-stanford/Biomni) | agent-app | 3990 | 2026-10-12 | General-purpose biomedical AI agent with retrieval-augmented planning and code execution (Apache-2.0; executes LLM-written code, sandbox recommended) |
+| [yb2460/harness-anything](https://github.com/yb2460/harness-anything) | framework | 2319 | 2026-10-09 | WPS, MS Office, Zotero, academic skills, and document automation |
+| [K-Dense-AI/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | agent-app | 1377 | 2026-10-16 | Desktop AI co-scientist based on scientific-agent-skills |
+| [beita6969/ScienceClaw](https://github.com/beita6969/ScienceClaw) | agent-app | 1015 | 2026-10-16 | Self-evolving research assistant with skills and persistent memory |
+| [AgentTeam-TaichuAI/ScienceClaw](https://github.com/AgentTeam-TaichuAI/ScienceClaw) | agent-app | 673 | 2026-05-09 | Research assistant built with LangChain DeepAgents and sandboxing |
+| [ymx10086/ResearchClaw](https://github.com/ymx10086/ResearchClaw) | agent-app | 313 | 2026-04-04 | Literature reviews, notes, experiment tracking, and paper writing |
+| [WenyuChiou/research-hub](https://github.com/WenyuChiou/research-hub) | agent-app | 64 | 2026-10-16 | Zotero, Obsidian, NotebookLM, CLI/MCP/REST/dashboard |
 
 ## Figures / PDF / LaTeX / Research Artifact Tools
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | tool | 37534 | 2026-10-13 | Scientific PDF translation that preserves layout, with MCP, Docker, and Zotero support |
-| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | tool | 2397 | 2026-09-17 | Automated academic figures, diagrams, and research visuals |
-| [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) | skill | 164 | 2026-09-05 | Scientific plotting skill for Claude, Codex, and Cursor |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | tool | 37666 | 2026-10-19 | Scientific PDF translation that preserves layout, with MCP, Docker, and Zotero support |
+| [llmsresearch/paperbanana](https://github.com/llmsresearch/paperbanana) | tool | 2406 | 2026-09-17 | Automated academic figures, diagrams, and research visuals |
+| [Dsadd4/AgentFigureGallery](https://github.com/Dsadd4/AgentFigureGallery) | skill | 166 | 2026-09-05 | Scientific plotting skill for Claude, Codex, and Cursor |
 
 ## Awesome Lists / Registries / Further Discovery
 
 | repo | type | stars | last push | focus / notes |
 |---|---|---:|---|---|
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96286 | 2026-10-09 | General MCP directory with Biology, Medicine, and Bioinformatics sections |
-| [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | registry | 621 | 2026-08-14 | Claude life-sciences MCP and skills directory |
-| [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | directory | 565 | 2026-08-13 | Scientific research agent skills directory |
-| [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | directory | 382 | 2026-10-13 | literature review, research design, manuscript writing |
-| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | directory | 201 | 2026-07-01 | Biomedical agent skills directory covering genomics, proteomics, single-cell analysis, clinical AI, and protein design |
-| [Epsilon617/Codex-Academic-Skills](https://github.com/Epsilon617/Codex-Academic-Skills) | skill-suite | 190 | 2026-06-16 | Codex research-oriented skills directory |
-| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | directory | 119 | 2026-09-22 | genomics/bioinformatics agent skills, MCP, benchmarks |
-| [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | directory | 47 | 2026-10-13 | Academic agent skills organized by the research lifecycle |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | directory | 96592 | 2026-10-18 | General MCP directory with Biology, Medicine, and Bioinformatics sections |
+| [anthropics/life-sciences](https://github.com/anthropics/life-sciences) | registry | 623 | 2026-08-14 | Claude life-sciences MCP and skills directory |
+| [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | directory | 569 | 2026-08-13 | Scientific research agent skills directory |
+| [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | directory | 389 | 2026-10-18 | literature review, research design, manuscript writing |
+| [BioTender-max/awesome-bio-agent-skills](https://github.com/BioTender-max/awesome-bio-agent-skills) | directory | 203 | 2026-07-01 | Biomedical agent skills directory covering genomics, proteomics, single-cell analysis, clinical AI, and protein design |
+| [Epsilon617/Codex-Academic-Skills](https://github.com/Epsilon617/Codex-Academic-Skills) | skill-suite | 193 | 2026-06-16 | Codex research-oriented skills directory |
+| [GoekeLab/awesome-genomic-skills](https://github.com/GoekeLab/awesome-genomic-skills) | directory | 122 | 2026-09-22 | genomics/bioinformatics agent skills, MCP, benchmarks |
+| [O0000-code/awesome-academic-skills](https://github.com/O0000-code/awesome-academic-skills) | directory | 49 | 2026-10-18 | Academic agent skills organized by the research lifecycle |
 | [biocontext-ai/registry](https://github.com/biocontext-ai/registry) | registry | 23 | 2026-09-17 | BioContextAI registry of biomedical MCP servers; also a discovery source for this catalog |
-| [JuneYaooo/awesome-medical-ai-skills](https://github.com/JuneYaooo/awesome-medical-ai-skills) | directory | 14 | 2026-10-13 | Curated medical and healthcare agent skills, MCP servers, and tools |
+| [JuneYaooo/awesome-medical-ai-skills](https://github.com/JuneYaooo/awesome-medical-ai-skills) | directory | 16 | 2026-10-18 | Curated medical and healthcare agent skills, MCP servers, and tools |
 | [Harsh9005/awesome-scientific-ai-tools](https://github.com/Harsh9005/awesome-scientific-ai-tools) | directory | 10 | 2026-05-15 | AI tools, MCP servers, and agent skills for scientific research |
 | [chrisliu298/awesome-research-agents](https://github.com/chrisliu298/awesome-research-agents) | directory | 3 | 2026-05-19 | research agents, skill libraries, autonomous research loops, paper-writing pipelines |
 | [biocontext-ai/meta-mcp](https://github.com/biocontext-ai/meta-mcp) | mcp-server | 2 | 2026-05-18 | Meta MCP that exposes every server in the BioContextAI registry with minimal context |
