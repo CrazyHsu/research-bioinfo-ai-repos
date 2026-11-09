@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "refreshed_at": "2026-11-02T11:22:15Z",
+ "refreshed_at": "2026-11-09T11:44:49Z",
  "categories": [
   {
    "en": "General Research / AI4S Skill Suites",
@@ -143,7 +143,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "54yyyu/zotero-mcp",
@@ -157,12 +157,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 5693,
-   "forks": 452,
-   "open_issues": 51,
+   "stars": 5818,
+   "forks": 456,
+   "open_issues": 95,
    "created_at": "2025-03-22",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -187,7 +187,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "adaptyvbio/protein-design-skills",
@@ -224,7 +224,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "afrise/academic-search-mcp-server",
@@ -263,7 +263,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "AgentTeam-TaichuAI/ScienceClaw",
@@ -277,12 +277,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 679,
-   "forks": 72,
+   "stars": 678,
+   "forks": 73,
    "open_issues": 14,
    "created_at": "2026-03-13",
    "pushed_at": "2026-05-09",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -316,7 +316,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "AGISAFETYLAB/Paper-Writing-skill",
@@ -330,12 +330,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 22,
+   "stars": 23,
    "forks": 1,
    "open_issues": 0,
    "created_at": "2026-06-26",
    "pushed_at": "2026-06-26",
-   "updated_at": "2026-10-30",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "",
    "language": "TeX",
@@ -348,7 +348,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ai4s-research/ai4s-skills",
@@ -362,12 +362,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 263,
+   "stars": 268,
    "forks": 25,
    "open_issues": 0,
    "created_at": "2026-06-27",
    "pushed_at": "2026-07-28",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -395,7 +395,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "aipoch/medical-research-skills",
@@ -409,12 +409,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 2024,
-   "forks": 200,
+   "stars": 2034,
+   "forks": 201,
    "open_issues": 11,
    "created_at": "2026-02-04",
    "pushed_at": "2026-09-17",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -441,7 +441,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "akapet00/semantic-scholar-mcp",
@@ -455,12 +455,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 37,
+   "stars": 38,
    "forks": 9,
    "open_issues": 2,
    "created_at": "2026-01-28",
    "pushed_at": "2026-05-07",
-   "updated_at": "2026-10-17",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -473,7 +473,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "AlterLab-IEU/AlterLab-Academic-Skills",
@@ -487,12 +487,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 84,
+   "stars": 85,
    "forks": 16,
-   "open_issues": 6,
+   "open_issues": 5,
    "created_at": "2026-03-16",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-05",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -519,14 +519,14 @@
     "turkish-academia"
    ],
    "homepage": "https://alterlab-ieu.github.io/AlterLab-Academic-Skills/",
-   "description": "242 evaluated academic Claude/agent skills across 18 research domains — bioinformatics, cheminformatics, data science, databases, clinical, social science, Turkish academia & more. Every skill ships an executable eval. Citation verifier, research→write→review pipeline, 7 multi-agent workflows. Claude Code plugins; also Cursor, Codex, Gemini CLI.",
+   "description": "241 evaluated academic Claude/agent skills across 18 research domains — bioinformatics, cheminformatics, data science, databases, clinical, social science, Turkish academia & more. Every skill ships an executable eval. Citation verifier, research→write→review pipeline, 7 multi-agent workflows. Claude Code plugins; also Cursor, Codex, Gemini CLI.",
    "notes": "239 evaluated academic skills, including bioinformatics and clinical research",
    "notes_zh": "239 evaluated academic skills，含 bioinformatics/clinical",
    "listed_in": 2,
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ammawla/encode-toolkit",
@@ -541,12 +541,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 22,
+   "stars": 20,
    "forks": 5,
    "open_issues": 2,
    "created_at": "2026-03-08",
    "pushed_at": "2026-09-27",
-   "updated_at": "2026-10-26",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "Python",
@@ -575,7 +575,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "andybrandt/mcp-simple-pubmed",
@@ -607,7 +607,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "anthropics/life-sciences",
@@ -621,12 +621,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 636,
-   "forks": 112,
-   "open_issues": 25,
+   "stars": 644,
+   "forks": 114,
+   "open_issues": 23,
    "created_at": "2025-10-17",
-   "pushed_at": "2026-10-29",
-   "updated_at": "2026-11-01",
+   "pushed_at": "2026-11-02",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -639,7 +639,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "aringadre76/mcp-for-research",
@@ -658,7 +658,7 @@
    "open_issues": 1,
    "created_at": "2025-08-19",
    "pushed_at": "2026-05-12",
-   "updated_at": "2026-10-03",
+   "updated_at": "2026-11-03",
    "archived": false,
    "license": "MIT",
    "language": "JavaScript",
@@ -671,7 +671,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/AlphaFold-MCP-Server",
@@ -711,7 +711,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/Augmented-Nature-UniProt-MCP-Server",
@@ -754,7 +754,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/ChEMBL-MCP-Server",
@@ -793,7 +793,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/PDB-MCP-Server",
@@ -832,7 +832,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/Reactome-MCP-Server",
@@ -864,7 +864,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/STRING-db-MCP-Server",
@@ -896,7 +896,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Augmented-Nature/SureChEMBL-MCP-Server",
@@ -936,7 +936,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "beita6969/ScienceClaw",
@@ -950,12 +950,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1024,
-   "forks": 110,
-   "open_issues": 10,
+   "stars": 1027,
+   "forks": 111,
+   "open_issues": 11,
    "created_at": "2026-03-11",
-   "pushed_at": "2026-10-31",
-   "updated_at": "2026-11-01",
+   "pushed_at": "2026-11-05",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "TypeScript",
@@ -983,7 +983,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "benedict2310/Scientific-Papers-MCP",
@@ -1020,7 +1020,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "bio-mcp/bio-mcp-blast",
@@ -1052,7 +1052,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "bio-mcp/bio-mcp-bwa",
@@ -1084,7 +1084,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Bioconductor/ai-agent-skills",
@@ -1102,8 +1102,8 @@
    "forks": 6,
    "open_issues": 4,
    "created_at": "2026-05-19",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-10-23",
+   "pushed_at": "2026-11-07",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -1120,7 +1120,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "biocontext-ai/knowledgebase-mcp",
@@ -1160,7 +1160,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "biocontext-ai/meta-mcp",
@@ -1193,7 +1193,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "biocontext-ai/registry",
@@ -1208,11 +1208,11 @@
    "domain": "bio",
    "pinned": false,
    "stars": 23,
-   "forks": 28,
+   "forks": 29,
    "open_issues": 5,
    "created_at": "2025-07-15",
-   "pushed_at": "2026-10-20",
-   "updated_at": "2026-10-20",
+   "pushed_at": "2026-11-04",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "BSD-3-Clause",
    "language": "Python",
@@ -1233,7 +1233,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "BioTender-max/awesome-bio-agent-skills",
@@ -1247,12 +1247,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 212,
-   "forks": 38,
-   "open_issues": 3,
+   "stars": 218,
+   "forks": 39,
+   "open_issues": 5,
    "created_at": "2026-05-25",
    "pushed_at": "2026-07-01",
-   "updated_at": "2026-10-31",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -1286,7 +1286,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "blazickjp/arxiv-mcp-server",
@@ -1300,12 +1300,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 3247,
-   "forks": 260,
+   "stars": 3264,
+   "forks": 263,
    "open_issues": 7,
    "created_at": "2024-11-29",
    "pushed_at": "2026-10-08",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -1329,7 +1329,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "brycewang-stanford/Auto-Empirical-Research-Skills",
@@ -1343,12 +1343,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 4881,
-   "forks": 567,
+   "stars": 4961,
+   "forks": 570,
    "open_issues": 0,
    "created_at": "2026-04-03",
-   "pushed_at": "2026-10-30",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "other",
    "language": "Stata",
@@ -1379,7 +1379,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cafferychen777/ChatSpatial",
@@ -1432,7 +1432,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "charlesxu90/ProteinMCP",
@@ -1450,12 +1450,12 @@
    ],
    "domain": "bio",
    "pinned": true,
-   "stars": 73,
+   "stars": 75,
    "forks": 13,
    "open_issues": 0,
    "created_at": "2025-11-23",
    "pushed_at": "2026-05-01",
-   "updated_at": "2026-10-21",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "Jupyter Notebook",
@@ -1468,7 +1468,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "chrisblattman/claudeblattman",
@@ -1484,12 +1484,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 474,
-   "forks": 78,
-   "open_issues": 6,
+   "stars": 479,
+   "forks": 77,
+   "open_issues": 4,
    "created_at": "2026-02-22",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-10-31",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -1503,15 +1503,15 @@
     "project-management",
     "research-workflow"
    ],
-   "homepage": "",
-   "description": "Claude Code for academics — skills, agents, and setup guides",
+   "homepage": "https://claudeblattman.com/",
+   "description": "Claude Code for professionals who don't code — Skills, agents, and setup guides",
    "notes": "Claude Code for academics: skills, agents, setup guides",
    "notes_zh": "Claude Code for academics：skills、agents、setup guides",
    "listed_in": 0,
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "chrisliu298/awesome-research-agents",
@@ -1525,12 +1525,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 4,
+   "stars": 5,
    "forks": 4,
    "open_issues": 4,
    "created_at": "2026-05-09",
    "pushed_at": "2026-05-19",
-   "updated_at": "2026-10-23",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "CC0-1.0",
    "language": "",
@@ -1564,7 +1564,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "chtc66/academic-skills",
@@ -1578,12 +1578,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 371,
+   "stars": 373,
    "forks": 27,
    "open_issues": 1,
    "created_at": "2026-04-05",
    "pushed_at": "2026-04-05",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -1596,7 +1596,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Cicatriiz/healthcare-mcp-public",
@@ -1610,12 +1610,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 132,
-   "forks": 37,
+   "stars": 131,
+   "forks": 38,
    "open_issues": 3,
    "created_at": "2025-03-23",
    "pushed_at": "2025-08-16",
-   "updated_at": "2026-10-26",
+   "updated_at": "2026-11-02",
    "archived": false,
    "license": "MIT",
    "language": "JavaScript",
@@ -1647,7 +1647,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ClawBio/ClawBio",
@@ -1667,12 +1667,12 @@
    ],
    "domain": "bio",
    "pinned": false,
-   "stars": 1171,
-   "forks": 291,
+   "stars": 1176,
+   "forks": 292,
    "open_issues": 48,
    "created_at": "2026-02-25",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -1694,7 +1694,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cLin-c/paper-skill",
@@ -1708,15 +1708,15 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 138,
-   "forks": 10,
+   "stars": 142,
+   "forks": 11,
    "open_issues": 2,
    "created_at": "2026-06-12",
-   "pushed_at": "2026-10-27",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
-   "language": "Python",
+   "language": "HTML",
    "topics": [
     "academic-writing",
     "ai",
@@ -1735,7 +1735,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cookjohn/cnki-skills",
@@ -1749,12 +1749,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1033,
+   "stars": 1054,
    "forks": 89,
    "open_issues": 8,
    "created_at": "2026-02-28",
    "pushed_at": "2026-03-13",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -1767,7 +1767,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cookjohn/gs-skills",
@@ -1781,12 +1781,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 542,
-   "forks": 27,
-   "open_issues": 1,
+   "stars": 544,
+   "forks": 28,
+   "open_issues": 2,
    "created_at": "2026-03-04",
    "pushed_at": "2026-03-13",
-   "updated_at": "2026-10-31",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -1799,7 +1799,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cookjohn/pm-skills",
@@ -1831,7 +1831,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cookjohn/zotero-mcp",
@@ -1846,12 +1846,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1259,
+   "stars": 1273,
    "forks": 103,
-   "open_issues": 22,
+   "open_issues": 19,
    "created_at": "2025-08-14",
-   "pushed_at": "2026-09-09",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-08",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "TypeScript",
@@ -1868,7 +1868,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cyanheads/clinicaltrialsgov-mcp-server",
@@ -1882,12 +1882,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 99,
+   "stars": 100,
    "forks": 24,
-   "open_issues": 5,
+   "open_issues": 10,
    "created_at": "2025-06-17",
-   "pushed_at": "2026-10-26",
-   "updated_at": "2026-10-26",
+   "pushed_at": "2026-11-04",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "Apache-2.0",
    "language": "TypeScript",
@@ -1915,7 +1915,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cyanheads/protein-mcp-server",
@@ -1931,10 +1931,10 @@
    "pinned": false,
    "stars": 6,
    "forks": 1,
-   "open_issues": 1,
+   "open_issues": 9,
    "created_at": "2025-10-02",
-   "pushed_at": "2026-10-17",
-   "updated_at": "2026-10-17",
+   "pushed_at": "2026-11-04",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "Apache-2.0",
    "language": "TypeScript",
@@ -1968,7 +1968,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cyanheads/pubchem-mcp-server",
@@ -1982,12 +1982,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 12,
+   "stars": 13,
    "forks": 4,
-   "open_issues": 2,
+   "open_issues": 5,
    "created_at": "2025-06-30",
    "pushed_at": "2026-10-28",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "Apache-2.0",
    "language": "TypeScript",
@@ -2010,7 +2010,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "cyanheads/pubmed-mcp-server",
@@ -2024,12 +2024,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 165,
-   "forks": 24,
-   "open_issues": 8,
+   "stars": 167,
+   "forks": 25,
+   "open_issues": 7,
    "created_at": "2025-05-24",
-   "pushed_at": "2026-10-26",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-03",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "Apache-2.0",
    "language": "TypeScript",
@@ -2062,7 +2062,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "dailycafi/biomed-paper-writing-skill",
@@ -2094,7 +2094,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Darkroaster/pubmearch",
@@ -2126,7 +2126,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Dianel555/paper-search-mcp-nodejs",
@@ -2140,12 +2140,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 190,
+   "stars": 191,
    "forks": 25,
    "open_issues": 0,
    "created_at": "2025-08-05",
    "pushed_at": "2026-09-20",
-   "updated_at": "2026-10-27",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "TypeScript",
@@ -2170,7 +2170,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "donbr/lifesciences-research",
@@ -2184,12 +2184,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 8,
+   "stars": 7,
    "forks": 2,
    "open_issues": 2,
    "created_at": "2026-01-07",
    "pushed_at": "2026-10-15",
-   "updated_at": "2026-10-14",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -2217,7 +2217,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "dralkh/seerai",
@@ -2232,12 +2232,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 95,
+   "stars": 98,
    "forks": 5,
    "open_issues": 1,
    "created_at": "2025-12-10",
    "pushed_at": "2026-10-06",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "TypeScript",
@@ -2271,7 +2271,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Dsadd4/AgentFigureGallery",
@@ -2288,12 +2288,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 175,
+   "stars": 178,
    "forks": 4,
    "open_issues": 2,
    "created_at": "2026-05-01",
    "pushed_at": "2026-09-05",
-   "updated_at": "2026-10-30",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -2327,7 +2327,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "EBISPOT/GrEBI",
@@ -2344,10 +2344,10 @@
    "pinned": false,
    "stars": 5,
    "forks": 4,
-   "open_issues": 17,
+   "open_issues": 15,
    "created_at": "2023-12-31",
-   "pushed_at": "2026-10-21",
-   "updated_at": "2026-10-21",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Jupyter Notebook",
@@ -2369,7 +2369,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "effieklimi/ensembl-mcp-server",
@@ -2410,7 +2410,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Epsilon617/Codex-Academic-Skills",
@@ -2451,7 +2451,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "fakerqwq/social-science-paper-writing-skill",
@@ -2465,12 +2465,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 454,
+   "stars": 470,
    "forks": 21,
    "open_issues": 1,
    "created_at": "2026-06-01",
    "pushed_at": "2026-06-02",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "",
@@ -2483,7 +2483,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "fcakyon/phd-skills",
@@ -2497,12 +2497,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 446,
+   "stars": 455,
    "forks": 38,
    "open_issues": 1,
    "created_at": "2026-03-11",
    "pushed_at": "2026-11-01",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "Shell",
@@ -2532,11 +2532,11 @@
    "description": "PhD Research Skills for Claude Code: paper reproduction, experiment design, paper review, result comparison and more.",
    "notes": "PhD research: reproduction, experimental design, paper review, and result comparison",
    "notes_zh": "PhD research：复现、实验设计、paper review、结果比较",
-   "listed_in": 1,
+   "listed_in": 0,
    "status": "ok",
    "missing_since": "",
    "renamed_to": "fcakyon/labrat",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "FreedomIntelligence/OpenClaw-Medical-Skills",
@@ -2552,12 +2552,12 @@
    ],
    "domain": "bio",
    "pinned": false,
-   "stars": 3090,
-   "forks": 421,
+   "stars": 3098,
+   "forks": 422,
    "open_issues": 15,
    "created_at": "2026-03-08",
    "pushed_at": "2026-07-21",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -2579,7 +2579,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "fuhaoda/stats-paper-writing-agent-skills",
@@ -2593,12 +2593,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 31,
+   "stars": 32,
    "forks": 1,
    "open_issues": 0,
    "created_at": "2026-02-04",
    "pushed_at": "2026-02-13",
-   "updated_at": "2026-10-25",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -2611,7 +2611,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Galaxy-Dawn/claude-scholar",
@@ -2628,12 +2628,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 5964,
-   "forks": 467,
-   "open_issues": 6,
+   "stars": 6017,
+   "forks": 470,
+   "open_issues": 0,
    "created_at": "2026-01-27",
    "pushed_at": "2026-10-19",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -2659,7 +2659,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "genomoncology/biomcp",
@@ -2673,12 +2673,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 670,
-   "forks": 120,
+   "stars": 675,
+   "forks": 118,
    "open_issues": 1,
    "created_at": "2025-04-01",
-   "pushed_at": "2026-10-30",
-   "updated_at": "2026-11-01",
+   "pushed_at": "2026-11-05",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "MIT",
    "language": "Rust",
@@ -2703,7 +2703,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "GoekeLab/awesome-genomic-skills",
@@ -2717,12 +2717,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 129,
+   "stars": 132,
    "forks": 32,
    "open_issues": 5,
    "created_at": "2026-05-28",
    "pushed_at": "2026-09-22",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "CC0-1.0",
    "language": "",
@@ -2735,7 +2735,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "google-deepmind/science-skills",
@@ -2749,12 +2749,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 3381,
-   "forks": 390,
+   "stars": 3436,
+   "forks": 398,
    "open_issues": 1,
    "created_at": "2026-05-13",
    "pushed_at": "2026-10-23",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -2767,7 +2767,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "GPTomics/bioSkills",
@@ -2781,12 +2781,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 1233,
-   "forks": 270,
+   "stars": 1235,
+   "forks": 272,
    "open_issues": 0,
    "created_at": "2026-01-15",
    "pushed_at": "2026-08-15",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-08",
    "archived": true,
    "license": "MIT",
    "language": "Python",
@@ -2799,7 +2799,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "grll/pubmedmcp",
@@ -2831,7 +2831,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "gyger/mcp-pyzotero",
@@ -2863,7 +2863,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Harsh9005/awesome-scientific-ai-tools",
@@ -2911,7 +2911,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "hlydecker/ucsc-genome-mcp",
@@ -2927,7 +2927,7 @@
    "pinned": false,
    "stars": 7,
    "forks": 5,
-   "open_issues": 0,
+   "open_issues": 1,
    "created_at": "2025-11-13",
    "pushed_at": "2025-11-13",
    "updated_at": "2026-11-01",
@@ -2948,7 +2948,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "HolobiomicsLab/asb-skill-collections",
@@ -2966,8 +2966,8 @@
    "forks": 0,
    "open_issues": 13,
    "created_at": "2026-05-24",
-   "pushed_at": "2026-10-31",
-   "updated_at": "2026-10-31",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -2996,7 +2996,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "igvteam/igv-mcp",
@@ -3028,7 +3028,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Imbad0202/academic-research-skills",
@@ -3042,12 +3042,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 54979,
-   "forks": 4191,
+   "stars": 56073,
+   "forks": 4272,
    "open_issues": 40,
    "created_at": "2026-02-26",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -3069,7 +3069,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Imbad0202/academic-research-skills-codex",
@@ -3085,12 +3085,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 13906,
-   "forks": 606,
-   "open_issues": 2,
+   "stars": 14248,
+   "forks": 616,
+   "open_issues": 1,
    "created_at": "2026-04-25",
-   "pushed_at": "2026-10-27",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -3114,7 +3114,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "InternScience/Awesome-Scientific-Skills",
@@ -3128,12 +3128,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 585,
-   "forks": 49,
-   "open_issues": 12,
+   "stars": 590,
+   "forks": 51,
+   "open_issues": 14,
    "created_at": "2026-03-03",
    "pushed_at": "2026-08-13",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "",
@@ -3153,7 +3153,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "introfini/ZotSeek",
@@ -3168,12 +3168,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 238,
+   "stars": 239,
    "forks": 17,
-   "open_issues": 10,
+   "open_issues": 11,
    "created_at": "2025-12-26",
    "pushed_at": "2026-10-08",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "",
    "language": "TypeScript",
@@ -3207,7 +3207,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JackKuo666/bioRxiv-MCP-Server",
@@ -3239,7 +3239,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JackKuo666/ClinicalTrials-MCP-Server",
@@ -3271,7 +3271,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JackKuo666/medRxiv-MCP-Server",
@@ -3285,12 +3285,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 9,
-   "forks": 8,
-   "open_issues": 6,
+   "stars": 10,
+   "forks": 9,
+   "open_issues": 7,
    "created_at": "2025-03-15",
    "pushed_at": "2025-03-18",
-   "updated_at": "2026-08-21",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -3303,7 +3303,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JackKuo666/PubMed-MCP-Server",
@@ -3335,7 +3335,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JackKuo666/semanticscholar-MCP-Server",
@@ -3367,7 +3367,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "jaechang-hits/SciAgent-Skills",
@@ -3381,12 +3381,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 384,
-   "forks": 45,
-   "open_issues": 8,
+   "stars": 386,
+   "forks": 46,
+   "open_issues": 7,
    "created_at": "2026-02-18",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-10-27",
+   "pushed_at": "2026-11-04",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -3420,7 +3420,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JamesANZ/medical-mcp",
@@ -3461,7 +3461,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Jason-0409-G/scriptorium",
@@ -3504,7 +3504,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "jasonkim8652/protein-design-mcp",
@@ -3536,7 +3536,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JhonHander/academic-agent-toolkit",
@@ -3550,12 +3550,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 8,
+   "stars": 9,
    "forks": 0,
    "open_issues": 0,
    "created_at": "2026-05-25",
    "pushed_at": "2026-06-09",
-   "updated_at": "2026-09-26",
+   "updated_at": "2026-11-03",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -3579,7 +3579,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "JuneYaooo/awesome-medical-ai-skills",
@@ -3593,12 +3593,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 18,
-   "forks": 5,
-   "open_issues": 4,
+   "stars": 21,
+   "forks": 6,
+   "open_issues": 5,
    "created_at": "2026-03-22",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-07",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "CC0-1.0",
    "language": "",
@@ -3611,7 +3611,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "K-Dense-AI/k-dense-byok",
@@ -3625,12 +3625,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1420,
-   "forks": 188,
-   "open_issues": 11,
+   "stars": 1433,
+   "forks": 190,
+   "open_issues": 13,
    "created_at": "2026-03-19",
    "pushed_at": "2026-10-16",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "TypeScript",
@@ -3658,7 +3658,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "K-Dense-AI/scientific-agent-skills",
@@ -3672,12 +3672,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 55777,
-   "forks": 4909,
-   "open_issues": 77,
+   "stars": 56567,
+   "forks": 4970,
+   "open_issues": 82,
    "created_at": "2025-10-19",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -3708,7 +3708,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "kaliaboi/mcp-zotero",
@@ -3742,7 +3742,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "kmaneesh/biopython-mcp",
@@ -3774,7 +3774,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "kujenga/zotero-mcp",
@@ -3810,7 +3810,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "LeonChaoX/qinyan-academic-skills",
@@ -3824,12 +3824,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 1001,
-   "forks": 91,
+   "stars": 1026,
+   "forks": 95,
    "open_issues": 1,
    "created_at": "2026-02-27",
    "pushed_at": "2026-07-20",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -3853,7 +3853,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "lifan0127/ai-research-assistant",
@@ -3867,12 +3867,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1730,
+   "stars": 1731,
    "forks": 119,
    "open_issues": 103,
    "created_at": "2023-03-28",
    "pushed_at": "2025-04-01",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "JavaScript",
@@ -3891,7 +3891,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "llmsresearch/paperbanana",
@@ -3905,12 +3905,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 2448,
+   "stars": 2472,
    "forks": 344,
    "open_issues": 13,
    "created_at": "2026-02-04",
    "pushed_at": "2026-09-17",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -3944,7 +3944,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/biothings-mcp",
@@ -3982,7 +3982,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/gget-mcp",
@@ -4014,7 +4014,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/holy-bio-mcp",
@@ -4046,7 +4046,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/opengenes-mcp",
@@ -4062,7 +4062,7 @@
    "pinned": false,
    "stars": 21,
    "forks": 6,
-   "open_issues": 13,
+   "open_issues": 16,
    "created_at": "2025-06-05",
    "pushed_at": "2025-10-14",
    "updated_at": "2026-08-27",
@@ -4078,7 +4078,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/pharmacology-mcp",
@@ -4110,7 +4110,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "longevity-genie/synergy-age-mcp",
@@ -4142,7 +4142,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "lstudlo/ScholarMCP",
@@ -4183,7 +4183,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Lucas-Servi/kegg-mcp-server-python",
@@ -4215,7 +4215,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "luwill/research-skills",
@@ -4229,12 +4229,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 877,
+   "stars": 884,
    "forks": 106,
    "open_issues": 2,
    "created_at": "2026-01-13",
-   "pushed_at": "2026-10-25",
-   "updated_at": "2026-10-31",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "Python",
@@ -4247,7 +4247,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "lynnlangit/precision-medicine-mcp",
@@ -4285,7 +4285,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ma-compbio-lab/SkillFoundry",
@@ -4326,7 +4326,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "masa-med-ai/pubmed-systematic-review",
@@ -4358,7 +4358,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Master-cai/Research-Paper-Writing-Skills",
@@ -4375,12 +4375,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 8004,
-   "forks": 373,
+   "stars": 8193,
+   "forks": 379,
    "open_issues": 0,
    "created_at": "2026-03-05",
    "pushed_at": "2026-06-23",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "",
@@ -4393,7 +4393,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "MetaQiu/Trivium",
@@ -4428,7 +4428,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "mims-harvard/ToolUniverse",
@@ -4443,12 +4443,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 1771,
-   "forks": 267,
-   "open_issues": 18,
+   "stars": 1779,
+   "forks": 274,
+   "open_issues": 15,
    "created_at": "2025-03-03",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -4478,7 +4478,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "MuiseDestiny/zotero-gpt",
@@ -4492,12 +4492,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 7504,
+   "stars": 7513,
    "forks": 315,
-   "open_issues": 4,
+   "open_issues": 5,
    "created_at": "2023-03-28",
    "pushed_at": "2026-10-29",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-07",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "TypeScript",
@@ -4514,7 +4514,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "nickzren/opentargets-mcp",
@@ -4556,7 +4556,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "O0000-code/awesome-academic-skills",
@@ -4570,12 +4570,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 56,
+   "stars": 63,
    "forks": 12,
-   "open_issues": 5,
+   "open_issues": 1,
    "created_at": "2026-05-29",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-10-31",
+   "pushed_at": "2026-11-08",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "CC0-1.0",
    "language": "Python",
@@ -4598,7 +4598,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "openags/paper-search-mcp",
@@ -4614,12 +4614,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 2978,
+   "stars": 3034,
    "forks": 305,
-   "open_issues": 21,
+   "open_issues": 20,
    "created_at": "2025-04-06",
    "pushed_at": "2026-10-02",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -4637,7 +4637,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "openai/plugins",
@@ -4654,12 +4654,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 7715,
-   "forks": 988,
-   "open_issues": 43,
+   "stars": 7833,
+   "forks": 1007,
+   "open_issues": 44,
    "created_at": "2026-03-04",
-   "pushed_at": "2026-10-30",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "",
    "language": "JavaScript",
@@ -4672,7 +4672,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Orchestra-Research/AI-Research-SKILLs",
@@ -4689,12 +4689,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 14195,
-   "forks": 991,
+   "stars": 14384,
+   "forks": 996,
    "open_issues": 26,
    "created_at": "2025-11-03",
    "pushed_at": "2026-10-11",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "TeX",
@@ -4722,7 +4722,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "PabloPauling/posebusters-mcp-server",
@@ -4769,7 +4769,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "PaperDebugger/paperdebugger",
@@ -4784,12 +4784,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 1553,
+   "stars": 1554,
    "forks": 75,
    "open_issues": 16,
    "created_at": "2025-04-12",
    "pushed_at": "2026-07-03",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "TypeScript",
@@ -4817,7 +4817,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "papersgpt/papersgpt-for-zotero",
@@ -4832,12 +4832,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 2691,
+   "stars": 2701,
    "forks": 97,
    "open_issues": 77,
    "created_at": "2024-11-22",
-   "pushed_at": "2026-10-22",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-03",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "JavaScript",
@@ -4871,7 +4871,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "pascalwhoop/medical-mcps",
@@ -4885,12 +4885,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 23,
+   "stars": 24,
    "forks": 6,
    "open_issues": 10,
    "created_at": "2025-11-12",
    "pushed_at": "2026-09-01",
-   "updated_at": "2026-09-01",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -4908,7 +4908,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "PDBeurope/PDBe-MCP-Servers",
@@ -4922,12 +4922,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 43,
+   "stars": 44,
    "forks": 1,
-   "open_issues": 1,
+   "open_issues": 0,
    "created_at": "2025-06-08",
-   "pushed_at": "2026-10-27",
-   "updated_at": "2026-10-20",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -4951,7 +4951,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "PDFMathTranslate/PDFMathTranslate",
@@ -4967,12 +4967,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 38116,
-   "forks": 3421,
-   "open_issues": 170,
+   "stars": 38312,
+   "forks": 3429,
+   "open_issues": 171,
    "created_at": "2024-09-06",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "Python",
@@ -5005,7 +5005,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "punkpeye/awesome-mcp-servers",
@@ -5019,12 +5019,12 @@
    "hosts": [],
    "domain": "general",
    "pinned": false,
-   "stars": 97190,
-   "forks": 19008,
-   "open_issues": 4023,
+   "stars": 97513,
+   "forks": 19530,
+   "open_issues": 4602,
    "created_at": "2024-11-30",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "",
@@ -5040,7 +5040,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "s-choung/Research-Skills",
@@ -5058,8 +5058,8 @@
    "forks": 1,
    "open_issues": 1,
    "created_at": "2026-04-15",
-   "pushed_at": "2026-10-21",
-   "updated_at": "2026-10-21",
+   "pushed_at": "2026-11-05",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "HTML",
@@ -5072,7 +5072,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "scmcphub/scanpy-mcp",
@@ -5104,7 +5104,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "scmcphub/scmcp",
@@ -5142,7 +5142,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ShZhao27208/Aut_Sci_Write",
@@ -5156,12 +5156,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 214,
+   "stars": 217,
    "forks": 28,
    "open_issues": 2,
    "created_at": "2026-04-06",
    "pushed_at": "2026-08-13",
-   "updated_at": "2026-11-01",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -5185,7 +5185,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "smaniches/alphafold-sovereign-mcp",
@@ -5199,12 +5199,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 4,
+   "stars": 5,
    "forks": 2,
-   "open_issues": 4,
+   "open_issues": 6,
    "created_at": "2025-12-25",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-01",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -5232,7 +5232,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "smaniches/uniprot-mcp",
@@ -5248,10 +5248,10 @@
    "pinned": false,
    "stars": 3,
    "forks": 0,
-   "open_issues": 1,
+   "open_issues": 0,
    "created_at": "2026-04-19",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-04",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -5284,7 +5284,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "snap-stanford/Biomni",
@@ -5298,12 +5298,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 4043,
-   "forks": 734,
+   "stars": 4069,
+   "forks": 738,
    "open_issues": 131,
    "created_at": "2025-03-19",
-   "pushed_at": "2026-10-26",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "Apache-2.0",
    "language": "Python",
@@ -5320,7 +5320,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "SNL-UCSB/paper-writing-skill",
@@ -5334,12 +5334,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 247,
+   "stars": 249,
    "forks": 17,
    "open_issues": 2,
    "created_at": "2026-03-25",
-   "pushed_at": "2026-07-31",
-   "updated_at": "2026-10-29",
+   "pushed_at": "2026-11-06",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "MIT",
    "language": "Shell",
@@ -5358,7 +5358,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "swaruplab/operon",
@@ -5374,12 +5374,12 @@
    ],
    "domain": "bio",
    "pinned": false,
-   "stars": 101,
+   "stars": 103,
    "forks": 11,
    "open_issues": 0,
    "created_at": "2026-03-26",
    "pushed_at": "2026-10-11",
-   "updated_at": "2026-10-23",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5401,7 +5401,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "SyntaxSmith/nature-writing-skill",
@@ -5415,12 +5415,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 182,
+   "stars": 188,
    "forks": 19,
    "open_issues": 0,
    "created_at": "2026-04-27",
    "pushed_at": "2026-04-27",
-   "updated_at": "2026-10-31",
+   "updated_at": "2026-11-06",
    "archived": false,
    "license": "",
    "language": "",
@@ -5433,7 +5433,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "TaewoooPark/scholar-megasearch",
@@ -5482,7 +5482,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "takashiishida/arxiv-latex-mcp",
@@ -5496,12 +5496,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 149,
-   "forks": 18,
+   "stars": 150,
+   "forks": 19,
    "open_issues": 3,
    "created_at": "2025-04-07",
    "pushed_at": "2026-10-23",
-   "updated_at": "2026-10-26",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5521,7 +5521,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "tamerh/biobtree",
@@ -5540,8 +5540,8 @@
    "forks": 3,
    "open_issues": 2,
    "created_at": "2019-01-14",
-   "pushed_at": "2026-10-14",
-   "updated_at": "2026-10-13",
+   "pushed_at": "2026-11-08",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "Go",
@@ -5557,7 +5557,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "TianGzlab/OmicsClaw",
@@ -5597,7 +5597,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "TonybotNi/ZotLink",
@@ -5629,7 +5629,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "u9401066/pubmed-search-mcp",
@@ -5643,12 +5643,12 @@
    "hosts": [],
    "domain": "bio",
    "pinned": false,
-   "stars": 28,
+   "stars": 29,
    "forks": 9,
    "open_issues": 3,
    "created_at": "2025-12-02",
    "pushed_at": "2026-10-20",
-   "updated_at": "2026-10-20",
+   "updated_at": "2026-11-04",
    "archived": false,
    "license": "other",
    "language": "Python",
@@ -5682,7 +5682,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "variomeanalytics/bioinformatics-agent-skills",
@@ -5715,7 +5715,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "vrtejus/pymol-mcp",
@@ -5749,7 +5749,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -5763,12 +5763,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 18481,
-   "forks": 1512,
-   "open_issues": 73,
+   "stars": 18917,
+   "forks": 1533,
+   "open_issues": 75,
    "created_at": "2026-03-10",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-08",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5802,7 +5802,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Weizhena/Deep-Research-skills",
@@ -5819,12 +5819,12 @@
    ],
    "domain": "research",
    "pinned": false,
-   "stars": 2469,
-   "forks": 199,
+   "stars": 2516,
+   "forks": 202,
    "open_issues": 2,
    "created_at": "2025-12-29",
    "pushed_at": "2026-08-23",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5846,7 +5846,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "WenyuChiou/ai-research-skills",
@@ -5860,12 +5860,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 543,
-   "forks": 35,
-   "open_issues": 2,
+   "stars": 641,
+   "forks": 43,
+   "open_issues": 1,
    "created_at": "2026-04-25",
-   "pushed_at": "2026-10-30",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5899,7 +5899,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "WenyuChiou/research-hub",
@@ -5914,11 +5914,11 @@
    "domain": "research",
    "pinned": false,
    "stars": 67,
-   "forks": 14,
+   "forks": 15,
    "open_issues": 6,
    "created_at": "2026-04-06",
-   "pushed_at": "2026-11-02",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-09",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -5952,7 +5952,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "wjlim/nf-core_mcp",
@@ -5984,7 +5984,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "WUBING2023/PaperSpine",
@@ -5998,12 +5998,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": true,
-   "stars": 6158,
-   "forks": 247,
+   "stars": 6231,
+   "forks": 250,
    "open_issues": 1,
    "created_at": "2026-05-17",
    "pushed_at": "2026-10-14",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -6016,7 +6016,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Xevos117/mcp-zotero",
@@ -6032,10 +6032,10 @@
    "pinned": false,
    "stars": 38,
    "forks": 7,
-   "open_issues": 21,
+   "open_issues": 3,
    "created_at": "2026-02-07",
-   "pushed_at": "2026-11-01",
-   "updated_at": "2026-10-25",
+   "pushed_at": "2026-11-08",
+   "updated_at": "2026-11-08",
    "archived": false,
    "license": "other",
    "language": "TypeScript",
@@ -6061,7 +6061,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "yb2460/harness-anything",
@@ -6075,12 +6075,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 2807,
-   "forks": 195,
+   "stars": 3011,
+   "forks": 206,
    "open_issues": 27,
    "created_at": "2026-05-27",
    "pushed_at": "2026-10-09",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -6103,7 +6103,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "yilewang/llm-for-zotero",
@@ -6117,12 +6117,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 3479,
-   "forks": 212,
-   "open_issues": 206,
+   "stars": 3531,
+   "forks": 221,
+   "open_issues": 219,
    "created_at": "2026-01-29",
-   "pushed_at": "2026-10-29",
-   "updated_at": "2026-11-02",
+   "pushed_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "AGPL-3.0",
    "language": "TypeScript",
@@ -6145,7 +6145,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "ymx10086/ResearchClaw",
@@ -6184,7 +6184,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "Zhangyanbo/vibe-paper-writing",
@@ -6198,12 +6198,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 25,
+   "stars": 26,
    "forks": 1,
    "open_issues": 0,
    "created_at": "2026-02-28",
    "pushed_at": "2026-02-28",
-   "updated_at": "2026-08-09",
+   "updated_at": "2026-11-05",
    "archived": false,
    "license": "MIT",
    "language": "TeX",
@@ -6218,7 +6218,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "zLanqing/codex-claude-academic-skills",
@@ -6232,12 +6232,12 @@
    "hosts": [],
    "domain": "research",
    "pinned": false,
-   "stars": 5572,
-   "forks": 294,
+   "stars": 5804,
+   "forks": 306,
    "open_issues": 3,
    "created_at": "2026-05-14",
    "pushed_at": "2026-05-14",
-   "updated_at": "2026-11-02",
+   "updated_at": "2026-11-09",
    "archived": false,
    "license": "MIT",
    "language": "Python",
@@ -6250,7 +6250,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "zongmin-yu/semantic-scholar-fastmcp-mcp-server",
@@ -6288,7 +6288,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   },
   {
    "repo": "zongmin-yu/semantic-scholar-skills",
@@ -6328,7 +6328,7 @@
    "status": "ok",
    "missing_since": "",
    "renamed_to": "",
-   "fetched_at": "2026-11-02"
+   "fetched_at": "2026-11-09"
   }
  ]
 }
